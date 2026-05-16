@@ -75,26 +75,74 @@
           "sport": "tênis",
           "type": "ATP Masters 1000 + WTA 1000",
           "venue": "Foro Italico",
-          "dates_2026": "5–17 mai 2026",
-          "dates_2027": "Estimado: início–meados mai 2027",
-          "confidence": "confirmed_2026",
           "ticket_price_approx": "€20–120",
           "ticket_tip": "Mais acessível que Grand Slams. O Foro Italico à beira do Tibre é lindo — chegue cedo.",
           "buy_link": "https://www.internazionalibnlditalia.com",
-          "notes": "Torneio pré-Roland Garros. Sinner jogando em casa — atmosfera italiana única"
+          "notes": "Torneio pré-Roland Garros. Sinner jogando em casa — atmosfera italiana única",
+          "editions": [
+            {
+              "year": 2026,
+              "dates": "5–17 mai",
+              "confirmed": true
+            },
+            {
+              "year": 2027,
+              "dates": "Estimado: 4–16 mai",
+              "confirmed": false
+            },
+            {
+              "year": 2028,
+              "dates": "Estimado: 8–20 mai",
+              "confirmed": false
+            },
+            {
+              "year": 2029,
+              "dates": "Estimado: 7–19 mai",
+              "confirmed": false
+            },
+            {
+              "year": 2030,
+              "dates": "Estimado: 6–18 mai",
+              "confirmed": false
+            }
+          ]
         },
         {
-          "name": "AS Roma / Lazio — Serie A + Derby della Capitale",
+          "name": "AS Roma / Lazio — Derby della Capitale",
           "sport": "futebol",
           "type": "Serie A",
           "venue": "Stadio Olimpico",
-          "dates_2026": "Temporada ago 2025 – mai 2026",
-          "dates_2027": "Temporada ago 2026 – mai 2027",
-          "confidence": "estimated",
           "ticket_price_approx": "€25–100",
-          "ticket_tip": "Derby della Capitale (Roma × Lazio) é inflamadíssimo — difícil de conseguir. Compre em ticketone.it.",
+          "ticket_tip": "Derby della Capitale (Roma × Lazio) é inflamadíssimo. Compre em ticketone.it.",
           "buy_link": "https://www.ticketone.it",
-          "notes": "Mesmo estádio para os dois times. Derby é um dos clássicos mais intensos do mundo"
+          "notes": "Mesmo estádio para os dois times. Derby é um dos clássicos mais intensos do mundo",
+          "editions": [
+            {
+              "year": 2026,
+              "dates": "Temporada ago 2025 – mai 2026",
+              "confirmed": true
+            },
+            {
+              "year": 2027,
+              "dates": "Temporada ago 2026 – mai 2027",
+              "confirmed": false
+            },
+            {
+              "year": 2028,
+              "dates": "Temporada ago 2027 – mai 2028",
+              "confirmed": false
+            },
+            {
+              "year": 2029,
+              "dates": "Temporada ago 2028 – mai 2029",
+              "confirmed": false
+            },
+            {
+              "year": 2030,
+              "dates": "Temporada ago 2029 – mai 2030",
+              "confirmed": false
+            }
+          ]
         }
       ]
     },
@@ -175,39 +223,111 @@
           "sport": "tênis",
           "type": "Grand Slam",
           "venue": "Stade Roland-Garros",
-          "dates_2026": "18 mai – 7 jun 2026",
-          "dates_2027": "Estimado: meados mai – início jun 2027",
-          "confidence": "confirmed_2026",
           "ticket_price_approx": "€30–200",
           "ticket_tip": "Quadras externas são mais acessíveis. Philippe-Chatrier esgota rápido — compre em tickets.rolandgarros.com",
           "buy_link": "https://tickets.rolandgarros.com",
-          "notes": "Um dos melhores torneios ao vivo — argila, atmosfera francesa apaixonada"
-        },
-        {
-          "name": "Paris Saint-Germain — Parc des Princes",
-          "sport": "futebol",
-          "type": "Ligue 1 / Champions League",
-          "venue": "Parc des Princes",
-          "dates_2026": "Temporada ago 2025 – mai 2026 (jogos regulares todo fim de semana)",
-          "dates_2027": "Temporada ago 2026 – mai 2027",
-          "confidence": "estimated",
-          "ticket_price_approx": "€30–150 (Ligue 1); €80–500+ (Champions League)",
-          "ticket_tip": "Compre em psg.fr. Clássicos contra Lyon e OM esgotam rápido.",
-          "buy_link": "https://www.psg.fr/billetterie",
-          "notes": "PSG finalista da Champions 2026 (vs Arsenal, Budapeste, 30/mai)"
+          "notes": "Um dos melhores torneios ao vivo — argila, atmosfera francesa apaixonada",
+          "editions": [
+            {
+              "year": 2026,
+              "dates": "18 mai – 7 jun",
+              "confirmed": true
+            },
+            {
+              "year": 2027,
+              "dates": "Estimado: 17 mai – 6 jun",
+              "confirmed": false
+            },
+            {
+              "year": 2028,
+              "dates": "Estimado: 21 mai – 10 jun",
+              "confirmed": false
+            },
+            {
+              "year": 2029,
+              "dates": "Estimado: 20 mai – 9 jun",
+              "confirmed": false
+            },
+            {
+              "year": 2030,
+              "dates": "Estimado: 19 mai – 8 jun",
+              "confirmed": false
+            }
+          ]
         },
         {
           "name": "Rolex Paris Masters (ATP 1000 indoor)",
           "sport": "tênis",
           "type": "ATP Masters 1000",
           "venue": "Accor Arena, Bercy",
-          "dates_2026": "2–8 nov 2026",
-          "dates_2027": "Estimado: início nov 2027",
-          "confidence": "confirmed_2026",
           "ticket_price_approx": "€30–150",
           "ticket_tip": "Último Masters 1000 do ano — sempre com os melhores. Boa atmosfera coberta no outono.",
           "buy_link": "https://www.rolexparismasters.com",
-          "notes": "Ótimo torneio para combinar com viagem de outono a Paris"
+          "notes": "Ótimo torneio para combinar com viagem de outono a Paris",
+          "editions": [
+            {
+              "year": 2026,
+              "dates": "2–8 nov",
+              "confirmed": true
+            },
+            {
+              "year": 2027,
+              "dates": "Estimado: 1–7 nov",
+              "confirmed": false
+            },
+            {
+              "year": 2028,
+              "dates": "Estimado: 30 out – 5 nov",
+              "confirmed": false
+            },
+            {
+              "year": 2029,
+              "dates": "Estimado: 29 out – 4 nov",
+              "confirmed": false
+            },
+            {
+              "year": 2030,
+              "dates": "Estimado: 28 out – 3 nov",
+              "confirmed": false
+            }
+          ]
+        },
+        {
+          "name": "Paris Saint-Germain — Parc des Princes",
+          "sport": "futebol",
+          "type": "Ligue 1 / Champions League",
+          "venue": "Parc des Princes",
+          "ticket_price_approx": "€30–150 (Ligue 1); €80–500+ (Champions League)",
+          "ticket_tip": "Compre em psg.fr. Clássicos contra Lyon e OM esgotam rápido.",
+          "buy_link": "https://www.psg.fr/billetterie",
+          "notes": "PSG finalista da Champions 2026 (vs Arsenal, Budapeste, 30/mai)",
+          "editions": [
+            {
+              "year": 2026,
+              "dates": "Temporada ago 2025 – mai 2026",
+              "confirmed": true
+            },
+            {
+              "year": 2027,
+              "dates": "Temporada ago 2026 – mai 2027",
+              "confirmed": false
+            },
+            {
+              "year": 2028,
+              "dates": "Temporada ago 2027 – mai 2028",
+              "confirmed": false
+            },
+            {
+              "year": 2029,
+              "dates": "Temporada ago 2028 – mai 2029",
+              "confirmed": false
+            },
+            {
+              "year": 2030,
+              "dates": "Temporada ago 2029 – mai 2030",
+              "confirmed": false
+            }
+          ]
         }
       ]
     },
@@ -286,26 +406,74 @@
           "sport": "tênis",
           "type": "ATP 500",
           "venue": "Real Club de Tenis Barcelona",
-          "dates_2026": "Estimado: meados abr 2026",
-          "dates_2027": "Estimado: meados abr 2027",
-          "confidence": "estimated",
           "ticket_price_approx": "€20–80",
           "ticket_tip": "Torneio mais antigo da Espanha em argila — ambiente histórico e elegante.",
           "buy_link": "https://www.barcelonaopenbancosabadell.com",
-          "notes": "ATP 500 semana antes de Madri — muito acessível e organizado"
+          "notes": "ATP 500 semana antes de Madri — muito acessível e organizado",
+          "editions": [
+            {
+              "year": 2026,
+              "dates": "Estimado: 13–19 abr",
+              "confirmed": false
+            },
+            {
+              "year": 2027,
+              "dates": "Estimado: 12–18 abr",
+              "confirmed": false
+            },
+            {
+              "year": 2028,
+              "dates": "Estimado: 17–23 abr",
+              "confirmed": false
+            },
+            {
+              "year": 2029,
+              "dates": "Estimado: 16–22 abr",
+              "confirmed": false
+            },
+            {
+              "year": 2030,
+              "dates": "Estimado: 15–21 abr",
+              "confirmed": false
+            }
+          ]
         },
         {
           "name": "FC Barcelona — La Liga / Champions",
           "sport": "futebol",
           "type": "La Liga / Champions League",
-          "venue": "Estadi Olímpic Lluís Companys (Camp Nou em reforma até ~2027)",
-          "dates_2026": "Temporada ago 2025 – mai 2026",
-          "dates_2027": "Temporada ago 2026 – mai 2027 (Camp Nou pode reabrir)",
-          "confidence": "estimated",
+          "venue": "Estadi Olímpic (Camp Nou em reforma até ~2027)",
           "ticket_price_approx": "€40–200 (La Liga); €80–400+ (Champions)",
-          "ticket_tip": "Ingressos em fcbarcelona.com. Camp Nou em reforma — jogando no Estadi Olímpic (56k). El Clásico: praticamente impossível.",
+          "ticket_tip": "Ingressos em fcbarcelona.com. Camp Nou em reforma — jogando no Estadi Olímpic (56k).",
           "buy_link": "https://www.fcbarcelona.com/en/tickets",
-          "notes": "Camp Nou em reforma até ~2026/27. El Clásico é o jogo mais visto do mundo"
+          "notes": "Camp Nou deve reabrir em 2027. El Clásico é o jogo mais visto do mundo",
+          "editions": [
+            {
+              "year": 2026,
+              "dates": "Temporada ago 2025 – mai 2026",
+              "confirmed": true
+            },
+            {
+              "year": 2027,
+              "dates": "Temporada ago 2026 – mai 2027 (Camp Nou pode reabrir)",
+              "confirmed": false
+            },
+            {
+              "year": 2028,
+              "dates": "Temporada ago 2027 – mai 2028",
+              "confirmed": false
+            },
+            {
+              "year": 2029,
+              "dates": "Temporada ago 2028 – mai 2029",
+              "confirmed": false
+            },
+            {
+              "year": 2030,
+              "dates": "Temporada ago 2029 – mai 2030",
+              "confirmed": false
+            }
+          ]
         }
       ]
     },
@@ -383,26 +551,74 @@
           "sport": "tênis",
           "type": "ATP 250",
           "venue": "Clube de Ténis do Estoril",
-          "dates_2026": "Estimado: abr–mai 2026",
-          "dates_2027": "Estimado: abr–mai 2027",
-          "confidence": "estimated",
           "ticket_price_approx": "€15–50",
           "ticket_tip": "Torneio à beira mar, ambiente muito descontraído. Ingressos muito acessíveis.",
           "buy_link": "https://www.estorilopen.net",
-          "notes": "Torneio em argila junto ao Atlântico — combinação perfeita com visita a Sintra"
+          "notes": "Torneio em argila junto ao Atlântico — combina perfeitamente com visita a Sintra",
+          "editions": [
+            {
+              "year": 2026,
+              "dates": "Estimado: 27 abr – 3 mai",
+              "confirmed": false
+            },
+            {
+              "year": 2027,
+              "dates": "Estimado: 26 abr – 2 mai",
+              "confirmed": false
+            },
+            {
+              "year": 2028,
+              "dates": "Estimado: 24 abr – 30 abr",
+              "confirmed": false
+            },
+            {
+              "year": 2029,
+              "dates": "Estimado: 23 abr – 29 abr",
+              "confirmed": false
+            },
+            {
+              "year": 2030,
+              "dates": "Estimado: 22 abr – 28 abr",
+              "confirmed": false
+            }
+          ]
         },
         {
-          "name": "Benfica / Sporting — Primeira Liga + Derby de Lisboa",
+          "name": "Benfica / Sporting — Derby de Lisboa",
           "sport": "futebol",
           "type": "Primeira Liga",
-          "venue": "Estádio da Luz (Benfica) / Estádio José Alvalade (Sporting)",
-          "dates_2026": "Temporada ago 2025 – mai 2026",
-          "dates_2027": "Temporada ago 2026 – mai 2027",
-          "confidence": "estimated",
+          "venue": "Estádio da Luz / Alvalade",
           "ticket_price_approx": "€20–80",
-          "ticket_tip": "Derby Lisboa (Benfica × Sporting) é dos clássicos mais apaixonados da Europa. Ingressos em slbenfica.pt e sporting.pt.",
+          "ticket_tip": "Derby Lisboa (Benfica × Sporting) é dos clássicos mais apaixonados da Europa.",
           "buy_link": "https://www.slbenfica.pt/pt-pt/bilhetes",
-          "notes": "Estádio da Luz tem 65k lugares. Benfica regularmente nas fases finais da UCL"
+          "notes": "Estádio da Luz tem 65k lugares. Benfica regularmente na UCL",
+          "editions": [
+            {
+              "year": 2026,
+              "dates": "Temporada ago 2025 – mai 2026",
+              "confirmed": true
+            },
+            {
+              "year": 2027,
+              "dates": "Temporada ago 2026 – mai 2027",
+              "confirmed": false
+            },
+            {
+              "year": 2028,
+              "dates": "Temporada ago 2027 – mai 2028",
+              "confirmed": false
+            },
+            {
+              "year": 2029,
+              "dates": "Temporada ago 2028 – mai 2029",
+              "confirmed": false
+            },
+            {
+              "year": 2030,
+              "dates": "Temporada ago 2029 – mai 2030",
+              "confirmed": false
+            }
+          ]
         }
       ]
     },
@@ -483,26 +699,74 @@
           "sport": "tênis",
           "type": "ATP 500",
           "venue": "Rotterdam Ahoy",
-          "dates_2026": "Estimado: fev 2026",
-          "dates_2027": "Estimado: fev 2027",
-          "confidence": "estimated",
           "ticket_price_approx": "€30–100",
-          "ticket_tip": "Rotterdam a 1h de trem de Amsterdã — fácil de combinar. Um dos melhores indoor do circuito.",
+          "ticket_tip": "Rotterdam a 1h de trem. Um dos melhores indoor do circuito.",
           "buy_link": "https://www.abnamroopen.nl",
-          "notes": "Excelente ATP 500 de início de ano — campo sempre forte"
+          "notes": "Excelente ATP 500 de início de ano — campo sempre forte",
+          "editions": [
+            {
+              "year": 2026,
+              "dates": "Estimado: 9–15 fev",
+              "confirmed": false
+            },
+            {
+              "year": 2027,
+              "dates": "Estimado: 8–14 fev",
+              "confirmed": false
+            },
+            {
+              "year": 2028,
+              "dates": "Estimado: 7–13 fev",
+              "confirmed": false
+            },
+            {
+              "year": 2029,
+              "dates": "Estimado: 6–12 fev",
+              "confirmed": false
+            },
+            {
+              "year": 2030,
+              "dates": "Estimado: 10–16 fev",
+              "confirmed": false
+            }
+          ]
         },
         {
           "name": "Ajax — Johan Cruyff Arena",
           "sport": "futebol",
           "type": "Eredivisie",
           "venue": "Johan Cruyff Arena",
-          "dates_2026": "Temporada ago 2025 – mai 2026",
-          "dates_2027": "Temporada ago 2026 – mai 2027",
-          "confidence": "estimated",
           "ticket_price_approx": "€25–80",
           "ticket_tip": "Ingressos em ajax.nl. De Klassieker (Ajax × Feyenoord) é difícil de conseguir.",
           "buy_link": "https://www.ajax.nl/tickets",
-          "notes": "Ajax — 4x campeão europeu. Um dos clubes mais históricos do mundo"
+          "notes": "Ajax — 4x campeão europeu. Um dos clubes mais históricos do mundo",
+          "editions": [
+            {
+              "year": 2026,
+              "dates": "Temporada ago 2025 – mai 2026",
+              "confirmed": true
+            },
+            {
+              "year": 2027,
+              "dates": "Temporada ago 2026 – mai 2027",
+              "confirmed": false
+            },
+            {
+              "year": 2028,
+              "dates": "Temporada ago 2027 – mai 2028",
+              "confirmed": false
+            },
+            {
+              "year": 2029,
+              "dates": "Temporada ago 2028 – mai 2029",
+              "confirmed": false
+            },
+            {
+              "year": 2030,
+              "dates": "Temporada ago 2029 – mai 2030",
+              "confirmed": false
+            }
+          ]
         }
       ]
     },
@@ -580,13 +844,37 @@
           "sport": "futebol",
           "type": "Bundesliga",
           "venue": "An der Alten Försterei",
-          "dates_2026": "Temporada ago 2025 – mai 2026",
-          "dates_2027": "Temporada ago 2026 – mai 2027",
-          "confidence": "estimated",
           "ticket_price_approx": "€15–50",
-          "ticket_tip": "Estádio mais alternativo e carismático de Berlim — atmosfera única. Hertha (Olympiastadion) como alternativa.",
+          "ticket_tip": "Estádio mais carismático de Berlim. Hertha (Olympiastadion) como alternativa.",
           "buy_link": "https://www.union-berlin.de/tickets",
-          "notes": "Bundesliga tem a maior média de público do mundo. Ingressos muito mais baratos que Premier e La Liga"
+          "notes": "Bundesliga tem a maior média de público do mundo",
+          "editions": [
+            {
+              "year": 2026,
+              "dates": "Temporada ago 2025 – mai 2026",
+              "confirmed": true
+            },
+            {
+              "year": 2027,
+              "dates": "Temporada ago 2026 – mai 2027",
+              "confirmed": false
+            },
+            {
+              "year": 2028,
+              "dates": "Temporada ago 2027 – mai 2028",
+              "confirmed": false
+            },
+            {
+              "year": 2029,
+              "dates": "Temporada ago 2028 – mai 2029",
+              "confirmed": false
+            },
+            {
+              "year": 2030,
+              "dates": "Temporada ago 2029 – mai 2030",
+              "confirmed": false
+            }
+          ]
         }
       ]
     },
@@ -666,39 +954,111 @@
           "sport": "tênis",
           "type": "Grand Slam",
           "venue": "All England Lawn Tennis Club",
-          "dates_2026": "29 jun – 12 jul 2026",
-          "dates_2027": "Estimado: final jun – início jul 2027",
-          "confidence": "confirmed_2026",
           "ticket_price_approx": "£33 (ground pass) | £150–2500 (Centre Court)",
-          "ticket_tip": "Ballot abre em setembro — inscreva-se em wimbledon.com. Ground Pass acessa quadras externas e Henman Hill. Fila no dia começa às 4–5h.",
+          "ticket_tip": "Ballot abre em setembro — inscreva-se em wimbledon.com. Ground Pass acessa quadras externas e Henman Hill.",
           "buy_link": "https://www.wimbledon.com/en_GB/tickets/index.html",
-          "notes": "O mais famoso torneio do tênis. Morangos com chantilly são obrigatórios"
+          "notes": "O mais famoso torneio do tênis. Morangos com chantilly são obrigatórios",
+          "editions": [
+            {
+              "year": 2026,
+              "dates": "29 jun – 12 jul",
+              "confirmed": true
+            },
+            {
+              "year": 2027,
+              "dates": "Estimado: 28 jun – 11 jul",
+              "confirmed": false
+            },
+            {
+              "year": 2028,
+              "dates": "Estimado: 3–16 jul",
+              "confirmed": false
+            },
+            {
+              "year": 2029,
+              "dates": "Estimado: 2–15 jul",
+              "confirmed": false
+            },
+            {
+              "year": 2030,
+              "dates": "Estimado: 1–14 jul",
+              "confirmed": false
+            }
+          ]
         },
         {
           "name": "Premier League — Arsenal, Chelsea, Tottenham",
           "sport": "futebol",
           "type": "Premier League",
-          "venue": "Emirates (Arsenal) / Stamford Bridge (Chelsea) / Tottenham Hotspur Stadium",
-          "dates_2026": "Temporada ago 2025 – mai 2026",
-          "dates_2027": "Temporada ago 2026 – mai 2027",
-          "confidence": "estimated",
+          "venue": "Emirates / Stamford Bridge / Tottenham Hotspur Stadium",
           "ticket_price_approx": "£50–200+",
           "ticket_tip": "Compre no site oficial de cada clube. Arsenal (arsenal.com), Chelsea (chelseafc.com), Spurs (tottenhamhotspur.com).",
           "buy_link": "https://www.arsenal.com/tickets",
-          "notes": "Arsenal finalista da Champions 2026 (vs PSG em Budapeste, 30/mai). Premier tem jogos toda rodada"
+          "notes": "Arsenal finalista da Champions 2026. Premier tem jogos toda rodada de ago a mai",
+          "editions": [
+            {
+              "year": 2026,
+              "dates": "Temporada ago 2025 – mai 2026",
+              "confirmed": true
+            },
+            {
+              "year": 2027,
+              "dates": "Temporada ago 2026 – mai 2027",
+              "confirmed": false
+            },
+            {
+              "year": 2028,
+              "dates": "Temporada ago 2027 – mai 2028",
+              "confirmed": false
+            },
+            {
+              "year": 2029,
+              "dates": "Temporada ago 2028 – mai 2029",
+              "confirmed": false
+            },
+            {
+              "year": 2030,
+              "dates": "Temporada ago 2029 – mai 2030",
+              "confirmed": false
+            }
+          ]
         },
         {
           "name": "Laver Cup",
           "sport": "tênis",
           "type": "Exibição — Europa vs Mundo",
           "venue": "The O2 Arena",
-          "dates_2026": "25–27 set 2026",
-          "dates_2027": "Estimado: set 2027 (cidade a confirmar)",
-          "confidence": "confirmed_2026",
           "ticket_price_approx": "£50–300",
-          "ticket_tip": "Evento criado por Federer — formato animado diferente dos torneios comuns. Atmosfera de show.",
+          "ticket_tip": "Evento criado por Federer — formato animado diferente dos torneios comuns.",
           "buy_link": "https://www.lavercup.com",
-          "notes": "2026 confirmado em Londres no O2"
+          "notes": "2026 confirmado em Londres no O2. Rodízio de cidades todo ano",
+          "editions": [
+            {
+              "year": 2026,
+              "dates": "25–27 set",
+              "confirmed": true
+            },
+            {
+              "year": 2027,
+              "dates": "Estimado: set 2027 (cidade a confirmar)",
+              "confirmed": false
+            },
+            {
+              "year": 2028,
+              "dates": "Estimado: set 2028",
+              "confirmed": false
+            },
+            {
+              "year": 2029,
+              "dates": "Estimado: set 2029",
+              "confirmed": false
+            },
+            {
+              "year": 2030,
+              "dates": "Estimado: set 2030",
+              "confirmed": false
+            }
+          ]
         }
       ]
     },
@@ -779,39 +1139,111 @@
           "sport": "tênis",
           "type": "ATP Masters 1000 + WTA 1000",
           "venue": "Caja Mágica",
-          "dates_2026": "20 abr – 3 mai 2026",
-          "dates_2027": "Estimado: 21 abr – 2 mai 2027",
-          "confidence": "confirmed_2026",
           "ticket_price_approx": "€20–100",
           "ticket_tip": "Boa estrutura e ingressos diários disponíveis. Fase final esgota — compre com antecedência.",
           "buy_link": "https://tickets.mutuamadridopen.com",
-          "notes": "Único Masters onde homens e mulheres jogam no mesmo complexo e semana"
+          "notes": "Único Masters onde homens e mulheres jogam no mesmo complexo e semana",
+          "editions": [
+            {
+              "year": 2026,
+              "dates": "20 abr – 3 mai",
+              "confirmed": true
+            },
+            {
+              "year": 2027,
+              "dates": "Estimado: 19 abr – 2 mai",
+              "confirmed": false
+            },
+            {
+              "year": 2028,
+              "dates": "Estimado: 24 abr – 7 mai",
+              "confirmed": false
+            },
+            {
+              "year": 2029,
+              "dates": "Estimado: 23 abr – 6 mai",
+              "confirmed": false
+            },
+            {
+              "year": 2030,
+              "dates": "Estimado: 22 abr – 5 mai",
+              "confirmed": false
+            }
+          ]
         },
         {
           "name": "Real Madrid — Santiago Bernabéu",
           "sport": "futebol",
           "type": "La Liga / Champions League",
           "venue": "Estádio Santiago Bernabéu",
-          "dates_2026": "Temporada ago 2025 – mai 2026",
-          "dates_2027": "Temporada ago 2026 – mai 2027",
-          "confidence": "estimated",
           "ticket_price_approx": "€50–300 (La Liga); €100–600+ (Champions)",
           "ticket_tip": "Ingressos em realmadrid.com — esgotam rápido. Bernabéu recém-reformado é um dos mais belos do mundo.",
           "buy_link": "https://www.realmadrid.com/en/tickets",
-          "notes": "El Clásico (Real × Barça) é o jogo mais famoso do mundo — ingressos quase impossíveis para turistas"
+          "notes": "El Clásico (Real × Barça) é o jogo mais famoso do mundo",
+          "editions": [
+            {
+              "year": 2026,
+              "dates": "Temporada ago 2025 – mai 2026",
+              "confirmed": true
+            },
+            {
+              "year": 2027,
+              "dates": "Temporada ago 2026 – mai 2027",
+              "confirmed": false
+            },
+            {
+              "year": 2028,
+              "dates": "Temporada ago 2027 – mai 2028",
+              "confirmed": false
+            },
+            {
+              "year": 2029,
+              "dates": "Temporada ago 2028 – mai 2029",
+              "confirmed": false
+            },
+            {
+              "year": 2030,
+              "dates": "Temporada ago 2029 – mai 2030",
+              "confirmed": false
+            }
+          ]
         },
         {
           "name": "Atlético de Madrid — Final da UCL 2027",
           "sport": "futebol",
           "type": "La Liga / UCL Final 2027",
           "venue": "Riyadh Air Metropolitano",
-          "dates_2026": "Temporada ago 2025 – mai 2026",
-          "dates_2027": "Final UCL: 5 jun 2027",
-          "confidence": "confirmed_2027_final",
-          "ticket_price_approx": "€30–150 (La Liga); Final UCL via sorteio UEFA",
+          "ticket_price_approx": "€30–150 (La Liga); Final UCL 2027 via sorteio UEFA",
           "ticket_tip": "La Liga é mais acessível. Final UCL 2027: inscreva-se em uefa.com (sorteio para neutros).",
           "buy_link": "https://www.atleticodemadrid.com/entradas",
-          "notes": "Atletico recebe a Final da Champions League 2027 em 5/jun — segundo estádio após 2019"
+          "notes": "Atletico recebe a Final da Champions League em 5/jun/2027",
+          "editions": [
+            {
+              "year": 2026,
+              "dates": "Temporada ago 2025 – mai 2026",
+              "confirmed": true
+            },
+            {
+              "year": 2027,
+              "dates": "Final UCL: 5 jun 2027",
+              "confirmed": true
+            },
+            {
+              "year": 2028,
+              "dates": "Temporada ago 2027 – mai 2028",
+              "confirmed": false
+            },
+            {
+              "year": 2029,
+              "dates": "Temporada ago 2028 – mai 2029",
+              "confirmed": false
+            },
+            {
+              "year": 2030,
+              "dates": "Temporada ago 2029 – mai 2030",
+              "confirmed": false
+            }
+          ]
         }
       ]
     },
@@ -891,26 +1323,74 @@
           "sport": "tênis",
           "type": "WTA 250",
           "venue": "TK Sparta Praha",
-          "dates_2026": "Estimado: jul 2026",
-          "dates_2027": "Estimado: jul 2027",
-          "confidence": "estimated",
           "ticket_price_approx": "€15–40",
           "ticket_tip": "Torneio menor com ambiente agradável no verão tcheco.",
           "buy_link": null,
-          "notes": "Boa opção para ver WTA em cidade histórica"
+          "notes": "Boa opção para ver WTA em cidade histórica",
+          "editions": [
+            {
+              "year": 2026,
+              "dates": "Estimado: jul 2026",
+              "confirmed": false
+            },
+            {
+              "year": 2027,
+              "dates": "Estimado: jul 2027",
+              "confirmed": false
+            },
+            {
+              "year": 2028,
+              "dates": "Estimado: jul 2028",
+              "confirmed": false
+            },
+            {
+              "year": 2029,
+              "dates": "Estimado: jul 2029",
+              "confirmed": false
+            },
+            {
+              "year": 2030,
+              "dates": "Estimado: jul 2030",
+              "confirmed": false
+            }
+          ]
         },
         {
-          "name": "AC Sparta Praha / SK Slavia Praha — Derby de Praga",
+          "name": "Sparta Praha / Slavia Praha — Derby de Praga",
           "sport": "futebol",
           "type": "Fortuna Liga",
-          "venue": "Epet Arena (Sparta) / Sinobo Stadium (Slavia)",
-          "dates_2026": "Temporada ago 2025 – mai 2026",
-          "dates_2027": "Temporada ago 2026 – mai 2027",
-          "confidence": "estimated",
+          "venue": "Epet Arena / Sinobo Stadium",
           "ticket_price_approx": "€10–30",
-          "ticket_tip": "Derby de Praga é um dos clássicos mais antigos da Europa Central. Ingressos muito baratos.",
+          "ticket_tip": "Derby de Praga — um dos clássicos mais antigos da Europa Central.",
           "buy_link": null,
-          "notes": "Sparta e Slavia participam regularmente da Conference League europeia"
+          "notes": "Sparta e Slavia participam regularmente da Conference League",
+          "editions": [
+            {
+              "year": 2026,
+              "dates": "Temporada ago 2025 – mai 2026",
+              "confirmed": true
+            },
+            {
+              "year": 2027,
+              "dates": "Temporada ago 2026 – mai 2027",
+              "confirmed": false
+            },
+            {
+              "year": 2028,
+              "dates": "Temporada ago 2027 – mai 2028",
+              "confirmed": false
+            },
+            {
+              "year": 2029,
+              "dates": "Temporada ago 2028 – mai 2029",
+              "confirmed": false
+            },
+            {
+              "year": 2030,
+              "dates": "Temporada ago 2029 – mai 2030",
+              "confirmed": false
+            }
+          ]
         }
       ]
     },
@@ -1188,17 +1668,41 @@
       },
       "sportingEvents": [
         {
-          "name": "Internazionale / AC Milan — Serie A + Derby della Madonnina",
+          "name": "Inter / AC Milan — Derby della Madonnina",
           "sport": "futebol",
           "type": "Serie A / Champions League",
           "venue": "San Siro (Giuseppe Meazza)",
-          "dates_2026": "Temporada ago 2025 – mai 2026",
-          "dates_2027": "Temporada ago 2026 – mai 2027",
-          "confidence": "estimated",
           "ticket_price_approx": "€25–120",
-          "ticket_tip": "Derby della Madonnina (Inter × Milan) é um dos maiores clássicos do mundo. Ingressos em inter.it e acmilan.com.",
+          "ticket_tip": "Derby della Madonnina (Inter × Milan) é um dos maiores clássicos do mundo. inter.it e acmilan.com.",
           "buy_link": "https://www.inter.it/it/acquista-biglietti",
-          "notes": "San Siro é um dos estádios mais icônicos do futebol mundial. Inter e Milan dividem o mesmo estádio histórico"
+          "notes": "San Siro é um dos estádios mais icônicos do futebol mundial",
+          "editions": [
+            {
+              "year": 2026,
+              "dates": "Temporada ago 2025 – mai 2026",
+              "confirmed": true
+            },
+            {
+              "year": 2027,
+              "dates": "Temporada ago 2026 – mai 2027",
+              "confirmed": false
+            },
+            {
+              "year": 2028,
+              "dates": "Temporada ago 2027 – mai 2028",
+              "confirmed": false
+            },
+            {
+              "year": 2029,
+              "dates": "Temporada ago 2028 – mai 2029",
+              "confirmed": false
+            },
+            {
+              "year": 2030,
+              "dates": "Temporada ago 2029 – mai 2030",
+              "confirmed": false
+            }
+          ]
         }
       ]
     },
@@ -1276,13 +1780,37 @@
           "sport": "futebol",
           "type": "Primeira Liga / Champions League",
           "venue": "Estádio do Dragão",
-          "dates_2026": "Temporada ago 2025 – mai 2026",
-          "dates_2027": "Temporada ago 2026 – mai 2027",
-          "confidence": "estimated",
           "ticket_price_approx": "€20–70",
-          "ticket_tip": "FC Porto tem grande tradição europeia. Jogos da UCL são mais acessíveis que os grandes.",
+          "ticket_tip": "FC Porto tem grande tradição europeia. Jogos da UCL são acessíveis.",
           "buy_link": "https://www.fcporto.pt/bilhetes",
-          "notes": "Porto venceu a Champions em 2004 com Mourinho — clube com história europeia rica"
+          "notes": "Porto venceu a Champions em 2004 com Mourinho",
+          "editions": [
+            {
+              "year": 2026,
+              "dates": "Temporada ago 2025 – mai 2026",
+              "confirmed": true
+            },
+            {
+              "year": 2027,
+              "dates": "Temporada ago 2026 – mai 2027",
+              "confirmed": false
+            },
+            {
+              "year": 2028,
+              "dates": "Temporada ago 2027 – mai 2028",
+              "confirmed": false
+            },
+            {
+              "year": 2029,
+              "dates": "Temporada ago 2028 – mai 2029",
+              "confirmed": false
+            },
+            {
+              "year": 2030,
+              "dates": "Temporada ago 2029 – mai 2030",
+              "confirmed": false
+            }
+          ]
         }
       ]
     },
@@ -1699,30 +2227,78 @@
       },
       "sportingEvents": [
         {
-          "name": "Rakuten Japan Open Tennis (ATP 500)",
+          "name": "Rakuten Japan Open (ATP 500)",
           "sport": "tênis",
           "type": "ATP 500",
           "venue": "Ariake Colosseum",
-          "dates_2026": "Estimado: início out 2026",
-          "dates_2027": "Estimado: início out 2027",
-          "confidence": "estimated",
           "ticket_price_approx": "¥3.000–15.000",
           "ticket_tip": "Torneio pós-US Open com muitos top-10. Excelente organização japonesa.",
           "buy_link": "https://www.rakutenopen.jp",
-          "notes": "Único ATP 500 no Japão — muito popular e organizado com precisão japonesa"
+          "notes": "Único ATP 500 no Japão — muito popular",
+          "editions": [
+            {
+              "year": 2026,
+              "dates": "Estimado: 5–11 out",
+              "confirmed": false
+            },
+            {
+              "year": 2027,
+              "dates": "Estimado: 4–10 out",
+              "confirmed": false
+            },
+            {
+              "year": 2028,
+              "dates": "Estimado: 2–8 out",
+              "confirmed": false
+            },
+            {
+              "year": 2029,
+              "dates": "Estimado: 1–7 out",
+              "confirmed": false
+            },
+            {
+              "year": 2030,
+              "dates": "Estimado: 7–13 out",
+              "confirmed": false
+            }
+          ]
         },
         {
           "name": "J1 League — FC Tokyo / Urawa Red Diamonds",
           "sport": "futebol",
           "type": "J1 League",
-          "venue": "Ajinomoto Stadium (FC Tokyo) / Saitama Stadium (Urawa)",
-          "dates_2026": "Temporada fev – nov 2026",
-          "dates_2027": "Temporada fev – nov 2027",
-          "confidence": "estimated",
+          "venue": "Ajinomoto Stadium / Saitama Stadium",
           "ticket_price_approx": "¥1.500–5.000",
-          "ticket_tip": "Futebol japonês muito organizado e familiar. Ingressos baratos e fáceis de comprar.",
+          "ticket_tip": "Futebol japonês muito organizado. Ingressos baratos e fáceis.",
           "buy_link": "https://www.jleague.jp/ticket/",
-          "notes": "Torcidas japonesas são famosas pela organização e limpeza — experiência muito diferente do futebol europeu"
+          "notes": "Torcidas japonesas são famosas pela organização e limpeza",
+          "editions": [
+            {
+              "year": 2026,
+              "dates": "Temporada fev – nov 2026",
+              "confirmed": true
+            },
+            {
+              "year": 2027,
+              "dates": "Temporada fev – nov 2027",
+              "confirmed": false
+            },
+            {
+              "year": 2028,
+              "dates": "Temporada fev – nov 2028",
+              "confirmed": false
+            },
+            {
+              "year": 2029,
+              "dates": "Temporada fev – nov 2029",
+              "confirmed": false
+            },
+            {
+              "year": 2030,
+              "dates": "Temporada fev – nov 2030",
+              "confirmed": false
+            }
+          ]
         }
       ]
     },
@@ -1929,30 +2505,78 @@
       },
       "sportingEvents": [
         {
-          "name": "Singapore Tennis Open (WTA 250)",
-          "sport": "tênis",
-          "type": "WTA 250",
-          "venue": "OCBC Arena",
-          "dates_2026": "Estimado: fev 2026",
-          "dates_2027": "Estimado: fev 2027",
-          "confidence": "estimated",
-          "ticket_price_approx": "S$ 30–100",
-          "ticket_tip": "Torneio de início de ano — boa forma de combinar tênis com turismo.",
-          "buy_link": null,
-          "notes": "Singapura teve o WTA Finals por anos — tradição forte de tênis feminino"
-        },
-        {
           "name": "F1 Singapore Grand Prix",
           "sport": "automobilismo",
           "type": "Fórmula 1",
           "venue": "Marina Bay Street Circuit",
-          "dates_2026": "Estimado: set 2026",
-          "dates_2027": "Estimado: set 2027",
-          "confidence": "estimated",
           "ticket_price_approx": "S$ 200–2.000+",
-          "ticket_tip": "Uma das corridas mais espetaculares do calendário — circuito noturno com Marina Bay como cenário.",
+          "ticket_tip": "Circuito noturno com Marina Bay como cenário — visualmente único.",
           "buy_link": "https://www.singaporegp.sg",
-          "notes": "GP de Singapura noturno é visualmente único — a cidade toda iluminada como pano de fundo"
+          "notes": "GP de Singapura noturno — a cidade toda iluminada como pano de fundo",
+          "editions": [
+            {
+              "year": 2026,
+              "dates": "Estimado: 18–20 set",
+              "confirmed": false
+            },
+            {
+              "year": 2027,
+              "dates": "Estimado: 17–19 set",
+              "confirmed": false
+            },
+            {
+              "year": 2028,
+              "dates": "Estimado: 15–17 set",
+              "confirmed": false
+            },
+            {
+              "year": 2029,
+              "dates": "Estimado: 19–21 set",
+              "confirmed": false
+            },
+            {
+              "year": 2030,
+              "dates": "Estimado: 18–20 set",
+              "confirmed": false
+            }
+          ]
+        },
+        {
+          "name": "Singapore Tennis Open (WTA 250)",
+          "sport": "tênis",
+          "type": "WTA 250",
+          "venue": "OCBC Arena",
+          "ticket_price_approx": "S$ 30–100",
+          "ticket_tip": "Torneio de início de ano — boa forma de combinar tênis com turismo.",
+          "buy_link": null,
+          "notes": "Singapura tem tradição forte de tênis feminino",
+          "editions": [
+            {
+              "year": 2026,
+              "dates": "Estimado: fev 2026",
+              "confirmed": false
+            },
+            {
+              "year": 2027,
+              "dates": "Estimado: fev 2027",
+              "confirmed": false
+            },
+            {
+              "year": 2028,
+              "dates": "Estimado: fev 2028",
+              "confirmed": false
+            },
+            {
+              "year": 2029,
+              "dates": "Estimado: fev 2029",
+              "confirmed": false
+            },
+            {
+              "year": 2030,
+              "dates": "Estimado: fev 2030",
+              "confirmed": false
+            }
+          ]
         }
       ]
     },
@@ -2032,26 +2656,74 @@
           "sport": "tênis",
           "type": "WTA 500",
           "venue": "Olympic Park Tennis Center",
-          "dates_2026": "Estimado: set 2026",
-          "dates_2027": "Estimado: set 2027",
-          "confidence": "estimated",
           "ticket_price_approx": "₩30.000–100.000",
-          "ticket_tip": "Evento pós-US Open. Boa oportunidade de ver top-30 em ambiente menor e acessível.",
+          "ticket_tip": "Evento pós-US Open. Boa oportunidade de ver top-30 em ambiente acessível.",
           "buy_link": null,
-          "notes": "Torneio crescendo em prestígio com a popularidade do tênis na Ásia"
+          "notes": "Torneio crescendo com a popularidade do tênis na Ásia",
+          "editions": [
+            {
+              "year": 2026,
+              "dates": "Estimado: set 2026",
+              "confirmed": false
+            },
+            {
+              "year": 2027,
+              "dates": "Estimado: set 2027",
+              "confirmed": false
+            },
+            {
+              "year": 2028,
+              "dates": "Estimado: set 2028",
+              "confirmed": false
+            },
+            {
+              "year": 2029,
+              "dates": "Estimado: set 2029",
+              "confirmed": false
+            },
+            {
+              "year": 2030,
+              "dates": "Estimado: set 2030",
+              "confirmed": false
+            }
+          ]
         },
         {
           "name": "K League 1 — FC Seoul",
           "sport": "futebol",
           "type": "K League 1",
           "venue": "Seoul World Cup Stadium",
-          "dates_2026": "Temporada mar – nov 2026",
-          "dates_2027": "Temporada mar – nov 2027",
-          "confidence": "estimated",
           "ticket_price_approx": "₩10.000–40.000",
-          "ticket_tip": "Futebol coreano com torcidas animadas. FC Seoul joga no estádio da Copa 2002.",
+          "ticket_tip": "FC Seoul joga no estádio da Copa 2002. Torcidas animadas.",
           "buy_link": "https://www.kleague.com",
-          "notes": "Estádio da Copa do Mundo 2002 — onde a Coreia fez história chegando às semifinais"
+          "notes": "Estádio da Copa do Mundo 2002 — onde a Coreia chegou às semifinais",
+          "editions": [
+            {
+              "year": 2026,
+              "dates": "Temporada mar – nov 2026",
+              "confirmed": true
+            },
+            {
+              "year": 2027,
+              "dates": "Temporada mar – nov 2027",
+              "confirmed": false
+            },
+            {
+              "year": 2028,
+              "dates": "Temporada mar – nov 2028",
+              "confirmed": false
+            },
+            {
+              "year": 2029,
+              "dates": "Temporada mar – nov 2029",
+              "confirmed": false
+            },
+            {
+              "year": 2030,
+              "dates": "Temporada mar – nov 2030",
+              "confirmed": false
+            }
+          ]
         }
       ]
     },
@@ -2195,13 +2867,37 @@
           "sport": "tênis",
           "type": "ATP 500 + WTA 1000",
           "venue": "Dubai Duty Free Tennis Stadium",
-          "dates_2026": "Estimado: fev–mar 2026",
-          "dates_2027": "Estimado: fev–mar 2027",
-          "confidence": "estimated",
           "ticket_price_approx": "AED 100–400",
-          "ticket_tip": "Campo sempre top-10. Excelente organização. Fácil de conseguir ingressos com antecedência.",
+          "ticket_tip": "Campo sempre top-10. Excelente organização. Fácil de conseguir ingressos.",
           "buy_link": "https://www.dubaidutyfreetennischampionships.com",
-          "notes": "Um dos torneios mais premiados fora dos Grand Slams — nível de organização altíssimo"
+          "notes": "Um dos torneios mais premiados fora dos Grand Slams",
+          "editions": [
+            {
+              "year": 2026,
+              "dates": "Estimado: 23 fev – 7 mar",
+              "confirmed": false
+            },
+            {
+              "year": 2027,
+              "dates": "Estimado: 22 fev – 6 mar",
+              "confirmed": false
+            },
+            {
+              "year": 2028,
+              "dates": "Estimado: 21 fev – 5 mar",
+              "confirmed": false
+            },
+            {
+              "year": 2029,
+              "dates": "Estimado: 25 fev – 8 mar",
+              "confirmed": false
+            },
+            {
+              "year": 2030,
+              "dates": "Estimado: 24 fev – 7 mar",
+              "confirmed": false
+            }
+          ]
         }
       ]
     },
@@ -2281,26 +2977,74 @@
           "sport": "tênis",
           "type": "ATP 250",
           "venue": "Koza World of Sports Arena",
-          "dates_2026": "Estimado: abr–mai 2026",
-          "dates_2027": "Estimado: abr–mai 2027",
-          "confidence": "estimated",
           "ticket_price_approx": "200–600 TRY",
-          "ticket_tip": "Torneio em argila antes de Roland Garros. Bom momento para visitar Istambul.",
+          "ticket_tip": "Torneio em argila antes de Roland Garros.",
           "buy_link": null,
-          "notes": "Torneio crescendo com o interesse turco no tênis"
+          "notes": "Torneio crescendo com o interesse turco no tênis",
+          "editions": [
+            {
+              "year": 2026,
+              "dates": "Estimado: abr–mai 2026",
+              "confirmed": false
+            },
+            {
+              "year": 2027,
+              "dates": "Estimado: abr–mai 2027",
+              "confirmed": false
+            },
+            {
+              "year": 2028,
+              "dates": "Estimado: abr–mai 2028",
+              "confirmed": false
+            },
+            {
+              "year": 2029,
+              "dates": "Estimado: abr–mai 2029",
+              "confirmed": false
+            },
+            {
+              "year": 2030,
+              "dates": "Estimado: abr–mai 2030",
+              "confirmed": false
+            }
+          ]
         },
         {
-          "name": "Galatasaray / Fenerbahce — Süper Lig + Derby Istanbul",
+          "name": "Galatasaray / Fenerbahce — Süper Lig",
           "sport": "futebol",
           "type": "Süper Lig",
-          "venue": "Rams Park (Galatasaray) / Şükrü Saracoğlu (Fenerbahce)",
-          "dates_2026": "Temporada ago 2025 – mai 2026",
-          "dates_2027": "Temporada ago 2026 – mai 2027",
-          "confidence": "estimated",
+          "venue": "Rams Park / Şükrü Saracoğlu",
           "ticket_price_approx": "€15–60",
-          "ticket_tip": "Derby Istanbul (Gala × Fener) é um dos mais quentes do mundo. Galatasaray tem o estádio mais impressionante.",
+          "ticket_tip": "Derby Istanbul (Gala × Fener) é um dos mais quentes do mundo.",
           "buy_link": "https://www.galatasaray.org",
-          "notes": "Torcidas de Gala e Fener são lendárias — entre as mais barulhentas e apaixonadas do mundo"
+          "notes": "Torcidas de Gala e Fener são lendárias — entre as mais barulhentas do mundo",
+          "editions": [
+            {
+              "year": 2026,
+              "dates": "Temporada ago 2025 – mai 2026",
+              "confirmed": true
+            },
+            {
+              "year": 2027,
+              "dates": "Temporada ago 2026 – mai 2027",
+              "confirmed": false
+            },
+            {
+              "year": 2028,
+              "dates": "Temporada ago 2027 – mai 2028",
+              "confirmed": false
+            },
+            {
+              "year": 2029,
+              "dates": "Temporada ago 2028 – mai 2029",
+              "confirmed": false
+            },
+            {
+              "year": 2030,
+              "dates": "Temporada ago 2029 – mai 2030",
+              "confirmed": false
+            }
+          ]
         }
       ]
     },
@@ -2381,39 +3125,111 @@
           "sport": "tênis",
           "type": "Grand Slam",
           "venue": "USTA Billie Jean King National Tennis Center, Flushing",
-          "dates_2026": "30 ago – 13 set 2026",
-          "dates_2027": "Estimado: final ago – meados set 2027",
-          "confidence": "confirmed_2026",
           "ticket_price_approx": "US$ 50–200 (grounds pass); US$ 100–500+ (Arthur Ashe)",
-          "ticket_tip": "Grounds Pass é ótimo custo-benefício — acessa todas as quadras externas. Noite em Ashe é a experiência mais especial.",
+          "ticket_tip": "Grounds Pass é ótimo custo-benefício. Noite em Ashe é a experiência mais especial.",
           "buy_link": "https://www.usopen.org/tickets",
-          "notes": "O Grand Slam mais animado e festivo. Comida de 30 países no complexo. Período do Labor Day"
+          "notes": "O Grand Slam mais animado e festivo. Período do Labor Day",
+          "editions": [
+            {
+              "year": 2026,
+              "dates": "31 ago – 13 set",
+              "confirmed": true
+            },
+            {
+              "year": 2027,
+              "dates": "Estimado: 30 ago – 12 set",
+              "confirmed": false
+            },
+            {
+              "year": 2028,
+              "dates": "Estimado: 28 ago – 10 set",
+              "confirmed": false
+            },
+            {
+              "year": 2029,
+              "dates": "Estimado: 27 ago – 9 set",
+              "confirmed": false
+            },
+            {
+              "year": 2030,
+              "dates": "Estimado: 26 ago – 8 set",
+              "confirmed": false
+            }
+          ]
         },
         {
           "name": "New York Knicks — Madison Square Garden",
           "sport": "basquete",
           "type": "NBA",
           "venue": "Madison Square Garden",
-          "dates_2026": "Temporada out 2025 – abr 2026",
-          "dates_2027": "Temporada out 2026 – abr 2027",
-          "confidence": "estimated",
           "ticket_price_approx": "US$ 80–500+",
           "ticket_tip": "MSG é o estádio mais famoso do mundo. A experiência da arena vale independente do time.",
           "buy_link": "https://www.nba.com/knicks/tickets",
-          "notes": "The World's Most Famous Arena — experiência única"
+          "notes": "The World's Most Famous Arena",
+          "editions": [
+            {
+              "year": 2026,
+              "dates": "Temporada out 2025 – jun 2026",
+              "confirmed": true
+            },
+            {
+              "year": 2027,
+              "dates": "Temporada out 2026 – jun 2027",
+              "confirmed": false
+            },
+            {
+              "year": 2028,
+              "dates": "Temporada out 2027 – jun 2028",
+              "confirmed": false
+            },
+            {
+              "year": 2029,
+              "dates": "Temporada out 2028 – jun 2029",
+              "confirmed": false
+            },
+            {
+              "year": 2030,
+              "dates": "Temporada out 2029 – jun 2030",
+              "confirmed": false
+            }
+          ]
         },
         {
           "name": "New York Yankees — Yankee Stadium",
           "sport": "beisebol",
           "type": "MLB",
           "venue": "Yankee Stadium, Bronx",
-          "dates_2026": "Temporada abr – set 2026",
-          "dates_2027": "Temporada abr – set 2027",
-          "confidence": "estimated",
           "ticket_price_approx": "US$ 20–200",
-          "ticket_tip": "Jogo de beisebol é ótima experiência cultural mesmo sem entender o esporte. Ingressos baratos disponíveis.",
+          "ticket_tip": "Jogo de beisebol é ótima experiência cultural. Ingressos baratos disponíveis.",
           "buy_link": "https://www.mlb.com/yankees/tickets",
-          "notes": "Hot dog + cerveja + beisebol = experiência americana autêntica"
+          "notes": "Hot dog + cerveja + beisebol = experiência americana autêntica",
+          "editions": [
+            {
+              "year": 2026,
+              "dates": "Temporada abr – out 2026",
+              "confirmed": true
+            },
+            {
+              "year": 2027,
+              "dates": "Temporada abr – out 2027",
+              "confirmed": false
+            },
+            {
+              "year": 2028,
+              "dates": "Temporada abr – out 2028",
+              "confirmed": false
+            },
+            {
+              "year": 2029,
+              "dates": "Temporada abr – out 2029",
+              "confirmed": false
+            },
+            {
+              "year": 2030,
+              "dates": "Temporada abr – out 2030",
+              "confirmed": false
+            }
+          ]
         }
       ]
     },
@@ -2487,27 +3303,75 @@
           "name": "Miami Open",
           "sport": "tênis",
           "type": "ATP Masters 1000 + WTA 1000",
-          "venue": "Hard Rock Stadium, Miami Gardens",
-          "dates_2026": "Estimado: mar 2026",
-          "dates_2027": "Estimado: mar 2027",
-          "confidence": "estimated",
+          "venue": "Hard Rock Stadium",
           "ticket_price_approx": "US$ 40–200",
-          "ticket_tip": "Um dos melhores Masters do ano — clima ótimo, estrutura excelente e atmosfera de festival.",
+          "ticket_tip": "Um dos melhores Masters do ano — clima ótimo e atmosfera de festival.",
           "buy_link": "https://www.miamiopen.com/tickets/",
-          "notes": "Único Masters 1000 com praia nas proximidades — combina muito bem com viagem ao sul da Flórida"
+          "notes": "Único Masters 1000 com praia nas proximidades",
+          "editions": [
+            {
+              "year": 2026,
+              "dates": "Estimado: 23 mar – 5 abr",
+              "confirmed": false
+            },
+            {
+              "year": 2027,
+              "dates": "Estimado: 22 mar – 4 abr",
+              "confirmed": false
+            },
+            {
+              "year": 2028,
+              "dates": "Estimado: 20 mar – 2 abr",
+              "confirmed": false
+            },
+            {
+              "year": 2029,
+              "dates": "Estimado: 19 mar – 1 abr",
+              "confirmed": false
+            },
+            {
+              "year": 2030,
+              "dates": "Estimado: 18 mar – 31 mar",
+              "confirmed": false
+            }
+          ]
         },
         {
           "name": "Miami Heat — Kaseya Center",
           "sport": "basquete",
           "type": "NBA",
           "venue": "Kaseya Center",
-          "dates_2026": "Temporada out 2025 – abr 2026",
-          "dates_2027": "Temporada out 2026 – abr 2027",
-          "confidence": "estimated",
           "ticket_price_approx": "US$ 60–300+",
           "ticket_tip": "Heat tem fanbase apaixonada. Jogos em casa têm ótima atmosfera.",
           "buy_link": "https://www.nba.com/heat/tickets",
-          "notes": "Time da era clássica de LeBron — ainda competitivo com grande base de torcida"
+          "notes": "Time competitivo com grande base de torcida",
+          "editions": [
+            {
+              "year": 2026,
+              "dates": "Temporada out 2025 – jun 2026",
+              "confirmed": true
+            },
+            {
+              "year": 2027,
+              "dates": "Temporada out 2026 – jun 2027",
+              "confirmed": false
+            },
+            {
+              "year": 2028,
+              "dates": "Temporada out 2027 – jun 2028",
+              "confirmed": false
+            },
+            {
+              "year": 2029,
+              "dates": "Temporada out 2028 – jun 2029",
+              "confirmed": false
+            },
+            {
+              "year": 2030,
+              "dates": "Temporada out 2029 – jun 2030",
+              "confirmed": false
+            }
+          ]
         }
       ]
     },
@@ -2582,26 +3446,74 @@
           "sport": "tênis",
           "type": "ATP 250",
           "venue": "Buenos Aires Lawn Tennis Club",
-          "dates_2026": "Estimado: fev 2026",
-          "dates_2027": "Estimado: fev 2027",
-          "confidence": "estimated",
           "ticket_price_approx": "AR$ 5.000–20.000",
-          "ticket_tip": "Primeiro ATP em argila do ano. Atmosfera argentina calorosa. Ingressos fáceis de conseguir.",
+          "ticket_tip": "Primeiro ATP em argila do ano. Atmosfera argentina calorosa.",
           "buy_link": null,
-          "notes": "Único ATP 250 da América do Sul em argila"
+          "notes": "Único ATP 250 da América do Sul em argila",
+          "editions": [
+            {
+              "year": 2026,
+              "dates": "Estimado: 9–15 fev",
+              "confirmed": false
+            },
+            {
+              "year": 2027,
+              "dates": "Estimado: 8–14 fev",
+              "confirmed": false
+            },
+            {
+              "year": 2028,
+              "dates": "Estimado: 7–13 fev",
+              "confirmed": false
+            },
+            {
+              "year": 2029,
+              "dates": "Estimado: 6–12 fev",
+              "confirmed": false
+            },
+            {
+              "year": 2030,
+              "dates": "Estimado: 10–16 fev",
+              "confirmed": false
+            }
+          ]
         },
         {
           "name": "Boca Juniors / River Plate — Superclásico",
           "sport": "futebol",
           "type": "Liga Profesional Argentina",
           "venue": "La Bombonera (Boca) / El Monumental (River)",
-          "dates_2026": "Temporada ao longo do ano (Apertura e Clausura)",
-          "dates_2027": "Idem",
-          "confidence": "estimated",
           "ticket_price_approx": "US$ 50–150 via agência para turistas",
-          "ticket_tip": "Como turista, use agência especializada — é mais seguro. La Bombonera é uma das experiências mais intensas do futebol.",
+          "ticket_tip": "Use agência especializada como turista — mais seguro. La Bombonera é experiência única.",
           "buy_link": null,
-          "notes": "Superclásico (Boca × River) é considerado o clássico mais apaixonado do mundo"
+          "notes": "Superclásico é considerado o clássico mais apaixonado do mundo",
+          "editions": [
+            {
+              "year": 2026,
+              "dates": "Estimado: 2x por ano (Apertura e Clausura)",
+              "confirmed": false
+            },
+            {
+              "year": 2027,
+              "dates": "Estimado: 2x por ano",
+              "confirmed": false
+            },
+            {
+              "year": 2028,
+              "dates": "Estimado: 2x por ano",
+              "confirmed": false
+            },
+            {
+              "year": 2029,
+              "dates": "Estimado: 2x por ano",
+              "confirmed": false
+            },
+            {
+              "year": 2030,
+              "dates": "Estimado: 2x por ano",
+              "confirmed": false
+            }
+          ]
         }
       ]
     },
@@ -2672,30 +3584,78 @@
       },
       "sportingEvents": [
         {
-          "name": "Copa do Mundo FIFA 2026 — jogos no Azteca",
+          "name": "Copa do Mundo FIFA 2026 — Estadio Azteca",
           "sport": "futebol",
           "type": "Copa do Mundo FIFA",
           "venue": "Estadio Azteca",
-          "dates_2026": "jun–jul 2026",
-          "dates_2027": "N/A",
-          "confidence": "confirmed_2026",
-          "ticket_price_approx": "US$ 100–500+ (via sorteio FIFA)",
-          "ticket_tip": "Ingressos via fifa.com — sorteio para fase de grupos já encerrou. Mercado secundário ainda disponível.",
+          "ticket_price_approx": "US$ 100–500+",
+          "ticket_tip": "Ingressos via fifa.com — mercado secundário ainda disponível.",
           "buy_link": "https://www.fifa.com/tickets",
-          "notes": "México co-sede com EUA e Canadá. Azteca recebe jogos históricos pela 3ª Copa do Mundo"
+          "notes": "México co-sede com EUA e Canadá. Azteca recebe jogos pela 3ª Copa do Mundo",
+          "editions": [
+            {
+              "year": 2026,
+              "dates": "jun–jul 2026 (fase de grupos + eliminatórias)",
+              "confirmed": true
+            },
+            {
+              "year": 2027,
+              "dates": "N/A",
+              "confirmed": false
+            },
+            {
+              "year": 2028,
+              "dates": "N/A",
+              "confirmed": false
+            },
+            {
+              "year": 2029,
+              "dates": "N/A",
+              "confirmed": false
+            },
+            {
+              "year": 2030,
+              "dates": "Copa do Mundo 2030 — Marrocos/Espanha/Portugal (sede a confirmar para México)",
+              "confirmed": false
+            }
+          ]
         },
         {
           "name": "Club América / Cruz Azul — Liga MX",
           "sport": "futebol",
           "type": "Liga MX",
-          "venue": "Estadio Azteca (América) / Estadio Ciudad de los Deportes (Cruz Azul)",
-          "dates_2026": "Apertura jul–dez 2026 / Clausura jan–mai 2027",
-          "dates_2027": "Idem",
-          "confidence": "estimated",
+          "venue": "Estadio Azteca",
           "ticket_price_approx": "MX$ 200–1.000",
-          "ticket_tip": "Azteca com 87k é o maior estádio das Américas. Compre em clubamerica.com.mx.",
+          "ticket_tip": "Azteca com 87k é o maior estádio das Américas.",
           "buy_link": "https://www.clubamerica.com.mx",
-          "notes": "Estadio Azteca recebeu 2 finais de Copa (1970 e 1986) — o mais histórico das Américas"
+          "notes": "Azteca recebeu 2 finais de Copa (1970 e 1986)",
+          "editions": [
+            {
+              "year": 2026,
+              "dates": "Apertura ago–dez 2026 / Clausura jan–mai 2026",
+              "confirmed": true
+            },
+            {
+              "year": 2027,
+              "dates": "Apertura ago–dez 2027 / Clausura jan–mai 2027",
+              "confirmed": false
+            },
+            {
+              "year": 2028,
+              "dates": "Apertura ago–dez 2028 / Clausura jan–mai 2028",
+              "confirmed": false
+            },
+            {
+              "year": 2029,
+              "dates": "Apertura ago–dez 2029 / Clausura jan–mai 2029",
+              "confirmed": false
+            },
+            {
+              "year": 2030,
+              "dates": "Apertura ago–dez 2030 / Clausura jan–mai 2030",
+              "confirmed": false
+            }
+          ]
         }
       ]
     },
@@ -2769,27 +3729,75 @@
           "name": "Las Vegas Grand Prix — Fórmula 1",
           "sport": "automobilismo",
           "type": "Fórmula 1",
-          "venue": "Circuito de rua — Las Vegas Strip / Boulevard",
-          "dates_2026": "Estimado: nov 2026",
-          "dates_2027": "Estimado: nov 2027",
-          "confidence": "estimated",
+          "venue": "Las Vegas Strip Circuit",
           "ticket_price_approx": "US$ 500–5.000+ (grandstand)",
-          "ticket_tip": "Uma das corridas mais caras e espetaculares da F1. A largada noturna no Strip é cinematográfica.",
+          "ticket_tip": "Uma das corridas mais caras e espetaculares da F1. Largada noturna no Strip.",
           "buy_link": "https://www.f1lasvegasgp.com",
-          "notes": "F1 retornou a Las Vegas em 2023 após 40 anos — corrida noturna com casinos como pano de fundo"
+          "notes": "F1 retornou a Las Vegas em 2023 — corrida noturna com casinos como pano de fundo",
+          "editions": [
+            {
+              "year": 2026,
+              "dates": "Estimado: 19–21 nov",
+              "confirmed": false
+            },
+            {
+              "year": 2027,
+              "dates": "Estimado: 18–20 nov",
+              "confirmed": false
+            },
+            {
+              "year": 2028,
+              "dates": "Estimado: 16–18 nov",
+              "confirmed": false
+            },
+            {
+              "year": 2029,
+              "dates": "Estimado: 20–22 nov",
+              "confirmed": false
+            },
+            {
+              "year": 2030,
+              "dates": "Estimado: 19–21 nov",
+              "confirmed": false
+            }
+          ]
         },
         {
           "name": "UFC — T-Mobile Arena",
           "sport": "MMA",
           "type": "UFC",
           "venue": "T-Mobile Arena",
-          "dates_2026": "Eventos ao longo do ano",
-          "dates_2027": "Eventos ao longo do ano",
-          "confidence": "estimated",
           "ticket_price_approx": "US$ 100–1.000+",
-          "ticket_tip": "Vegas é a capital mundial do UFC. Eventos Pay-Per-View têm ingressos caríssimos. Eventos menores mais acessíveis.",
+          "ticket_tip": "Vegas é a capital mundial do UFC. Eventos Pay-Per-View têm ingressos caríssimos.",
           "buy_link": "https://www.ufc.com/events",
-          "notes": "Ver UFC em Vegas ao vivo é de outra dimensão — peso do evento e celebridades na arena"
+          "notes": "Ver UFC em Vegas ao vivo é de outra dimensão",
+          "editions": [
+            {
+              "year": 2026,
+              "dates": "Múltiplos eventos ao longo do ano",
+              "confirmed": true
+            },
+            {
+              "year": 2027,
+              "dates": "Múltiplos eventos ao longo do ano",
+              "confirmed": false
+            },
+            {
+              "year": 2028,
+              "dates": "Múltiplos eventos ao longo do ano",
+              "confirmed": false
+            },
+            {
+              "year": 2029,
+              "dates": "Múltiplos eventos ao longo do ano",
+              "confirmed": false
+            },
+            {
+              "year": 2030,
+              "dates": "Múltiplos eventos ao longo do ano",
+              "confirmed": false
+            }
+          ]
         }
       ]
     },
@@ -2865,30 +3873,78 @@
       },
       "sportingEvents": [
         {
-          "name": "BNP Paribas Open — Indian Wells (ATP Masters 1000, a 3h de LA)",
+          "name": "BNP Paribas Open — Indian Wells (Masters 1000, a 3h de LA)",
           "sport": "tênis",
           "type": "ATP Masters 1000 + WTA 1000",
           "venue": "Indian Wells Tennis Garden",
-          "dates_2026": "Estimado: mar 2026",
-          "dates_2027": "Estimado: mar 2027",
-          "confidence": "estimated",
           "ticket_price_approx": "US$ 30–300",
-          "ticket_tip": "Indian Wells a 3h de carro de LA. Considerado o '5º Grand Slam' pelo ambiente e qualidade.",
+          "ticket_tip": "Indian Wells a 3h de carro de LA. Considerado o '5º Grand Slam'.",
           "buy_link": "https://www.bnpparibasonline.com",
-          "notes": "Melhor custo-benefício dos Masters — estrutura incrível no deserto da Califórnia"
+          "notes": "Melhor custo-benefício dos Masters — estrutura incrível no deserto da Califórnia",
+          "editions": [
+            {
+              "year": 2026,
+              "dates": "Estimado: 9–22 mar",
+              "confirmed": false
+            },
+            {
+              "year": 2027,
+              "dates": "Estimado: 8–21 mar",
+              "confirmed": false
+            },
+            {
+              "year": 2028,
+              "dates": "Estimado: 6–19 mar",
+              "confirmed": false
+            },
+            {
+              "year": 2029,
+              "dates": "Estimado: 5–18 mar",
+              "confirmed": false
+            },
+            {
+              "year": 2030,
+              "dates": "Estimado: 4–17 mar",
+              "confirmed": false
+            }
+          ]
         },
         {
           "name": "LA Lakers — Crypto.com Arena",
           "sport": "basquete",
           "type": "NBA",
           "venue": "Crypto.com Arena",
-          "dates_2026": "Temporada out 2025 – abr 2026",
-          "dates_2027": "Temporada out 2026 – abr 2027",
-          "confidence": "estimated",
           "ticket_price_approx": "US$ 100–500+",
-          "ticket_tip": "Lakers têm uma das maiores torcidas do mundo. Cheio de celebridades na beira da quadra.",
+          "ticket_tip": "Lakers têm uma das maiores torcidas do mundo. Cheio de celebridades.",
           "buy_link": "https://www.nba.com/lakers/tickets",
-          "notes": "Experiência cultural americana — ver Lakers em LA é único"
+          "notes": "Experiência cultural americana — ver Lakers em LA é único",
+          "editions": [
+            {
+              "year": 2026,
+              "dates": "Temporada out 2025 – jun 2026",
+              "confirmed": true
+            },
+            {
+              "year": 2027,
+              "dates": "Temporada out 2026 – jun 2027",
+              "confirmed": false
+            },
+            {
+              "year": 2028,
+              "dates": "Temporada out 2027 – jun 2028",
+              "confirmed": false
+            },
+            {
+              "year": 2029,
+              "dates": "Temporada out 2028 – jun 2029",
+              "confirmed": false
+            },
+            {
+              "year": 2030,
+              "dates": "Temporada out 2029 – jun 2030",
+              "confirmed": false
+            }
+          ]
         }
       ]
     },
@@ -3026,30 +4082,78 @@
       },
       "sportingEvents": [
         {
-          "name": "Australian Open (em Melbourne, a 1h de avião)",
+          "name": "Australian Open (Melbourne, a 1h de avião)",
           "sport": "tênis",
           "type": "Grand Slam",
           "venue": "Melbourne Park, Melbourne",
-          "dates_2026": "18 jan – 1 fev 2026 (já ocorreu)",
-          "dates_2027": "11–31 jan 2027 (main draw: 17–31 jan)",
-          "confidence": "confirmed_2027",
           "ticket_price_approx": "A$ 30–200+ (Rod Laver Arena até A$ 500+)",
           "ticket_tip": "Melbourne fica a 1h de avião de Sydney — vale combinar. Ingressos em ausopen.com.",
           "buy_link": "https://ausopen.com/tickets",
-          "notes": "Maior evento esportivo da Oceania em janeiro — 1,3 milhão de visitantes em 2026. Festival de 3 semanas"
+          "notes": "Maior evento esportivo da Oceania — 1,3 milhão de visitantes em 2026",
+          "editions": [
+            {
+              "year": 2026,
+              "dates": "18 jan – 1 fev (já ocorreu)",
+              "confirmed": true
+            },
+            {
+              "year": 2027,
+              "dates": "11–31 jan (main draw: 17–31 jan)",
+              "confirmed": true
+            },
+            {
+              "year": 2028,
+              "dates": "Estimado: 17–30 jan",
+              "confirmed": false
+            },
+            {
+              "year": 2029,
+              "dates": "Estimado: 14–27 jan",
+              "confirmed": false
+            },
+            {
+              "year": 2030,
+              "dates": "Estimado: 14–27 jan",
+              "confirmed": false
+            }
+          ]
         },
         {
           "name": "NRL — Sydney Roosters / South Sydney Rabbitohs",
           "sport": "rugby league",
           "type": "NRL",
           "venue": "Allianz Stadium / Accor Stadium",
-          "dates_2026": "Temporada mar – set 2026",
-          "dates_2027": "Temporada mar – set 2027",
-          "confidence": "estimated",
           "ticket_price_approx": "A$ 30–100",
-          "ticket_tip": "Rugby league australiano é esporte popular e com atmosfera intensa. Ingressos acessíveis em nrl.com.",
+          "ticket_tip": "Rugby league australiano é popular e com atmosfera intensa. Ingressos acessíveis.",
           "buy_link": "https://www.nrl.com/tickets/",
-          "notes": "Experiência cultural australiana autêntica — diferente do rugby union europeu"
+          "notes": "Experiência cultural australiana autêntica",
+          "editions": [
+            {
+              "year": 2026,
+              "dates": "Temporada mar – set 2026",
+              "confirmed": true
+            },
+            {
+              "year": 2027,
+              "dates": "Temporada mar – set 2027",
+              "confirmed": false
+            },
+            {
+              "year": 2028,
+              "dates": "Temporada mar – set 2028",
+              "confirmed": false
+            },
+            {
+              "year": 2029,
+              "dates": "Temporada mar – set 2029",
+              "confirmed": false
+            },
+            {
+              "year": 2030,
+              "dates": "Temporada mar – set 2030",
+              "confirmed": false
+            }
+          ]
         }
       ]
     },
@@ -3187,30 +4291,41 @@
       },
       "sportingEvents": [
         {
-          "name": "Peru Open (ATP Challenger / WTA)",
-          "sport": "tênis",
-          "type": "ATP Challenger",
-          "venue": "Las Terrazas Club",
-          "dates_2026": "Estimado: fev–mar 2026",
-          "dates_2027": "Estimado: fev–mar 2027",
-          "confidence": "estimated",
-          "ticket_price_approx": "S/. 20–80",
-          "ticket_tip": "Torneio menor mas com jogadores emergentes interessantes.",
-          "buy_link": null,
-          "notes": "Circuito Challenger — ótimo para ver futuros top-50 em ambiente próximo"
-        },
-        {
-          "name": "Alianza Lima / Universitario — Copa Libertadores / Liga 1",
+          "name": "Alianza Lima / Universitario — Copa Libertadores",
           "sport": "futebol",
-          "type": "Liga 1 Peruana / Copa Libertadores",
-          "venue": "Estadio Alejandro Villanueva (Alianza) / Estadio Monumental (Universitario)",
-          "dates_2026": "Temporada fev – nov 2026",
-          "dates_2027": "Temporada fev – nov 2027",
-          "confidence": "estimated",
+          "type": "Liga 1 / Copa Libertadores",
+          "venue": "Estadio Alejandro Villanueva / Estadio Monumental",
           "ticket_price_approx": "S/. 20–80",
-          "ticket_tip": "Clásico do Perú (Alianza × Universitario) tem ambiente muito intenso. Ingresso barato.",
+          "ticket_tip": "Clásico do Perú tem ambiente intenso. Ingresso barato.",
           "buy_link": null,
-          "notes": "O Clásico peruano é um dos derbis mais apaixonados da América do Sul"
+          "notes": "O Clásico peruano é um dos derbis mais apaixonados da América do Sul",
+          "editions": [
+            {
+              "year": 2026,
+              "dates": "Temporada fev – nov 2026",
+              "confirmed": true
+            },
+            {
+              "year": 2027,
+              "dates": "Temporada fev – nov 2027",
+              "confirmed": false
+            },
+            {
+              "year": 2028,
+              "dates": "Temporada fev – nov 2028",
+              "confirmed": false
+            },
+            {
+              "year": 2029,
+              "dates": "Temporada fev – nov 2029",
+              "confirmed": false
+            },
+            {
+              "year": 2030,
+              "dates": "Temporada fev – nov 2030",
+              "confirmed": false
+            }
+          ]
         }
       ]
     },
@@ -3351,27 +4466,75 @@
           "name": "Chile Open (ATP 250)",
           "sport": "tênis",
           "type": "ATP 250",
-          "venue": "Club de Tenis Club Deportivo Universidad de Chile",
-          "dates_2026": "Estimado: fev 2026",
-          "dates_2027": "Estimado: fev 2027",
-          "confidence": "estimated",
+          "venue": "Club de Tenis Universidad de Chile",
           "ticket_price_approx": "CLP 10.000–30.000",
-          "ticket_tip": "ATP 250 em argila no início da temporada sul-americana. Atmosfera simpática.",
+          "ticket_tip": "ATP 250 em argila no início da temporada sul-americana.",
           "buy_link": null,
-          "notes": "Torneio tradicional em argila — bom campo no início de temporada"
+          "notes": "Torneio tradicional em argila — bom campo no início de temporada",
+          "editions": [
+            {
+              "year": 2026,
+              "dates": "Estimado: 9–15 fev",
+              "confirmed": false
+            },
+            {
+              "year": 2027,
+              "dates": "Estimado: 8–14 fev",
+              "confirmed": false
+            },
+            {
+              "year": 2028,
+              "dates": "Estimado: 7–13 fev",
+              "confirmed": false
+            },
+            {
+              "year": 2029,
+              "dates": "Estimado: 6–12 fev",
+              "confirmed": false
+            },
+            {
+              "year": 2030,
+              "dates": "Estimado: 10–16 fev",
+              "confirmed": false
+            }
+          ]
         },
         {
           "name": "Colo-Colo / Universidad de Chile — Superclásico",
           "sport": "futebol",
-          "type": "Primera División / Copa Libertadores",
-          "venue": "Estadio Monumental (Colo-Colo)",
-          "dates_2026": "Temporada fev – dez 2026",
-          "dates_2027": "Temporada fev – dez 2027",
-          "confidence": "estimated",
+          "type": "Primera División",
+          "venue": "Estadio Monumental",
           "ticket_price_approx": "CLP 8.000–25.000",
-          "ticket_tip": "Superclásico chileno (Colo-Colo × U. de Chile) é o mais disputado do país. Monumental tem 47k.",
+          "ticket_tip": "Superclásico chileno — Monumental tem 47k de capacidade.",
           "buy_link": null,
-          "notes": "Colo-Colo é o clube mais popular do Chile e frequenta Libertadores"
+          "notes": "Colo-Colo é o clube mais popular do Chile e frequenta a Libertadores",
+          "editions": [
+            {
+              "year": 2026,
+              "dates": "Temporada fev – dez 2026",
+              "confirmed": true
+            },
+            {
+              "year": 2027,
+              "dates": "Temporada fev – dez 2027",
+              "confirmed": false
+            },
+            {
+              "year": 2028,
+              "dates": "Temporada fev – dez 2028",
+              "confirmed": false
+            },
+            {
+              "year": 2029,
+              "dates": "Temporada fev – dez 2029",
+              "confirmed": false
+            },
+            {
+              "year": 2030,
+              "dates": "Temporada fev – dez 2030",
+              "confirmed": false
+            }
+          ]
         }
       ]
     }
