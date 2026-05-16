@@ -26,7 +26,7 @@
   html, body, #root { height: 100%; }
   body { font-family: 'DM Sans', sans-serif; background: var(--bg); color: var(--text); overflow-x: hidden; }
   button { font-family: 'DM Sans', sans-serif; cursor: pointer; }
-  input, textarea, select { font-family: 'DM Sans', sans-serif; }
+  input, textarea { font-family: 'DM Sans', sans-serif; }
   ::-webkit-scrollbar { width: 6px; } ::-webkit-scrollbar-track { background: var(--bg); } ::-webkit-scrollbar-thumb { background: var(--bg4); border-radius: 3px; }
   .app { display: flex; height: 100vh; }
   .sidebar { width: 220px; min-width: 220px; background: var(--bg2); border-right: 1px solid var(--border); display: flex; flex-direction: column; padding: 20px 0; }
@@ -70,19 +70,19 @@
   .badge-accent { background: var(--accent-bg); color: var(--accent); }
   .dest-card { background: var(--bg2); border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; transition: all 0.2s; cursor: pointer; }
   .dest-card:hover { border-color: var(--border2); transform: translateY(-2px); box-shadow: var(--shadow); }
-  .dest-card-banner { height: 90px; display: flex; align-items: center; justify-content: center; font-size: 44px; background: var(--bg3); }
+  .dest-card-banner { height: 90px; display: flex; align-items: center; justify-content: center; font-size: 54px; background: var(--bg3); }
   .dest-card-body { padding: 14px; }
   .dest-card-name { font-family: 'Playfair Display', serif; font-size: 17px; font-weight: 600; margin-bottom: 3px; }
   .dest-card-meta { font-size: 11px; color: var(--text3); margin-bottom: 10px; }
   .cost-pill { background: var(--bg3); border: 1px solid var(--border); border-radius: 20px; padding: 3px 9px; font-size: 11px; color: var(--text2); }
   .cost-pill span { color: var(--accent); font-weight: 500; }
   .modal-overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.75); display: flex; align-items: center; justify-content: center; z-index: 1000; padding: 20px; backdrop-filter: blur(4px); }
-  .modal { background: var(--bg2); border: 1px solid var(--border2); border-radius: var(--radius); width: 100%; max-width: 580px; max-height: 90vh; overflow-y: auto; }
+  .modal { background: var(--bg2); border: 1px solid var(--border2); border-radius: var(--radius); width: 100%; max-width: 600px; max-height: 90vh; overflow-y: auto; }
   .modal-header { padding: 22px 22px 0; display: flex; justify-content: space-between; align-items: flex-start; }
   .modal-title { font-family: 'Playfair Display', serif; font-size: 20px; }
   .modal-body { padding: 18px 22px; }
   .modal-footer { padding: 0 22px 22px; display: flex; gap: 10px; justify-content: flex-end; }
-  .tabs { display: flex; gap: 4px; border-bottom: 1px solid var(--border); margin-bottom: 20px; }
+  .tabs { display: flex; gap: 4px; border-bottom: 1px solid var(--border); margin-bottom: 20px; flex-wrap: wrap; }
   .tab { padding: 9px 14px; font-size: 13px; color: var(--text2); cursor: pointer; border-bottom: 2px solid transparent; transition: all 0.15s; background: none; border-top: none; border-left: none; border-right: none; }
   .tab:hover { color: var(--text); }
   .tab.active { color: var(--accent); border-bottom-color: var(--accent); }
@@ -98,7 +98,6 @@
   .empty-state { text-align: center; padding: 50px 20px; color: var(--text3); }
   .empty-state .emoji { font-size: 44px; margin-bottom: 14px; }
   .empty-state h3 { font-size: 17px; color: var(--text2); margin-bottom: 6px; }
-  .divider { height: 1px; background: var(--border); margin: 16px 0; }
   .section-divider { display: flex; align-items: center; gap: 10px; margin: 16px 0; color: var(--text3); font-size: 11px; font-weight: 500; text-transform: uppercase; letter-spacing: 1px; }
   .section-divider::before, .section-divider::after { content: ''; flex: 1; height: 1px; background: var(--border); }
   .compare-col { flex: 1; min-width: 0; }
@@ -109,7 +108,18 @@
   .day-header { background: var(--bg3); padding: 12px 16px; display: flex; align-items: center; justify-content: space-between; }
   .day-number { font-family: 'Playfair Display', serif; font-size: 15px; color: var(--accent); }
   .day-body { padding: 14px 16px; }
-  .city-tag { display: inline-flex; align-items: center; gap: 6px; padding: 6px 12px; background: var(--bg3); border: 1px solid var(--border); border-radius: 20px; font-size: 13px; color: var(--text2); cursor: pointer; transition: all 0.15s; margin: 4px; }
+  /* Custom select dropdown */
+  .custom-select { position: relative; }
+  .custom-select-btn { width: 100%; background: var(--bg3); border: 1px solid var(--border2); border-radius: var(--radius-sm); padding: 10px 12px; color: var(--text); font-size: 14px; text-align: left; display: flex; justify-content: space-between; align-items: center; cursor: pointer; }
+  .custom-select-btn:hover { border-color: var(--accent-border); }
+  .custom-select-dropdown { position: absolute; top: calc(100% + 4px); left: 0; right: 0; background: var(--bg2); border: 1px solid var(--border2); border-radius: var(--radius-sm); z-index: 100; max-height: 220px; overflow-y: auto; box-shadow: var(--shadow); }
+  .custom-select-option { padding: 10px 14px; font-size: 14px; color: var(--text); cursor: pointer; transition: background 0.1s; }
+  .custom-select-option:hover { background: var(--bg3); }
+  .custom-select-option.selected { color: var(--accent); background: var(--accent-bg); }
+  /* Country group in search */
+  .country-group { margin-bottom: 10px; }
+  .country-group-header { font-size: 11px; color: var(--text3); font-weight: 600; text-transform: uppercase; letter-spacing: 1px; padding: 6px 4px 4px; }
+  .city-tag { display: inline-flex; align-items: center; gap: 6px; padding: 5px 10px; background: var(--bg3); border: 1px solid var(--border); border-radius: 20px; font-size: 13px; color: var(--text2); cursor: pointer; transition: all 0.15s; margin: 3px; }
   .city-tag:hover { border-color: var(--accent-border); color: var(--accent); }
   .flex { display: flex; } .items-center { align-items: center; } .justify-between { justify-content: space-between; }
   .gap-8 { gap: 8px; } .gap-12 { gap: 12px; }
@@ -119,6 +129,8 @@
   .w-full { width: 100%; }
   .spinner { width: 16px; height: 16px; border: 2px solid var(--border2); border-top-color: var(--accent); border-radius: 50%; animation: spin 0.8s linear infinite; }
   @keyframes spin { to { transform: rotate(360deg); } }
+  .attr-planned { border-left: 2px solid var(--green) !important; }
+  .hotel-chosen { border-left: 2px solid var(--accent) !important; }
 </style>
 </head>
 <body>
@@ -136,7 +148,18 @@ firebase.initializeApp(firebaseConfig);
 const db = firebase.firestore();
 </script>
 <script type="text/babel">
-const { useState, useEffect } = React;
+const { useState, useEffect, useRef } = React;
+
+// ─── Currency names ───────────────────────────────────────────────────────────
+const CURRENCY_NAMES = {
+  EUR: 'Euro', USD: 'Dólar americano', GBP: 'Libra esterlina', JPY: 'Iene japonês',
+  AED: 'Dirham dos Emirados', THB: 'Baht tailandês', IDR: 'Rupia indonésia',
+  SGD: 'Dólar de Singapura', KRW: 'Won sul-coreano', ARS: 'Peso argentino',
+  MXN: 'Peso mexicano', CLP: 'Peso chileno', COP: 'Peso colombiano',
+  PEN: 'Sol peruano', HUF: 'Forinto húngaro', CZK: 'Coroa tcheca',
+  MAD: 'Dirham marroquino', AUD: 'Dólar australiano', TRY: 'Lira turca',
+};
+const CURRENCIES = Object.keys(CURRENCY_NAMES);
 
 // ─── Icons ────────────────────────────────────────────────────────────────────
 const Icon = ({ name, size = 16 }) => {
@@ -153,13 +176,15 @@ const Icon = ({ name, size = 16 }) => {
     check:    <svg width={size} height={size} fill="none" stroke="currentColor" strokeWidth="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>,
     lock:     <svg width={size} height={size} fill="none" stroke="currentColor" strokeWidth="1.8" viewBox="0 0 24 24"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0110 0v4"/></svg>,
     ticket:   <svg width={size} height={size} fill="none" stroke="currentColor" strokeWidth="1.8" viewBox="0 0 24 24"><path d="M2 9a3 3 0 010-6h20a3 3 0 010 6v6a3 3 0 010 6H2a3 3 0 010-6V9z"/></svg>,
+    hotel:    <svg width={size} height={size} fill="none" stroke="currentColor" strokeWidth="1.8" viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>,
+    link:     <svg width={size} height={size} fill="none" stroke="currentColor" strokeWidth="1.8" viewBox="0 0 24 24"><path d="M10 13a5 5 0 007.54.54l3-3a5 5 0 00-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 00-7.54-.54l-3 3a5 5 0 007.07 7.07l1.71-1.71"/></svg>,
+    chevron:  <svg width={size} height={size} fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>,
   };
   return icons[name] || null;
 };
 
 // ─── Helpers ──────────────────────────────────────────────────────────────────
 const fmt = v => v ? `R$ ${Number(v).toLocaleString('pt-BR', { minimumFractionDigits: 0, maximumFractionDigits: 0 })}` : '—';
-
 const fmtCurrency = (price, currency, rates) => {
   if (!price && price !== 0) return '—';
   if (price === 0) return 'Gratuito';
@@ -168,37 +193,55 @@ const fmtCurrency = (price, currency, rates) => {
   if (rate) return `${price} ${currency} ≈ ${fmt(price * rate)}`;
   return `${price} ${currency}`;
 };
-
 const CONFIDENCE_MAP = {
   high:   { color: '#4caf82', label: 'Confirmado' },
   medium: { color: '#e0c05a', label: 'Estimado' },
   low:    { color: '#e05a5a', label: 'Incerto' },
 };
-
 function Confidence({ level }) {
   const c = CONFIDENCE_MAP[level] || CONFIDENCE_MAP.medium;
-  return (
-    <span className="confidence" style={{ color: c.color }}>
-      <span className="conf-dot" style={{ background: c.color }} />
-      {c.label}
-    </span>
-  );
+  return <span className="confidence" style={{ color: c.color }}><span className="conf-dot" style={{ background: c.color }} />{c.label}</span>;
 }
-
 function Toast({ message, onClose }) {
   useEffect(() => { const t = setTimeout(onClose, 3000); return () => clearTimeout(t); }, []);
   return <div className="toast">{message}</div>;
 }
 
+// ─── Custom Select (fix invisible text) ──────────────────────────────────────
+function CustomSelect({ options, value, onChange, placeholder = 'Selecionar...' }) {
+  const [open, setOpen] = useState(false);
+  const ref = useRef(null);
+  useEffect(() => {
+    const handler = e => { if (ref.current && !ref.current.contains(e.target)) setOpen(false); };
+    document.addEventListener('mousedown', handler);
+    return () => document.removeEventListener('mousedown', handler);
+  }, []);
+  const selected = options.find(o => o.value === value);
+  return (
+    <div className="custom-select" ref={ref}>
+      <button className="custom-select-btn" onClick={() => setOpen(o => !o)} type="button">
+        <span>{selected ? selected.label : <span style={{ color: 'var(--text3)' }}>{placeholder}</span>}</span>
+        <Icon name="chevron" size={14} />
+      </button>
+      {open && (
+        <div className="custom-select-dropdown">
+          <div className="custom-select-option" onClick={() => { onChange(''); setOpen(false); }} style={{ color: 'var(--text3)' }}>{placeholder}</div>
+          {options.map(o => (
+            <div key={o.value} className={`custom-select-option ${o.value === value ? 'selected' : ''}`} onClick={() => { onChange(o.value); setOpen(false); }}>
+              {o.label}
+            </div>
+          ))}
+        </div>
+      )}
+    </div>
+  );
+}
+
 // ─── Firebase ─────────────────────────────────────────────────────────────────
-const loadDestinations = async () => {
-  const snap = await db.collection('destinations').orderBy('createdAt', 'desc').get();
-  return snap.docs.map(d => ({ id: d.id, ...d.data() }));
-};
+const loadDestinations = async () => { const snap = await db.collection('destinations').orderBy('createdAt', 'desc').get(); return snap.docs.map(d => ({ id: d.id, ...d.data() })); };
 const saveDestination = async dest => {
   if (dest.id) { await db.collection('destinations').doc(dest.id).set(dest, { merge: true }); return dest.id; }
-  const ref = await db.collection('destinations').add({ ...dest, createdAt: firebase.firestore.FieldValue.serverTimestamp() });
-  return ref.id;
+  const ref = await db.collection('destinations').add({ ...dest, createdAt: firebase.firestore.FieldValue.serverTimestamp() }); return ref.id;
 };
 const deleteDestination = async id => db.collection('destinations').doc(id).delete();
 const loadRates = async () => { const s = await db.collection('config').doc('rates').get(); return s.exists ? s.data() : {}; };
@@ -206,25 +249,60 @@ const saveRates = async r => db.collection('config').doc('rates').set(r);
 const loadCityDB = async () => { const s = await db.collection('config').doc('citydb').get(); return s.exists ? s.data().cities || [] : []; };
 const saveCityDB = async cities => db.collection('config').doc('citydb').set({ cities });
 
+// ─── City search grouped by country ──────────────────────────────────────────
+function CitySearch({ cityDB, onSelect }) {
+  const [query, setQuery] = useState('');
+
+  const filtered = query.length > 1
+    ? cityDB.filter(c => c.name.toLowerCase().includes(query.toLowerCase()) || c.country.toLowerCase().includes(query.toLowerCase()))
+    : [...cityDB].sort((a, b) => a.name.localeCompare(b.name, 'pt'));
+
+  // Group by country, sorted
+  const grouped = filtered.reduce((acc, city) => {
+    const country = city.country || 'Outros';
+    if (!acc[country]) acc[country] = [];
+    acc[country].push(city);
+    return acc;
+  }, {});
+  const sortedCountries = Object.keys(grouped).sort((a, b) => a.localeCompare(b, 'pt'));
+
+  return (
+    <div>
+      <div className="form-group">
+        <label className="form-label">Buscar cidade</label>
+        <input className="form-input" placeholder="Ex: Roma, Paris, Tóquio..." value={query} onChange={e => setQuery(e.target.value)} autoFocus />
+      </div>
+      <div style={{ maxHeight: 300, overflowY: 'auto' }}>
+        {sortedCountries.map(country => (
+          <div key={country} className="country-group">
+            <div className="country-group-header">{grouped[country][0]?.emoji?.startsWith('🇦') || true ? grouped[country][0]?.emoji?.slice(0,2) : ''} {country}</div>
+            <div style={{ display: 'flex', flexWrap: 'wrap' }}>
+              {grouped[country].sort((a,b) => a.name.localeCompare(b.name,'pt')).map(c => (
+                <span key={c.id} className="city-tag" onClick={() => onSelect(c)}>{c.name}</span>
+              ))}
+            </div>
+          </div>
+        ))}
+        {filtered.length === 0 && <p className="text-sm text-muted" style={{ padding: '8px 4px' }}>Nenhuma cidade encontrada.</p>}
+      </div>
+    </div>
+  );
+}
+
 // ─── New Destination Modal ────────────────────────────────────────────────────
 function NewDestinationModal({ onClose, onSave, cityDB }) {
   const [step, setStep] = useState('search');
-  const [query, setQuery] = useState('');
   const [selected, setSelected] = useState(null);
   const [dates, setDates] = useState({ from: '', to: '' });
-  const [costs, setCosts] = useState({ flight: '', hotel: '', other: '' });
+  const [costs, setCosts] = useState({ flight: '', hotel: '' });
 
-  const results = query.length > 1
-    ? cityDB.filter(c => c.name.toLowerCase().includes(query.toLowerCase()) || c.country.toLowerCase().includes(query.toLowerCase()))
-    : cityDB.slice(0, 16);
-
-  const handleSelect = city => { setSelected(city); setQuery(city.name); setStep('details'); };
-  const handleManual = () => {
-    setSelected({ name: query, country: '', emoji: '🌍', currency: 'EUR', attractions: [], touristPass: { exists: false }, cityTips: null });
+  const handleSelect = city => { setSelected(city); setStep('details'); };
+  const handleManual = name => {
+    setSelected({ name, country: '', emoji: '🌍', currency: 'EUR', attractions: [], touristPass: { exists: false }, cityTips: null });
     setStep('details');
   };
   const handleSave = async () => {
-    await onSave({ name: selected.name, country: selected.country, emoji: selected.emoji, currency: selected.currency, dates, costs, attractions: selected.attractions || [], touristPass: selected.touristPass || null, cityTips: selected.cityTips || null, itinerary: [] });
+    await onSave({ name: selected.name, country: selected.country, emoji: selected.emoji, currency: selected.currency, dates, costs, attractions: selected.attractions || [], touristPass: selected.touristPass || null, cityTips: selected.cityTips || null, sportingEvents: selected.sportingEvents || [], itinerary: [], accommodations: [] });
     onClose();
   };
 
@@ -237,25 +315,13 @@ function NewDestinationModal({ onClose, onSave, cityDB }) {
         </div>
         <div className="modal-body">
           {step === 'search' && (
-            <>
-              <div className="form-group">
-                <label className="form-label">Buscar cidade</label>
-                <input className="form-input" placeholder="Ex: Roma, Paris, Tóquio..." value={query} onChange={e => { setQuery(e.target.value); setStep('search'); }} autoFocus />
-              </div>
-              <div style={{ display: 'flex', flexWrap: 'wrap', maxHeight: 260, overflowY: 'auto' }}>
-                {results.map(c => (
-                  <span key={c.id} className="city-tag" onClick={() => handleSelect(c)}>{c.emoji} {c.name}</span>
-                ))}
-              </div>
-              {query.length > 1 && results.length === 0 && (
-                <div style={{ marginTop: 12 }}>
-                  <p className="text-sm text-muted mb-8">Cidade não encontrada no banco.</p>
-                  <button className="btn btn-ghost btn-sm" onClick={handleManual}><Icon name="plus" /> Adicionar "{query}" manualmente</button>
-                </div>
-              )}
-            </>
+            <CitySearch cityDB={cityDB} onSelect={handleSelect} />
           )}
-
+          {step === 'search' && (
+            <div style={{ marginTop: 10 }}>
+              <button className="btn btn-ghost btn-sm" onClick={() => handleManual('Nova cidade')}><Icon name="plus" /> Adicionar cidade manualmente</button>
+            </div>
+          )}
           {step === 'details' && selected && (
             <>
               <div className="flex items-center gap-12 mb-16">
@@ -268,32 +334,30 @@ function NewDestinationModal({ onClose, onSave, cityDB }) {
               </div>
               {selected.touristPass?.exists && (
                 <div className="card-sm mb-12" style={{ borderLeft: '2px solid var(--accent)' }}>
-                  <div className="flex items-center gap-8">
-                    <Icon name="ticket" />
-                    <span className="text-sm" style={{ fontWeight: 500 }}>{selected.touristPass.name}</span>
-                  </div>
+                  <div className="flex items-center gap-8"><Icon name="ticket" /><span className="text-sm" style={{ fontWeight: 500 }}>{selected.touristPass.name}</span></div>
                   <p className="text-xs text-muted mt-8">⚠️ {selected.touristPass.activationNote}</p>
                 </div>
               )}
               <div className="grid-2">
                 <div className="form-group">
                   <label className="form-label">Data de ida</label>
-                  <input type="date" className="form-input" value={dates.from} onChange={e => setDates(d => ({ ...d, from: e.target.value }))} />
+                  <input type="date" className="form-input" value={dates.from} onChange={e => setDates(d => ({ ...d, from: e.target.value, to: d.to && d.to < e.target.value ? '' : d.to }))} />
                 </div>
                 <div className="form-group">
                   <label className="form-label">Data de volta</label>
-                  <input type="date" className="form-input" value={dates.to} onChange={e => setDates(d => ({ ...d, to: e.target.value }))} />
+                  <input type="date" className="form-input" value={dates.to} min={dates.from || undefined} onChange={e => setDates(d => ({ ...d, to: e.target.value }))} />
                 </div>
               </div>
               <div className="section-divider">custos estimados (R$)</div>
-              <div className="grid-3">
-                {[['✈️ Passagem', 'flight'], ['🏨 Hospedagem', 'hotel'], ['💳 Outros', 'other']].map(([label, key]) => (
+              <div className="grid-2">
+                {[['✈️ Passagem', 'flight'], ['🏨 Hospedagem', 'hotel']].map(([label, key]) => (
                   <div key={key} className="form-group" style={{ marginBottom: 0 }}>
                     <label className="form-label">{label}</label>
                     <input type="number" className="form-input" placeholder="0" value={costs[key]} onChange={e => setCosts(c => ({ ...c, [key]: e.target.value }))} />
                   </div>
                 ))}
               </div>
+              <p className="text-xs text-muted mt-8">💡 Hospedagem e outros custos podem ser calculados automaticamente a partir das atrações e do roteiro.</p>
             </>
           )}
         </div>
@@ -311,10 +375,7 @@ function DestinationsPage({ destinations, onAdd, onSelect, onDelete }) {
   return (
     <div className="page">
       <div className="page-header flex justify-between items-center">
-        <div>
-          <h1 className="page-title">Destinos</h1>
-          <p className="page-subtitle">Seus destinos planejados</p>
-        </div>
+        <div><h1 className="page-title">Destinos</h1><p className="page-subtitle">Seus destinos planejados</p></div>
         <button className="btn btn-primary" onClick={onAdd}><Icon name="plus" /> Novo destino</button>
       </div>
       {destinations.length === 0 ? (
@@ -322,7 +383,10 @@ function DestinationsPage({ destinations, onAdd, onSelect, onDelete }) {
       ) : (
         <div className="grid-auto">
           {destinations.map(dest => {
-            const total = (Number(dest.costs?.flight)||0) + (Number(dest.costs?.hotel)||0) + (Number(dest.costs?.other)||0);
+            const plannedAttrCost = (dest.attractions || []).filter(a => a.planned).reduce((s, a) => s + (Number(a.price) || 0) * (a.currency && dest.rates?.[a.currency] ? 1 : 1), 0);
+            const itineraryCost = (dest.itinerary || []).flatMap(d => d.activities || []).reduce((s, a) => s + (Number(a.cost) || 0), 0);
+            const hotelCost = (dest.accommodations || []).find(h => h.chosen)?.totalCost || Number(dest.costs?.hotel) || 0;
+            const total = (Number(dest.costs?.flight) || 0) + hotelCost + plannedAttrCost + itineraryCost;
             const days = dest.dates?.from && dest.dates?.to ? Math.ceil((new Date(dest.dates.to) - new Date(dest.dates.from)) / 86400000) : null;
             return (
               <div key={dest.id} className="dest-card" onClick={() => onSelect(dest)}>
@@ -330,9 +394,7 @@ function DestinationsPage({ destinations, onAdd, onSelect, onDelete }) {
                 <div className="dest-card-body">
                   <div className="flex justify-between items-center">
                     <h3 className="dest-card-name">{dest.name}</h3>
-                    <button className="btn-icon" style={{ padding: 5 }} onClick={e => { e.stopPropagation(); onDelete(dest.id); }}>
-                      <Icon name="trash" size={13} />
-                    </button>
+                    <button className="btn-icon" style={{ padding: 5 }} onClick={e => { e.stopPropagation(); onDelete(dest.id); }}><Icon name="trash" size={13} /></button>
                   </div>
                   <p className="dest-card-meta">
                     {dest.country && `${dest.country} · `}
@@ -342,7 +404,7 @@ function DestinationsPage({ destinations, onAdd, onSelect, onDelete }) {
                   </p>
                   <div className="flex gap-8" style={{ flexWrap: 'wrap', marginBottom: 8 }}>
                     {dest.costs?.flight && <span className="cost-pill">✈️ <span>{fmt(dest.costs.flight)}</span></span>}
-                    {dest.costs?.hotel && <span className="cost-pill">🏨 <span>{fmt(dest.costs.hotel)}</span></span>}
+                    {hotelCost > 0 && <span className="cost-pill">🏨 <span>{fmt(hotelCost)}</span></span>}
                     {total > 0 && <span className="cost-pill">Total <span>{fmt(total)}</span></span>}
                   </div>
                   {dest.touristPass?.exists && <span className="badge badge-accent"><Icon name="ticket" size={10} /> Tourist Pass</span>}
@@ -364,67 +426,86 @@ function DestinationDetail({ dest, onUpdate, onBack, rates }) {
   const [editCosts, setEditCosts] = useState(dest.costs || {});
   const [editingCosts, setEditingCosts] = useState(false);
   const [newDay, setNewDay] = useState('');
-  const [newActivity, setNewActivity] = useState({ day: null, text: '' });
+  const [newActivity, setNewActivity] = useState({ day: null, text: '', cost: '' });
   const [newAttr, setNewAttr] = useState(false);
   const [attrForm, setAttrForm] = useState({ name: '', price: '', currency: dest.currency || 'EUR', category: '', description: '', tip: '', confidence: 'medium' });
+  const [newHotel, setNewHotel] = useState(false);
+  const [hotelForm, setHotelForm] = useState({ name: '', link: '', pricePerNight: '', notes: '' });
+
+  // Computed totals
+  const plannedAttrCost = (dest.attractions || []).filter(a => a.planned).reduce((s, a) => {
+    const r = rates?.[a.currency || dest.currency];
+    return s + (r ? (Number(a.price) || 0) * r : 0);
+  }, 0);
+  const itineraryCost = (dest.itinerary || []).flatMap(d => d.activities || []).reduce((s, a) => s + (Number(a.cost) || 0), 0);
+  const chosenHotel = (dest.accommodations || []).find(h => h.chosen);
+  const hotelTotal = chosenHotel?.totalCost || Number(dest.costs?.hotel) || 0;
+  const flightCost = Number(dest.costs?.flight) || 0;
+  const grandTotal = flightCost + hotelTotal + plannedAttrCost + itineraryCost;
+  const days = dest.dates?.from && dest.dates?.to ? Math.ceil((new Date(dest.dates.to) - new Date(dest.dates.from)) / 86400000) : null;
 
   const saveCosts = async () => { await onUpdate({ ...dest, costs: editCosts }); setEditingCosts(false); };
 
+  const toggleAttrPlanned = async idx => {
+    const updated = [...dest.attractions];
+    updated[idx] = { ...updated[idx], planned: !updated[idx].planned };
+    await onUpdate({ ...dest, attractions: updated });
+  };
   const saveAttrPrice = async (idx, val) => {
     const updated = [...dest.attractions];
     updated[idx] = { ...updated[idx], price: parseFloat(val) || 0, confidence: 'medium' };
     await onUpdate({ ...dest, attractions: updated });
     setEditingAttr(null);
   };
-
   const addAttr = async () => {
-    const updated = [...(dest.attractions || []), { ...attrForm, price: parseFloat(attrForm.price) || 0 }];
+    const updated = [...(dest.attractions || []), { ...attrForm, price: parseFloat(attrForm.price) || 0, planned: false }];
     await onUpdate({ ...dest, attractions: updated });
     setNewAttr(false);
     setAttrForm({ name: '', price: '', currency: dest.currency || 'EUR', category: '', description: '', tip: '', confidence: 'medium' });
   };
-
-  const removeAttr = async idx => {
-    const updated = [...dest.attractions]; updated.splice(idx, 1);
-    await onUpdate({ ...dest, attractions: updated });
-  };
+  const removeAttr = async idx => { const u = [...dest.attractions]; u.splice(idx, 1); await onUpdate({ ...dest, attractions: u }); };
 
   const addDay = async () => {
     if (!newDay.trim()) return;
     const itinerary = [...(dest.itinerary || []), { date: newDay, activities: [] }];
     itinerary.sort((a, b) => a.date.localeCompare(b.date));
-    await onUpdate({ ...dest, itinerary });
-    setNewDay('');
+    await onUpdate({ ...dest, itinerary }); setNewDay('');
   };
-
   const addActivity = async dayIdx => {
     if (!newActivity.text.trim()) return;
     const itinerary = JSON.parse(JSON.stringify(dest.itinerary || []));
-    itinerary[dayIdx].activities = [...(itinerary[dayIdx].activities || []), { text: newActivity.text, done: false }];
-    await onUpdate({ ...dest, itinerary });
-    setNewActivity({ day: null, text: '' });
+    itinerary[dayIdx].activities = [...(itinerary[dayIdx].activities || []), { text: newActivity.text, cost: parseFloat(newActivity.cost) || 0, done: false }];
+    await onUpdate({ ...dest, itinerary }); setNewActivity({ day: null, text: '', cost: '' });
   };
-
   const toggleActivity = async (dayIdx, actIdx) => {
     const itinerary = JSON.parse(JSON.stringify(dest.itinerary || []));
     itinerary[dayIdx].activities[actIdx].done = !itinerary[dayIdx].activities[actIdx].done;
     await onUpdate({ ...dest, itinerary });
   };
-
   const removeActivity = async (dayIdx, actIdx) => {
     const itinerary = JSON.parse(JSON.stringify(dest.itinerary || []));
     itinerary[dayIdx].activities.splice(actIdx, 1);
     await onUpdate({ ...dest, itinerary });
   };
+  const removeDay = async dayIdx => { const it = JSON.parse(JSON.stringify(dest.itinerary || [])); it.splice(dayIdx, 1); await onUpdate({ ...dest, itinerary: it }); };
 
-  const removeDay = async dayIdx => {
-    const itinerary = JSON.parse(JSON.stringify(dest.itinerary || []));
-    itinerary.splice(dayIdx, 1);
-    await onUpdate({ ...dest, itinerary });
+  // Accommodations
+  const addHotel = async () => {
+    const nights = days || 1;
+    const totalCost = (parseFloat(hotelForm.pricePerNight) || 0) * nights;
+    const acc = [...(dest.accommodations || []), { ...hotelForm, nights, totalCost, chosen: false }];
+    await onUpdate({ ...dest, accommodations: acc });
+    setNewHotel(false); setHotelForm({ name: '', link: '', pricePerNight: '', notes: '' });
   };
+  const toggleChosenHotel = async idx => {
+    const acc = (dest.accommodations || []).map((h, i) => ({ ...h, chosen: i === idx ? !h.chosen : false }));
+    const chosen = acc[idx].chosen ? acc[idx] : null;
+    const newCosts = { ...dest.costs, hotel: chosen ? chosen.totalCost : '' };
+    await onUpdate({ ...dest, accommodations: acc, costs: newCosts });
+  };
+  const removeHotel = async idx => { const acc = [...(dest.accommodations || [])]; acc.splice(idx, 1); await onUpdate({ ...dest, accommodations: acc }); };
 
-  const days = dest.dates?.from && dest.dates?.to ? Math.ceil((new Date(dest.dates.to) - new Date(dest.dates.from)) / 86400000) : null;
-  const total = (Number(dest.costs?.flight)||0) + (Number(dest.costs?.hotel)||0) + (Number(dest.costs?.other)||0);
+  const TABS = ['atrações', 'roteiro', 'hospedagem', 'dicas', 'esportes'];
 
   return (
     <div className="page">
@@ -447,21 +528,17 @@ function DestinationDetail({ dest, onUpdate, onBack, rates }) {
         <div className="flex justify-between items-center mb-14">
           <span style={{ fontWeight: 500 }}>Custos</span>
           {!editingCosts
-            ? <button className="btn btn-ghost btn-sm" onClick={() => setEditingCosts(true)}><Icon name="edit" size={13} /> Editar</button>
+            ? <button className="btn btn-ghost btn-sm" onClick={() => setEditingCosts(true)}><Icon name="edit" size={13} /> Editar passagem</button>
             : <button className="btn btn-primary btn-sm" onClick={saveCosts}><Icon name="check" size={13} /> Salvar</button>}
         </div>
         {editingCosts ? (
-          <div className="grid-3">
-            {[['✈️ Passagem (R$)', 'flight'], ['🏨 Hospedagem (R$)', 'hotel'], ['💳 Outros (R$)', 'other']].map(([label, key]) => (
-              <div key={key} className="form-group" style={{ marginBottom: 0 }}>
-                <label className="form-label">{label}</label>
-                <input type="number" className="form-input" value={editCosts[key] || ''} onChange={e => setEditCosts(c => ({ ...c, [key]: e.target.value }))} />
-              </div>
-            ))}
+          <div className="form-group" style={{ marginBottom: 0 }}>
+            <label className="form-label">✈️ Passagem (R$)</label>
+            <input type="number" className="form-input" style={{ maxWidth: 200 }} value={editCosts.flight || ''} onChange={e => setEditCosts(c => ({ ...c, flight: e.target.value }))} />
           </div>
         ) : (
           <div className="grid-3">
-            {[['✈️ Passagem', dest.costs?.flight], ['🏨 Hospedagem', dest.costs?.hotel], ['💳 Outros', dest.costs?.other]].map(([label, val]) => (
+            {[['✈️ Passagem', flightCost], ['🏨 Hospedagem', hotelTotal], ['🎭 Atrações + roteiro', plannedAttrCost + itineraryCost]].map(([label, val]) => (
               <div key={label} style={{ background: 'var(--bg3)', borderRadius: 8, padding: '10px 14px' }}>
                 <p className="text-xs text-muted mb-8">{label}</p>
                 <p style={{ fontSize: 17, fontWeight: 500, color: val ? 'var(--accent)' : 'var(--text3)' }}>{val ? fmt(val) : '—'}</p>
@@ -469,13 +546,13 @@ function DestinationDetail({ dest, onUpdate, onBack, rates }) {
             ))}
           </div>
         )}
-        {total > 0 && <div style={{ textAlign: 'right', color: 'var(--text2)', fontSize: 13, marginTop: 12 }}>Total: <span style={{ color: 'var(--accent)', fontWeight: 600, fontSize: 17 }}>{fmt(total)}</span></div>}
+        {grandTotal > 0 && <div style={{ textAlign: 'right', color: 'var(--text2)', fontSize: 13, marginTop: 12 }}>Total estimado: <span style={{ color: 'var(--accent)', fontWeight: 600, fontSize: 17 }}>{fmt(grandTotal)}</span>{days && grandTotal > 0 ? <span style={{ fontSize: 12, marginLeft: 8 }}>· {fmt(grandTotal / days)}/dia</span> : null}</div>}
       </div>
 
       <div className="tabs">
-        {['atrações', 'roteiro', 'dicas', 'esportes'].map(t => (
+        {TABS.map(t => (
           <button key={t} className={`tab ${activeTab === t ? 'active' : ''}`} onClick={() => setActiveTab(t)}>
-            {t === 'esportes' && (dest.sportingEvents||[]).length > 0 ? `🏟️ Esportes (${(dest.sportingEvents||[]).length})` : t.charAt(0).toUpperCase() + t.slice(1)}
+            {t === 'esportes' && (dest.sportingEvents || []).length > 0 ? `🏟️ Esportes (${(dest.sportingEvents || []).length})` : t.charAt(0).toUpperCase() + t.slice(1)}
           </button>
         ))}
       </div>
@@ -485,24 +562,29 @@ function DestinationDetail({ dest, onUpdate, onBack, rates }) {
         <div>
           {dest.touristPass?.exists && (
             <div className="card-sm mb-14" style={{ borderLeft: '2px solid var(--accent)' }}>
-              <div className="flex items-center gap-8 mb-6">
-                <Icon name="ticket" />
-                <span style={{ fontWeight: 500, fontSize: 14 }}>{dest.touristPass.name}</span>
-                <span className="badge badge-accent">{fmtCurrency(dest.touristPass.price, dest.touristPass.currency || dest.currency, rates)}</span>
-              </div>
+              <div className="flex items-center gap-8 mb-6"><Icon name="ticket" /><span style={{ fontWeight: 500, fontSize: 14 }}>{dest.touristPass.name}</span><span className="badge badge-accent">{fmtCurrency(dest.touristPass.price, dest.touristPass.currency || dest.currency, rates)}</span></div>
               <p className="text-xs text-muted">⚠️ {dest.touristPass.activationNote}</p>
               {dest.touristPass.includes?.length > 0 && <p className="text-xs text-muted mt-8">Inclui: {dest.touristPass.includes.join(', ')}</p>}
               {dest.touristPass.buyLink && <a href={dest.touristPass.buyLink} target="_blank" rel="noreferrer" className="text-xs text-accent" style={{ marginTop: 6, display: 'block' }}>🔗 Comprar online</a>}
             </div>
           )}
-
+          {plannedAttrCost > 0 && (
+            <div className="card-sm mb-14" style={{ background: 'var(--green-bg)', borderColor: 'rgba(76,175,130,0.2)' }}>
+              <p className="text-xs text-muted mb-4">Atrações marcadas como "vamos fazer"</p>
+              <p style={{ fontWeight: 600, color: 'var(--green)', fontSize: 15 }}>{fmt(plannedAttrCost)} <span className="text-xs text-muted">já incluído no total</span></p>
+            </div>
+          )}
           <div style={{ display: 'flex', flexDirection: 'column', gap: 8, marginBottom: 12 }}>
             {(dest.attractions || []).map((attr, i) => (
-              <div key={i} className="card-sm" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', gap: 12 }}>
+              <div key={i} className={`card-sm ${attr.planned ? 'attr-planned' : ''}`} style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', gap: 12 }}>
                 <div style={{ flex: 1 }}>
                   <div className="flex items-center gap-8 mb-4">
+                    <div className={`checkbox ${attr.planned ? 'checked' : ''}`} style={{ flexShrink: 0 }} onClick={() => toggleAttrPlanned(i)} title="Marcar como planejado">
+                      {attr.planned && <Icon name="check" size={10} />}
+                    </div>
                     <span style={{ fontWeight: 500, fontSize: 13 }}>{attr.name}</span>
                     {attr.category && <span className="badge badge-blue" style={{ fontSize: 10 }}>{attr.category}</span>}
+                    {attr.planned && <span className="badge badge-green" style={{ fontSize: 10 }}>Planejado ✓</span>}
                   </div>
                   {attr.description && <p className="text-xs text-muted">{attr.description}</p>}
                   {attr.tip && <p className="text-xs mt-8" style={{ color: 'var(--accent)' }}>💡 {attr.tip}</p>}
@@ -530,7 +612,6 @@ function DestinationDetail({ dest, onUpdate, onBack, rates }) {
               </div>
             ))}
           </div>
-
           {newAttr ? (
             <div className="card-sm">
               <p className="text-sm" style={{ fontWeight: 500, marginBottom: 12 }}>Nova atração</p>
@@ -544,9 +625,7 @@ function DestinationDetail({ dest, onUpdate, onBack, rates }) {
                 <div className="form-group" style={{ marginBottom: 0 }}>
                   <label className="form-label">Confiabilidade</label>
                   <select className="form-input" value={attrForm.confidence} onChange={e => setAttrForm(f => ({ ...f, confidence: e.target.value }))}>
-                    <option value="high">🟢 Confirmado</option>
-                    <option value="medium">🟡 Estimado</option>
-                    <option value="low">🔴 Incerto</option>
+                    <option value="high">🟢 Confirmado</option><option value="medium">🟡 Estimado</option><option value="low">🔴 Incerto</option>
                   </select>
                 </div>
               </div>
@@ -570,21 +649,27 @@ function DestinationDetail({ dest, onUpdate, onBack, rates }) {
             <input type="date" className="form-input" style={{ width: 'auto', flex: 1 }} value={newDay} onChange={e => setNewDay(e.target.value)} />
             <button className="btn btn-primary" onClick={addDay}><Icon name="plus" /> Adicionar dia</button>
           </div>
+          {itineraryCost > 0 && (
+            <div className="card-sm mb-14" style={{ background: 'var(--blue-bg)', borderColor: 'rgba(90,159,224,0.2)' }}>
+              <p className="text-xs text-muted mb-4">Custos de atividades no roteiro</p>
+              <p style={{ fontWeight: 600, color: 'var(--blue)', fontSize: 15 }}>{fmt(itineraryCost)} <span className="text-xs text-muted">já incluído no total</span></p>
+            </div>
+          )}
           {(dest.itinerary || []).length === 0 ? (
             <div className="empty-state"><div className="emoji">📅</div><h3>Nenhum dia no roteiro</h3></div>
           ) : (
             (dest.itinerary || []).map((day, di) => {
               const done = (day.activities || []).filter(a => a.done).length;
+              const dayCost = (day.activities || []).reduce((s, a) => s + (Number(a.cost) || 0), 0);
               return (
                 <div key={di} className="day-card">
                   <div className="day-header">
                     <div>
                       <span className="day-number">Dia {di + 1}</span>
-                      <span className="text-sm text-muted" style={{ marginLeft: 10 }}>
-                        {new Date(day.date + 'T12:00:00').toLocaleDateString('pt-BR', { weekday: 'long', day: '2-digit', month: 'long' })}
-                      </span>
+                      <span className="text-sm text-muted" style={{ marginLeft: 10 }}>{new Date(day.date + 'T12:00:00').toLocaleDateString('pt-BR', { weekday: 'long', day: '2-digit', month: 'long' })}</span>
                     </div>
                     <div className="flex items-center gap-8">
+                      {dayCost > 0 && <span className="text-xs" style={{ color: 'var(--blue)' }}>{fmt(dayCost)}</span>}
                       {(day.activities || []).length > 0 && <span className="badge badge-green">{done}/{(day.activities || []).length}</span>}
                       <button className="btn-icon" style={{ padding: 5 }} onClick={() => removeDay(di)}><Icon name="trash" size={12} /></button>
                     </div>
@@ -592,21 +677,25 @@ function DestinationDetail({ dest, onUpdate, onBack, rates }) {
                   <div className="day-body">
                     {(day.activities || []).map((act, ai) => (
                       <div key={ai} className={`check-item ${act.done ? 'done' : ''}`}>
-                        <div className={`checkbox ${act.done ? 'checked' : ''}`} onClick={() => toggleActivity(di, ai)}>
-                          {act.done && <Icon name="check" size={10} />}
-                        </div>
+                        <div className={`checkbox ${act.done ? 'checked' : ''}`} onClick={() => toggleActivity(di, ai)}>{act.done && <Icon name="check" size={10} />}</div>
                         <span className="check-text" style={{ flex: 1, fontSize: 13 }}>{act.text}</span>
+                        {act.cost > 0 && <span className="text-xs" style={{ color: 'var(--blue)', flexShrink: 0 }}>{fmt(act.cost)}</span>}
                         <button className="btn-icon" style={{ padding: 4 }} onClick={() => removeActivity(di, ai)}><Icon name="trash" size={11} /></button>
                       </div>
                     ))}
                     {newActivity.day === di ? (
-                      <div className="flex gap-8 mt-8">
-                        <input className="form-input" placeholder="Nova atividade..." value={newActivity.text} onChange={e => setNewActivity(a => ({ ...a, text: e.target.value }))} onKeyDown={e => e.key === 'Enter' && addActivity(di)} autoFocus />
-                        <button className="btn btn-primary btn-sm" onClick={() => addActivity(di)}>OK</button>
-                        <button className="btn btn-ghost btn-sm" onClick={() => setNewActivity({ day: null, text: '' })}>✕</button>
+                      <div style={{ marginTop: 10 }}>
+                        <div className="grid-2 mb-8" style={{ gap: 8 }}>
+                          <input className="form-input" placeholder="Atividade..." value={newActivity.text} onChange={e => setNewActivity(a => ({ ...a, text: e.target.value }))} onKeyDown={e => e.key === 'Enter' && addActivity(di)} autoFocus />
+                          <input type="number" className="form-input" placeholder="Custo R$ (opcional)" value={newActivity.cost} onChange={e => setNewActivity(a => ({ ...a, cost: e.target.value }))} />
+                        </div>
+                        <div className="flex gap-8">
+                          <button className="btn btn-primary btn-sm" onClick={() => addActivity(di)}>OK</button>
+                          <button className="btn btn-ghost btn-sm" onClick={() => setNewActivity({ day: null, text: '', cost: '' })}>✕</button>
+                        </div>
                       </div>
                     ) : (
-                      <button className="btn btn-ghost btn-sm mt-8" onClick={() => setNewActivity({ day: di, text: '' })}><Icon name="plus" size={13} /> Atividade</button>
+                      <button className="btn btn-ghost btn-sm mt-8" onClick={() => setNewActivity({ day: di, text: '', cost: '' })}><Icon name="plus" size={13} /> Atividade</button>
                     )}
                   </div>
                 </div>
@@ -616,70 +705,55 @@ function DestinationDetail({ dest, onUpdate, onBack, rates }) {
         </div>
       )}
 
-      {/* Tab: Esportes */}
-      {activeTab === 'esportes' && (
-        (dest.sportingEvents || []).length === 0 ? (
-          <div className="empty-state"><div className="emoji">🏟️</div><h3>Nenhum evento esportivo mapeado</h3><p>Esta cidade não tem eventos tênis/futebol/esporte relevantes no radar</p></div>
-        ) : (
-          <div style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>
-            {(dest.sportingEvents || []).map((ev, i) => {
-              const confColors = { confirmed_2026: 'var(--green)', confirmed_2027: 'var(--green)', confirmed_2027_final: 'var(--accent)', estimated: 'var(--yellow)' };
-              const confLabels = { confirmed_2026: '✅ Confirmado 2026', confirmed_2027: '✅ Confirmado 2027', confirmed_2027_final: '🏆 Confirmado 2027', estimated: '📅 Estimado' };
-              const sportIcons = { 'tênis': '🎾', 'futebol': '⚽', 'basquete': '🏀', 'beisebol': '⚾', 'rugby': '🏉', 'rugby league': '🏉', 'automobilismo': '🏎️', 'MMA': '🥊' };
-              return (
-                <div key={i} className="card-sm">
-                  <div className="flex justify-between items-center mb-8">
-                    <div className="flex items-center gap-8">
-                      <span style={{ fontSize: 20 }}>{sportIcons[ev.sport] || '🏟️'}</span>
-                      <div>
-                        <p style={{ fontWeight: 600, fontSize: 14 }}>{ev.name}</p>
-                        <span className="badge badge-blue" style={{ fontSize: 10 }}>{ev.type}</span>
-                      </div>
+      {/* Tab: Hospedagem */}
+      {activeTab === 'hospedagem' && (
+        <div>
+          <p className="text-sm text-muted mb-14">Salve as opções que está pesquisando. Ao marcar uma como escolhida, o valor entra automaticamente no total.</p>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: 10, marginBottom: 14 }}>
+            {(dest.accommodations || []).map((hotel, i) => (
+              <div key={i} className={`card-sm ${hotel.chosen ? 'hotel-chosen' : ''}`}>
+                <div className="flex justify-between items-center mb-8">
+                  <div className="flex items-center gap-10">
+                    <div className={`checkbox ${hotel.chosen ? 'checked' : ''}`} onClick={() => toggleChosenHotel(i)} title="Marcar como escolhido">
+                      {hotel.chosen && <Icon name="check" size={10} />}
                     </div>
-                    <span style={{ fontSize: 11, color: confColors[ev.confidence] || 'var(--text3)', fontWeight: 500 }}>
-                      {confLabels[ev.confidence] || ev.confidence}
-                    </span>
-                  </div>
-                  <div className="grid-2 mt-8" style={{ gap: 8 }}>
-                    <div className="card-sm" style={{ padding: '8px 12px', background: 'var(--bg4)' }}>
-                      <p className="text-xs text-muted mb-4">📍 Local</p>
-                      <p className="text-xs">{ev.venue}</p>
-                    </div>
-                    <div className="card-sm" style={{ padding: '8px 12px', background: 'var(--bg4)' }}>
-                      <p className="text-xs text-muted mb-4">💰 Ingresso aprox.</p>
-                      <p className="text-xs" style={{ color: 'var(--accent)', fontWeight: 500 }}>{ev.ticket_price_approx || '—'}</p>
+                    <div>
+                      <p style={{ fontWeight: 600, fontSize: 14 }}>{hotel.name}</p>
+                      {hotel.chosen && <span className="badge badge-accent" style={{ fontSize: 10 }}>Escolhido ✓</span>}
                     </div>
                   </div>
-                  {(ev.dates_2026 || ev.dates_2027) && (
-                    <div className="grid-2 mt-8" style={{ gap: 8 }}>
-                      {ev.dates_2026 && ev.dates_2026 !== 'N/A' && (
-                        <div className="card-sm" style={{ padding: '8px 12px', background: 'var(--bg4)' }}>
-                          <p className="text-xs text-muted mb-4">🗓 2026</p>
-                          <p className="text-xs">{ev.dates_2026}</p>
-                        </div>
-                      )}
-                      {ev.dates_2027 && ev.dates_2027 !== 'N/A' && (
-                        <div className="card-sm" style={{ padding: '8px 12px', background: 'var(--bg4)' }}>
-                          <p className="text-xs text-muted mb-4">🗓 2027</p>
-                          <p className="text-xs">{ev.dates_2027}</p>
-                        </div>
-                      )}
+                  <div className="flex items-center gap-8">
+                    <div style={{ textAlign: 'right' }}>
+                      {hotel.pricePerNight && <p style={{ color: 'var(--accent)', fontWeight: 500, fontSize: 13 }}>R$ {hotel.pricePerNight}/noite</p>}
+                      {hotel.totalCost > 0 && <p className="text-xs text-muted">{fmt(hotel.totalCost)} total ({hotel.nights}n)</p>}
                     </div>
-                  )}
-                  {ev.ticket_tip && (
-                    <p className="text-xs mt-8" style={{ color: 'var(--accent)', lineHeight: 1.5 }}>💡 {ev.ticket_tip}</p>
-                  )}
-                  {ev.notes && (
-                    <p className="text-xs mt-6 text-muted" style={{ lineHeight: 1.5 }}>{ev.notes}</p>
-                  )}
-                  {ev.buy_link && (
-                    <a href={ev.buy_link} target="_blank" rel="noreferrer" className="text-xs text-accent mt-8" style={{ display: 'inline-block' }}>🔗 Comprar ingresso</a>
-                  )}
+                    <button className="btn-icon" style={{ padding: 5 }} onClick={() => removeHotel(i)}><Icon name="trash" size={12} /></button>
+                  </div>
                 </div>
-              );
-            })}
+                {hotel.notes && <p className="text-xs text-muted">{hotel.notes}</p>}
+                {hotel.link && <a href={hotel.link} target="_blank" rel="noreferrer" className="text-xs text-accent mt-6" style={{ display: 'inline-flex', alignItems: 'center', gap: 4 }}><Icon name="link" size={11} /> Ver opção</a>}
+              </div>
+            ))}
           </div>
-        )
+          {newHotel ? (
+            <div className="card-sm">
+              <p className="text-sm" style={{ fontWeight: 500, marginBottom: 12 }}>Nova opção de hospedagem</p>
+              <div className="grid-2 mb-8">
+                <div className="form-group" style={{ marginBottom: 0 }}><label className="form-label">Nome / descrição</label><input className="form-input" placeholder="Ex: Airbnb centro, Hotel X..." value={hotelForm.name} onChange={e => setHotelForm(f => ({ ...f, name: e.target.value }))} autoFocus /></div>
+                <div className="form-group" style={{ marginBottom: 0 }}><label className="form-label">Preço/noite (R$)</label><input type="number" className="form-input" value={hotelForm.pricePerNight} onChange={e => setHotelForm(f => ({ ...f, pricePerNight: e.target.value }))} /></div>
+              </div>
+              <div className="form-group mb-8"><label className="form-label">Link (Airbnb, Booking, etc.)</label><input className="form-input" placeholder="https://..." value={hotelForm.link} onChange={e => setHotelForm(f => ({ ...f, link: e.target.value }))} /></div>
+              <div className="form-group" style={{ marginBottom: 0 }}><label className="form-label">Notas</label><input className="form-input" placeholder="Avaliação, distância do centro..." value={hotelForm.notes} onChange={e => setHotelForm(f => ({ ...f, notes: e.target.value }))} /></div>
+              {days && hotelForm.pricePerNight && <p className="text-xs text-muted mt-8">Total estimado: {fmt(parseFloat(hotelForm.pricePerNight) * days)} ({days} noites)</p>}
+              <div className="flex gap-8 mt-12">
+                <button className="btn btn-primary btn-sm" onClick={addHotel} disabled={!hotelForm.name}>Salvar</button>
+                <button className="btn btn-ghost btn-sm" onClick={() => setNewHotel(false)}>Cancelar</button>
+              </div>
+            </div>
+          ) : (
+            <button className="btn btn-ghost btn-sm" onClick={() => setNewHotel(true)}><Icon name="plus" /> Adicionar opção</button>
+          )}
+        </div>
       )}
 
       {/* Tab: Dicas */}
@@ -687,13 +761,52 @@ function DestinationDetail({ dest, onUpdate, onBack, rates }) {
         dest.cityTips ? (
           <div className="grid-2">
             {[['💰 Moeda / câmbio', dest.cityTips.currency], ['🚇 Transporte', dest.cityTips.transport], ['🌸 Melhor época', dest.cityTips.bestSeason], ['🗣️ Idioma', dest.cityTips.language], ['🔒 Segurança', dest.cityTips.safety], ['💳 Pagamento', dest.cityTips.payment], ['🍽️ Gastronomia', dest.cityTips.food]].map(([label, val]) => val && (
-              <div key={label} className="card-sm">
-                <p className="text-xs text-muted mb-6">{label}</p>
-                <p className="text-sm" style={{ lineHeight: 1.6 }}>{val}</p>
-              </div>
+              <div key={label} className="card-sm"><p className="text-xs text-muted mb-6">{label}</p><p className="text-sm" style={{ lineHeight: 1.6 }}>{val}</p></div>
             ))}
           </div>
         ) : <div className="empty-state"><div className="emoji">💡</div><h3>Nenhuma dica disponível</h3></div>
+      )}
+
+      {/* Tab: Esportes */}
+      {activeTab === 'esportes' && (
+        (dest.sportingEvents || []).length === 0 ? (
+          <div className="empty-state"><div className="emoji">🏟️</div><h3>Nenhum evento esportivo mapeado</h3></div>
+        ) : (
+          <div style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>
+            {(dest.sportingEvents || []).map((ev, i) => {
+              const sportIcons = { 'tênis': '🎾', 'futebol': '⚽', 'basquete': '🏀', 'beisebol': '⚾', 'rugby': '🏉', 'rugby league': '🏉', 'automobilismo': '🏎️', 'MMA': '🥊' };
+              return (
+                <div key={i} className="card-sm">
+                  <div className="flex items-center gap-8 mb-10">
+                    <span style={{ fontSize: 20 }}>{sportIcons[ev.sport] || '🏟️'}</span>
+                    <div style={{ flex: 1 }}>
+                      <p style={{ fontWeight: 600, fontSize: 14 }}>{ev.name}</p>
+                      <div className="flex items-center gap-8 mt-4">
+                        <span className="badge badge-blue" style={{ fontSize: 10 }}>{ev.type}</span>
+                        {ev.venue && <span className="text-xs text-muted">📍 {ev.venue}</span>}
+                      </div>
+                    </div>
+                    <span className="badge badge-accent" style={{ fontSize: 10 }}>{ev.ticket_price_approx}</span>
+                  </div>
+                  {/* Editions */}
+                  {(ev.editions || []).length > 0 && (
+                    <div style={{ display: 'flex', gap: 6, flexWrap: 'wrap', marginBottom: 8 }}>
+                      {(ev.editions || []).map((ed, j) => (
+                        <div key={j} className="card-sm" style={{ padding: '6px 10px', background: ed.confirmed ? 'var(--green-bg)' : 'var(--bg4)', borderColor: ed.confirmed ? 'rgba(76,175,130,0.2)' : 'var(--border)', minWidth: 90 }}>
+                          <p style={{ fontSize: 11, fontWeight: 600, color: ed.confirmed ? 'var(--green)' : 'var(--text2)' }}>{ed.year} {ed.confirmed ? '✅' : '📅'}</p>
+                          <p style={{ fontSize: 10, color: 'var(--text3)', marginTop: 2 }}>{ed.dates}</p>
+                        </div>
+                      ))}
+                    </div>
+                  )}
+                  {ev.ticket_tip && <p className="text-xs mt-6" style={{ color: 'var(--accent)', lineHeight: 1.5 }}>💡 {ev.ticket_tip}</p>}
+                  {ev.notes && <p className="text-xs mt-6 text-muted" style={{ lineHeight: 1.5 }}>{ev.notes}</p>}
+                  {ev.buy_link && <a href={ev.buy_link} target="_blank" rel="noreferrer" className="text-xs text-accent mt-8" style={{ display: 'inline-block' }}>🔗 Comprar ingresso</a>}
+                </div>
+              );
+            })}
+          </div>
+        )
       )}
     </div>
   );
@@ -703,16 +816,23 @@ function DestinationDetail({ dest, onUpdate, onBack, rates }) {
 function ComparePage({ destinations, rates }) {
   const [sel, setSel] = useState([null, null]);
   const dests = sel.map(id => destinations.find(d => d.id === id) || null);
-  const totalCost = d => d ? (Number(d.costs?.flight)||0) + (Number(d.costs?.hotel)||0) + (Number(d.costs?.other)||0) : 0;
+
+  const totalCost = d => {
+    if (!d) return 0;
+    const flight = Number(d.costs?.flight) || 0;
+    const hotel = (d.accommodations || []).find(h => h.chosen)?.totalCost || Number(d.costs?.hotel) || 0;
+    const attrs = (d.attractions || []).filter(a => a.planned).reduce((s, a) => { const r = rates?.[a.currency || d.currency]; return s + (r ? (Number(a.price) || 0) * r : 0); }, 0);
+    const itinerary = (d.itinerary || []).flatMap(dy => dy.activities || []).reduce((s, a) => s + (Number(a.cost) || 0), 0);
+    return flight + hotel + attrs + itinerary;
+  };
+
   const totals = dests.map(d => totalCost(d));
   const winnerIdx = totals[0] > 0 && totals[1] > 0 ? (totals[0] <= totals[1] ? 0 : 1) : -1;
+  const destOptions = destinations.map(d => ({ value: d.id, label: `${d.emoji} ${d.name}` }));
 
   return (
     <div className="page">
-      <div className="page-header">
-        <h1 className="page-title">Comparativo</h1>
-        <p className="page-subtitle">Compare custos entre dois destinos</p>
-      </div>
+      <div className="page-header"><h1 className="page-title">Comparativo</h1><p className="page-subtitle">Compare custos entre dois destinos</p></div>
       {destinations.length < 2 ? (
         <div className="empty-state"><div className="emoji">⚖️</div><h3>Você precisa de pelo menos 2 destinos</h3></div>
       ) : (
@@ -722,22 +842,19 @@ function ComparePage({ destinations, rates }) {
               <div key={i} className="compare-col">
                 <div className={`compare-header ${winnerIdx === i ? 'compare-winner' : ''}`}>
                   {winnerIdx === i && <div className="badge badge-accent mb-8">✈️ Mais em conta</div>}
-                  <span style={{ fontSize: 32, display: 'block', marginBottom: 8 }}>{dests[i]?.emoji || '🌍'}</span>
-                  <select className="form-input" style={{ textAlign: 'center', background: 'transparent' }} value={sel[i] || ''} onChange={e => { const n = [...sel]; n[i] = e.target.value || null; setSel(n); }}>
-                    <option value="">Selecionar...</option>
-                    {destinations.map(d => <option key={d.id} value={d.id}>{d.emoji} {d.name}</option>)}
-                  </select>
+                  <span style={{ fontSize: 32, display: 'block', marginBottom: 10 }}>{dests[i]?.emoji || '🌍'}</span>
+                  <CustomSelect options={destOptions} value={sel[i] || ''} onChange={v => { const n = [...sel]; n[i] = v || null; setSel(n); }} placeholder="Selecionar..." />
                 </div>
                 {dests[i] && (
                   <div>
-                    {[['✈️ Passagem', dests[i].costs?.flight], ['🏨 Hospedagem', dests[i].costs?.hotel], ['💳 Outros', dests[i].costs?.other]].map(([label, val]) => (
+                    {[['✈️ Passagem', Number(dests[i].costs?.flight) || 0], ['🏨 Hospedagem', (dests[i].accommodations || []).find(h => h.chosen)?.totalCost || Number(dests[i].costs?.hotel) || 0], ['🎭 Atrações planejadas', (dests[i].attractions || []).filter(a => a.planned).reduce((s, a) => { const r = rates?.[a.currency || dests[i].currency]; return s + (r ? (Number(a.price)||0)*r : 0); }, 0)], ['📅 Roteiro', (dests[i].itinerary || []).flatMap(d => d.activities || []).reduce((s, a) => s + (Number(a.cost) || 0), 0)]].map(([label, val]) => (
                       <div key={label} className="card-sm mb-8 flex justify-between items-center">
                         <span className="text-sm text-muted">{label}</span>
                         <span className="text-sm" style={{ fontWeight: 500 }}>{val ? fmt(val) : '—'}</span>
                       </div>
                     ))}
-                    <div className="section-divider">atrações principais</div>
-                    {(dests[i].attractions || []).slice(0, 5).map((a, j) => (
+                    <div className="section-divider">atrações do banco</div>
+                    {(dests[i].attractions || []).slice(0, 4).map((a, j) => (
                       <div key={j} className="card-sm mb-6 flex justify-between items-center">
                         <span className="text-xs text-muted" style={{ flex: 1 }}>{a.name}</span>
                         <div className="flex items-center gap-6">
@@ -748,12 +865,9 @@ function ComparePage({ destinations, rates }) {
                     ))}
                     <div className="section-divider">total</div>
                     <div className={`compare-header ${winnerIdx === i ? 'compare-winner' : ''}`} style={{ marginTop: 0 }}>
-                      <p className="text-xs text-muted mb-6">Passagem + hospedagem + outros</p>
+                      <p className="text-xs text-muted mb-6">Passagem + hospedagem + atrações + roteiro</p>
                       <p style={{ fontSize: 22, fontWeight: 600, color: 'var(--accent)' }}>{fmt(totals[i])}</p>
-                      {dests[i].dates?.from && dests[i].dates?.to && (() => {
-                        const d = Math.ceil((new Date(dests[i].dates.to) - new Date(dests[i].dates.from)) / 86400000);
-                        return d > 0 ? <p className="text-xs text-muted mt-6">{fmt(totals[i] / d)}/dia · {d} dias</p> : null;
-                      })()}
+                      {dests[i].dates?.from && dests[i].dates?.to && (() => { const d = Math.ceil((new Date(dests[i].dates.to) - new Date(dests[i].dates.from)) / 86400000); return d > 0 ? <p className="text-xs text-muted mt-6">{fmt(totals[i] / d)}/dia · {d} dias</p> : null; })()}
                     </div>
                   </div>
                 )}
@@ -773,53 +887,54 @@ function ComparePage({ destinations, rates }) {
   );
 }
 
-// ─── Itinerary / Modo Viagem ──────────────────────────────────────────────────
-function ItineraryPage({ destinations }) {
+// ─── Itinerary / Modo Viagem (com checkboxes clicáveis) ──────────────────────
+function ItineraryPage({ destinations, onUpdateDest }) {
   const [selId, setSelId] = useState(null);
   const dest = destinations.find(d => d.id === selId);
   const today = new Date().toISOString().split('T')[0];
-  const allActs = dest ? (dest.itinerary || []).flatMap((day, di) => (day.activities || []).map((a, ai) => ({ ...a, date: day.date, dayIdx: di, actIdx: ai }))) : [];
+  const allActs = dest ? (dest.itinerary || []).flatMap((day, di) => (day.activities || []).map((a, ai) => ({ ...a, dayIdx: di, actIdx: ai, date: day.date }))) : [];
   const todayActs = allActs.filter(a => a.date === today);
   const doneCount = allActs.filter(a => a.done).length;
+  const destOptions = destinations.map(d => ({ value: d.id, label: `${d.emoji} ${d.name}` }));
+
+  const toggleActivity = async (dayIdx, actIdx) => {
+    const itinerary = JSON.parse(JSON.stringify(dest.itinerary || []));
+    itinerary[dayIdx].activities[actIdx].done = !itinerary[dayIdx].activities[actIdx].done;
+    await onUpdateDest({ ...dest, itinerary });
+  };
 
   return (
     <div className="page">
       <div className="page-header flex justify-between items-center">
-        <div><h1 className="page-title">Modo viagem</h1><p className="page-subtitle">Acompanhe seu roteiro durante a viagem</p></div>
-        <select className="form-input" style={{ width: 'auto' }} value={selId || ''} onChange={e => setSelId(e.target.value || null)}>
-          <option value="">Selecionar destino...</option>
-          {destinations.map(d => <option key={d.id} value={d.id}>{d.emoji} {d.name}</option>)}
-        </select>
+        <div><h1 className="page-title">Modo viagem</h1><p className="page-subtitle">Marque o que já fizemos durante a viagem</p></div>
+        <div style={{ width: 220 }}>
+          <CustomSelect options={destOptions} value={selId || ''} onChange={v => setSelId(v || null)} placeholder="Selecionar destino..." />
+        </div>
       </div>
       {!dest ? (
         <div className="empty-state"><div className="emoji">🧳</div><h3>Selecione um destino acima</h3></div>
       ) : (
         <>
           <div className="grid-3 mb-20">
-            {[
-              ['Destino', `${dest.emoji} ${dest.name}`],
-              ['Progresso', `${doneCount} / ${allActs.length} atividades`],
-              ['Hoje', new Date().toLocaleDateString('pt-BR', { weekday: 'short', day: '2-digit', month: 'short' })],
-            ].map(([label, val]) => (
+            {[['Destino', `${dest.emoji} ${dest.name}`], ['Progresso', `${doneCount} / ${allActs.length} atividades`], ['Hoje', new Date().toLocaleDateString('pt-BR', { weekday: 'short', day: '2-digit', month: 'short' })]].map(([label, val]) => (
               <div key={label} style={{ background: 'var(--bg2)', border: '1px solid var(--border)', borderRadius: 12, padding: '14px 18px' }}>
                 <p className="text-xs text-muted mb-8">{label}</p>
                 <p style={{ fontSize: 14, fontWeight: 500 }}>{val}</p>
               </div>
             ))}
           </div>
-
           {todayActs.length > 0 && (
             <div className="card mb-20" style={{ borderLeft: '2px solid var(--accent)' }}>
               <p style={{ fontWeight: 500, marginBottom: 10, fontSize: 14 }}>📍 Hoje</p>
               {todayActs.map((a, i) => (
                 <div key={i} className={`check-item ${a.done ? 'done' : ''}`}>
-                  <span>{a.done ? '✅' : '⏳'}</span>
-                  <span style={{ fontSize: 13 }}>{a.text}</span>
+                  <div className={`checkbox ${a.done ? 'checked' : ''}`} onClick={() => toggleActivity(a.dayIdx, a.actIdx)}>{a.done && <Icon name="check" size={10} />}</div>
+                  <span className="check-text" style={{ flex: 1, fontSize: 13 }}>{a.text}</span>
+                  {a.cost > 0 && <span className="text-xs" style={{ color: 'var(--blue)' }}>{fmt(a.cost)}</span>}
                 </div>
               ))}
             </div>
           )}
-
           {(dest.itinerary || []).map((day, di) => {
             const done = (day.activities || []).filter(a => a.done).length;
             const isToday = day.date === today;
@@ -836,8 +951,9 @@ function ItineraryPage({ destinations }) {
                 <div className="day-body">
                   {(day.activities || []).map((act, ai) => (
                     <div key={ai} className={`check-item ${act.done ? 'done' : ''}`}>
-                      <span>{act.done ? '✅' : '⬜'}</span>
-                      <span style={{ flex: 1, fontSize: 13 }}>{act.text}</span>
+                      <div className={`checkbox ${act.done ? 'checked' : ''}`} onClick={() => toggleActivity(di, ai)}>{act.done && <Icon name="check" size={10} />}</div>
+                      <span className="check-text" style={{ flex: 1, fontSize: 13 }}>{act.text}</span>
+                      {act.cost > 0 && <span className="text-xs" style={{ color: 'var(--blue)', flexShrink: 0 }}>{fmt(act.cost)}</span>}
                     </div>
                   ))}
                   {(day.activities || []).length === 0 && <p className="text-sm text-muted">Nenhuma atividade</p>}
@@ -852,57 +968,34 @@ function ItineraryPage({ destinations }) {
 }
 
 // ─── Rates Page ───────────────────────────────────────────────────────────────
-const CURRENCIES = ['EUR','USD','GBP','JPY','AED','THB','IDR','SGD','KRW','ARS','MXN','CLP','COP','PEN','HUF','CZK','MAD','AUD','TRY'];
-
 function RatesPage({ rates, onSaveRates }) {
   const [local, setLocal] = useState(rates);
   const [saving, setSaving] = useState(false);
   const [saved, setSaved] = useState(false);
-
   useEffect(() => { setLocal(rates); }, [rates]);
-
-  const handleSave = async () => {
-    setSaving(true);
-    await onSaveRates(local);
-    setSaving(false);
-    setSaved(true);
-    setTimeout(() => setSaved(false), 2000);
-  };
+  const handleSave = async () => { setSaving(true); await onSaveRates(local); setSaving(false); setSaved(true); setTimeout(() => setSaved(false), 2000); };
 
   return (
     <div className="page">
       <div className="page-header flex justify-between items-center">
-        <div>
-          <h1 className="page-title">Cotações</h1>
-          <p className="page-subtitle">Atualize antes de viajar — todos os destinos usam esses valores automaticamente</p>
-        </div>
-        <button className="btn btn-primary" onClick={handleSave} disabled={saving}>
-          {saving ? <span className="spinner" /> : saved ? '✅' : <Icon name="check" />} {saved ? 'Salvo!' : 'Salvar'}
-        </button>
+        <div><h1 className="page-title">Cotações</h1><p className="page-subtitle">Atualize antes de viajar — todos os destinos usam esses valores automaticamente</p></div>
+        <button className="btn btn-primary" onClick={handleSave} disabled={saving}>{saving ? <span className="spinner" /> : saved ? '✅' : <Icon name="check" />} {saved ? 'Salvo!' : 'Salvar'}</button>
       </div>
       <div className="grid-3">
         {CURRENCIES.map(cur => (
           <div key={cur} className="card-sm flex items-center gap-12">
-            <div style={{ minWidth: 44 }}>
-              <p style={{ fontWeight: 600, fontSize: 16 }}>{cur}</p>
-              <p className="text-xs text-muted">1 {cur} =</p>
+            <div style={{ minWidth: 56 }}>
+              <p style={{ fontWeight: 600, fontSize: 15 }}>{cur}</p>
+              <p className="text-xs text-muted" style={{ marginTop: 2 }}>{CURRENCY_NAMES[cur]}</p>
             </div>
             <div className="flex items-center gap-8" style={{ flex: 1 }}>
               <span className="text-sm text-muted">R$</span>
-              <input
-                type="number"
-                className="form-input"
-                style={{ flex: 1 }}
-                placeholder="0,00"
-                step="0.01"
-                value={local[cur] || ''}
-                onChange={e => setLocal(r => ({ ...r, [cur]: parseFloat(e.target.value) || 0 }))}
-              />
+              <input type="number" className="form-input" style={{ flex: 1 }} placeholder="0,00" step="0.01" value={local[cur] || ''} onChange={e => setLocal(r => ({ ...r, [cur]: parseFloat(e.target.value) || 0 }))} />
             </div>
           </div>
         ))}
       </div>
-      <p className="text-xs text-muted mt-16">💡 Atualize as cotações próximo à data da viagem. Os preços das atrações são convertidos automaticamente para reais em todos os destinos.</p>
+      <p className="text-xs text-muted mt-16">💡 Atualize as cotações próximo à data da viagem. Os preços das atrações são convertidos automaticamente em todos os destinos.</p>
     </div>
   );
 }
@@ -916,38 +1009,22 @@ function AdminPage({ cityDB, onSaveCityDB }) {
   const [newCity, setNewCity] = useState(false);
   const [saving, setSaving] = useState(false);
   const [toast, setToast] = useState(null);
-
-  const emptyForm = () => ({
-    id: '', name: '', country: '', emoji: '🌍', currency: 'EUR',
-    attractions: [],
-    touristPass: { exists: false, name: '', price: '', currency: 'EUR', duration: '', includes: [], activationNote: '', buyLink: '' },
-    cityTips: { transport: '', bestSeason: '', safety: '', payment: '', language: '', food: '' }
-  });
+  const emptyForm = () => ({ id: '', name: '', country: '', emoji: '🌍', currency: 'EUR', attractions: [], touristPass: { exists: false, name: '', price: '', currency: 'EUR', duration: '', includes: [], activationNote: '', buyLink: '' }, cityTips: { transport: '', bestSeason: '', safety: '', payment: '', language: '', food: '' } });
   const [form, setForm] = useState(emptyForm());
-
   const startNew = () => { setForm(emptyForm()); setNewCity(true); setEditingId(null); };
   const startEdit = city => { setForm(JSON.parse(JSON.stringify(city))); setEditingId(city.id); setNewCity(false); };
   const cancel = () => { setNewCity(false); setEditingId(null); };
-
   const handleSave = async () => {
     setSaving(true);
     const city = { ...form, id: form.id || form.name.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/\s+/g, '-') };
     const updated = editingId ? cityDB.map(c => c.id === editingId ? city : c) : [...cityDB, city];
-    await onSaveCityDB(updated);
-    setSaving(false);
-    setNewCity(false);
-    setEditingId(null);
-    setToast('Cidade salva!');
+    await onSaveCityDB(updated); setSaving(false); setNewCity(false); setEditingId(null); setToast('Cidade salva!');
   };
-
-  const handleDelete = async id => {
-    await onSaveCityDB(cityDB.filter(c => c.id !== id));
-    setToast('Cidade removida');
-  };
+  const handleDelete = async id => { await onSaveCityDB(cityDB.filter(c => c.id !== id)); setToast('Cidade removida'); };
 
   if (!unlocked) return (
     <div className="page">
-      <div className="page-header"><h1 className="page-title">Admin</h1><p className="page-subtitle">Área restrita — gerencie o banco de cidades</p></div>
+      <div className="page-header"><h1 className="page-title">Admin</h1><p className="page-subtitle">Área restrita</p></div>
       <div style={{ textAlign: 'center', padding: '60px 20px' }}>
         <div style={{ fontSize: 48, marginBottom: 16 }}>🔒</div>
         <p className="text-muted mb-16">Digite a senha para acessar</p>
@@ -961,14 +1038,12 @@ function AdminPage({ cityDB, onSaveCityDB }) {
   );
 
   const showForm = newCity || editingId;
-
   return (
     <div className="page">
       <div className="page-header flex justify-between items-center">
         <div><h1 className="page-title">Admin</h1><p className="page-subtitle">{cityDB.length} cidades no banco</p></div>
         {!showForm && <button className="btn btn-primary" onClick={startNew}><Icon name="plus" /> Nova cidade</button>}
       </div>
-
       {showForm && (
         <div className="card mb-20">
           <p style={{ fontWeight: 500, marginBottom: 14 }}>{editingId ? `Editando: ${form.name}` : 'Nova cidade'}</p>
@@ -977,8 +1052,7 @@ function AdminPage({ cityDB, onSaveCityDB }) {
             <div className="form-group" style={{ marginBottom: 0 }}><label className="form-label">País</label><input className="form-input" value={form.country} onChange={e => setForm(f => ({ ...f, country: e.target.value }))} /></div>
             <div className="form-group" style={{ marginBottom: 0 }}><label className="form-label">Emoji</label><input className="form-input" value={form.emoji} onChange={e => setForm(f => ({ ...f, emoji: e.target.value }))} /></div>
           </div>
-          <div className="form-group mb-12" style={{ maxWidth: 120 }}><label className="form-label">Moeda (código)</label><input className="form-input" value={form.currency} onChange={e => setForm(f => ({ ...f, currency: e.target.value }))} /></div>
-
+          <div className="form-group mb-12" style={{ maxWidth: 120 }}><label className="form-label">Moeda</label><input className="form-input" value={form.currency} onChange={e => setForm(f => ({ ...f, currency: e.target.value }))} /></div>
           <div className="section-divider">tourist pass</div>
           <div className="flex items-center gap-12 mb-10">
             <label className="form-label" style={{ marginBottom: 0 }}>Tem tourist pass?</label>
@@ -986,7 +1060,7 @@ function AdminPage({ cityDB, onSaveCityDB }) {
           </div>
           {form.touristPass?.exists && (
             <div className="grid-2 mb-12">
-              <div className="form-group"><label className="form-label">Nome do pass</label><input className="form-input" value={form.touristPass.name} onChange={e => setForm(f => ({ ...f, touristPass: { ...f.touristPass, name: e.target.value } }))} /></div>
+              <div className="form-group"><label className="form-label">Nome</label><input className="form-input" value={form.touristPass.name} onChange={e => setForm(f => ({ ...f, touristPass: { ...f.touristPass, name: e.target.value } }))} /></div>
               <div className="form-group"><label className="form-label">Preço</label><input type="number" className="form-input" value={form.touristPass.price} onChange={e => setForm(f => ({ ...f, touristPass: { ...f.touristPass, price: parseFloat(e.target.value) || 0 } }))} /></div>
               <div className="form-group"><label className="form-label">Moeda do pass</label><input className="form-input" value={form.touristPass.currency} onChange={e => setForm(f => ({ ...f, touristPass: { ...f.touristPass, currency: e.target.value } }))} /></div>
               <div className="form-group"><label className="form-label">Duração</label><input className="form-input" value={form.touristPass.duration} onChange={e => setForm(f => ({ ...f, touristPass: { ...f.touristPass, duration: e.target.value } }))} /></div>
@@ -994,35 +1068,24 @@ function AdminPage({ cityDB, onSaveCityDB }) {
               <div className="form-group" style={{ gridColumn: '1/-1' }}><label className="form-label">Link de compra</label><input className="form-input" value={form.touristPass.buyLink} onChange={e => setForm(f => ({ ...f, touristPass: { ...f.touristPass, buyLink: e.target.value } }))} /></div>
             </div>
           )}
-
-          <div className="section-divider">dicas da cidade</div>
+          <div className="section-divider">dicas</div>
           <div className="grid-2">
             {[['Transporte', 'transport'], ['Melhor época', 'bestSeason'], ['Idioma', 'language'], ['Segurança', 'safety'], ['Pagamento', 'payment'], ['Gastronomia', 'food']].map(([label, key]) => (
-              <div key={key} className="form-group">
-                <label className="form-label">{label}</label>
-                <textarea className="form-input" style={{ minHeight: 60 }} value={form.cityTips?.[key] || ''} onChange={e => setForm(f => ({ ...f, cityTips: { ...f.cityTips, [key]: e.target.value } }))} />
-              </div>
+              <div key={key} className="form-group"><label className="form-label">{label}</label><textarea className="form-input" style={{ minHeight: 60 }} value={form.cityTips?.[key] || ''} onChange={e => setForm(f => ({ ...f, cityTips: { ...f.cityTips, [key]: e.target.value } }))} /></div>
             ))}
           </div>
-          <p className="text-xs text-muted mb-12">Atrações podem ser adicionadas dentro do destino após salvar.</p>
           <div className="flex gap-8">
-            <button className="btn btn-primary" onClick={handleSave} disabled={saving || !form.name}>
-              {saving ? <span className="spinner" /> : <Icon name="check" />} Salvar cidade
-            </button>
+            <button className="btn btn-primary" onClick={handleSave} disabled={saving || !form.name}>{saving ? <span className="spinner" /> : <Icon name="check" />} Salvar</button>
             <button className="btn btn-ghost" onClick={cancel}>Cancelar</button>
           </div>
         </div>
       )}
-
       <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
         {cityDB.map(city => (
           <div key={city.id} className="card-sm flex justify-between items-center">
             <div className="flex items-center gap-12">
               <span style={{ fontSize: 24 }}>{city.emoji}</span>
-              <div>
-                <p style={{ fontWeight: 500, fontSize: 14 }}>{city.name}</p>
-                <p className="text-xs text-muted">{city.country} · {city.attractions?.length || 0} atrações · {city.currency}</p>
-              </div>
+              <div><p style={{ fontWeight: 500, fontSize: 14 }}>{city.name}</p><p className="text-xs text-muted">{city.country} · {city.attractions?.length || 0} atrações · {city.currency}</p></div>
               {city.touristPass?.exists && <span className="badge badge-accent"><Icon name="ticket" size={10} /> Pass</span>}
             </div>
             <div className="flex gap-6">
@@ -1050,51 +1113,25 @@ function App() {
 
   useEffect(() => {
     Promise.all([
-      loadDestinations(),
-      loadRates(),
+      loadDestinations(), loadRates(),
       loadCityDB().then(async dbFirestore => {
         if (dbFirestore.length > 0) return dbFirestore;
-        try {
-          const res = await fetch('./data.json');
-          const json = await res.json();
-          return json.cities || [];
-        } catch { return []; }
+        try { const res = await fetch('./data.json'); const json = await res.json(); return json.cities || []; } catch { return []; }
       })
-    ]).then(([dests, r, db]) => {
-      setDestinations(dests);
-      setRates(r);
-      setCityDB(db);
-      setLoading(false);
-    });
+    ]).then(([dests, r, db]) => { setDestinations(dests); setRates(r); setCityDB(db); setLoading(false); });
   }, []);
 
   const handleSaveDest = async dest => {
     const id = await saveDestination(dest);
     const nd = { ...dest, id };
-    setDestinations(prev => {
-      const idx = prev.findIndex(d => d.id === id);
-      if (idx >= 0) { const n = [...prev]; n[idx] = nd; return n; }
-      return [nd, ...prev];
-    });
+    setDestinations(prev => { const idx = prev.findIndex(d => d.id === id); if (idx >= 0) { const n = [...prev]; n[idx] = nd; return n; } return [nd, ...prev]; });
     if (selectedDest?.id === id) setSelectedDest(nd);
     setToast('Salvo! ✅');
   };
-
-  const handleDeleteDest = async id => {
-    await deleteDestination(id);
-    setDestinations(prev => prev.filter(d => d.id !== id));
-    setToast('Destino removido');
-  };
-
-  const handleSaveRates = async r => {
-    await saveRates(r);
-    setRates(r);
-  };
-
-  const handleSaveCityDB = async cities => {
-    await saveCityDB(cities);
-    setCityDB(cities);
-  };
+  const handleDeleteDest = async id => { await deleteDestination(id); setDestinations(prev => prev.filter(d => d.id !== id)); setToast('Destino removido'); };
+  const handleSaveRates = async r => { await saveRates(r); setRates(r); };
+  const handleSaveCityDB = async cities => { await saveCityDB(cities); setCityDB(cities); };
+  const navigate = p => { setPage(p); setSelectedDest(null); };
 
   const navItems = [
     { id: 'destinations', label: 'Destinos', icon: 'plane' },
@@ -1104,15 +1141,10 @@ function App() {
     { id: 'admin', label: 'Admin', icon: 'admin' },
   ];
 
-  const navigate = (p) => { setPage(p); setSelectedDest(null); };
-
   return (
     <div className="app">
       <div className="sidebar">
-        <div className="sidebar-logo">
-          <h1>Viagens Lalu ✈️</h1>
-          <p>Planejamento de viagens</p>
-        </div>
+        <div className="sidebar-logo"><h1>Viagens Lalu ✈️</h1><p>Planejamento de viagens</p></div>
         <nav className="sidebar-nav">
           {navItems.map(item => (
             <button key={item.id} className={`nav-item ${page === item.id && !selectedDest ? 'active' : ''}`} onClick={() => navigate(item.id)}>
@@ -1123,9 +1155,7 @@ function App() {
       </div>
       <main className="main">
         {loading ? (
-          <div style={{ display: 'flex', alignItems: 'center', gap: 10, padding: 60, color: 'var(--text2)' }}>
-            <div className="spinner" /> Carregando...
-          </div>
+          <div style={{ display: 'flex', alignItems: 'center', gap: 10, padding: 60, color: 'var(--text2)' }}><div className="spinner" /> Carregando...</div>
         ) : selectedDest ? (
           <DestinationDetail dest={selectedDest} onUpdate={handleSaveDest} onBack={() => setSelectedDest(null)} rates={rates} />
         ) : page === 'destinations' ? (
@@ -1133,7 +1163,7 @@ function App() {
         ) : page === 'compare' ? (
           <ComparePage destinations={destinations} rates={rates} />
         ) : page === 'itinerary' ? (
-          <ItineraryPage destinations={destinations} />
+          <ItineraryPage destinations={destinations} onUpdateDest={handleSaveDest} />
         ) : page === 'rates' ? (
           <RatesPage rates={rates} onSaveRates={handleSaveRates} />
         ) : (
