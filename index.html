@@ -185,6 +185,21 @@ const Icon = ({ name, size = 16 }) => {
 
 // ─── Helpers ──────────────────────────────────────────────────────────────────
 const fmt = v => v ? `R$ ${Number(v).toLocaleString('pt-BR', { minimumFractionDigits: 0, maximumFractionDigits: 0 })}` : '—';
+
+// Converte sigla de país (ex: "DE") para emoji de bandeira
+const countryToEmoji = code => {
+  if (!code || code.length !== 2) return code;
+  // Se já é emoji (tem código acima de 127), retorna como está
+  if (code.codePointAt(0) > 127) return code;
+  return String.fromCodePoint(...[...code.toUpperCase()].map(c => 0x1F1E6 + c.charCodeAt(0) - 65));
+};
+const getEmoji = dest => {
+  const e = dest.emoji;
+  if (!e) return '🌍';
+  // Se tem mais de 2 chars ou já é emoji, usa direto
+  if (e.length > 2 || e.codePointAt(0) > 127) return e;
+  return countryToEmoji(e);
+};
 const fmtCurrency = (price, currency, rates) => {
   if (!price && price !== 0) return '—';
   if (price === 0) return 'Gratuito';
@@ -390,7 +405,7 @@ function DestinationsPage({ destinations, onAdd, onSelect, onDelete }) {
             const days = dest.dates?.from && dest.dates?.to ? Math.ceil((new Date(dest.dates.to) - new Date(dest.dates.from)) / 86400000) : null;
             return (
               <div key={dest.id} className="dest-card" onClick={() => onSelect(dest)}>
-                <div className="dest-card-banner">{dest.emoji}</div>
+                <div className="dest-card-banner">{getEmoji(dest)}</div>
                 <div className="dest-card-body">
                   <div className="flex justify-between items-center">
                     <h3 className="dest-card-name">{dest.name}</h3>
@@ -511,7 +526,7 @@ function DestinationDetail({ dest, onUpdate, onBack, rates }) {
     <div className="page">
       <button className="btn btn-ghost btn-sm mb-16" onClick={onBack}>← Voltar</button>
       <div className="page-header flex items-center gap-12">
-        <span style={{ fontSize: 44 }}>{dest.emoji}</span>
+        <span style={{ fontSize: 44 }}>{getEmoji(dest)}</span>
         <div>
           <h1 className="page-title">{dest.name}</h1>
           <p className="page-subtitle">
@@ -828,7 +843,7 @@ function ComparePage({ destinations, rates }) {
 
   const totals = dests.map(d => totalCost(d));
   const winnerIdx = totals[0] > 0 && totals[1] > 0 ? (totals[0] <= totals[1] ? 0 : 1) : -1;
-  const destOptions = destinations.map(d => ({ value: d.id, label: `${d.emoji} ${d.name}` }));
+  const destOptions = destinations.map(d => ({ value: d.id, label: `${getEmoji(d)} ${d.name}` }));
 
   return (
     <div className="page">
@@ -842,7 +857,7 @@ function ComparePage({ destinations, rates }) {
               <div key={i} className="compare-col">
                 <div className={`compare-header ${winnerIdx === i ? 'compare-winner' : ''}`}>
                   {winnerIdx === i && <div className="badge badge-accent mb-8">✈️ Mais em conta</div>}
-                  <span style={{ fontSize: 32, display: 'block', marginBottom: 10 }}>{dests[i]?.emoji || '🌍'}</span>
+                  <span style={{ fontSize: 32, display: 'block', marginBottom: 10 }}>{getEmoji(dests[i]) || '🌍'}</span>
                   <CustomSelect options={destOptions} value={sel[i] || ''} onChange={v => { const n = [...sel]; n[i] = v || null; setSel(n); }} placeholder="Selecionar..." />
                 </div>
                 {dests[i] && (
@@ -895,7 +910,7 @@ function ItineraryPage({ destinations, onUpdateDest }) {
   const allActs = dest ? (dest.itinerary || []).flatMap((day, di) => (day.activities || []).map((a, ai) => ({ ...a, dayIdx: di, actIdx: ai, date: day.date }))) : [];
   const todayActs = allActs.filter(a => a.date === today);
   const doneCount = allActs.filter(a => a.done).length;
-  const destOptions = destinations.map(d => ({ value: d.id, label: `${d.emoji} ${d.name}` }));
+  const destOptions = destinations.map(d => ({ value: d.id, label: `${getEmoji(d)} ${d.name}` }));
 
   const toggleActivity = async (dayIdx, actIdx) => {
     const itinerary = JSON.parse(JSON.stringify(dest.itinerary || []));
@@ -916,7 +931,7 @@ function ItineraryPage({ destinations, onUpdateDest }) {
       ) : (
         <>
           <div className="grid-3 mb-20">
-            {[['Destino', `${dest.emoji} ${dest.name}`], ['Progresso', `${doneCount} / ${allActs.length} atividades`], ['Hoje', new Date().toLocaleDateString('pt-BR', { weekday: 'short', day: '2-digit', month: 'short' })]].map(([label, val]) => (
+            {[['Destino', `${getEmoji(dest)} ${dest.name}`], ['Progresso', `${doneCount} / ${allActs.length} atividades`], ['Hoje', new Date().toLocaleDateString('pt-BR', { weekday: 'short', day: '2-digit', month: 'short' })]].map(([label, val]) => (
               <div key={label} style={{ background: 'var(--bg2)', border: '1px solid var(--border)', borderRadius: 12, padding: '14px 18px' }}>
                 <p className="text-xs text-muted mb-8">{label}</p>
                 <p style={{ fontSize: 14, fontWeight: 500 }}>{val}</p>
