@@ -1,0 +1,3379 @@
+{
+  "cities": [
+    {
+      "id": "roma",
+      "name": "Roma",
+      "country": "Itália",
+      "emoji": "🇮🇹",
+      "currency": "EUR",
+      "touristPass": {
+        "exists": true,
+        "name": "Roma Pass",
+        "price": 38.5,
+        "duration": "48 horas",
+        "includes": [
+          "Transporte público ilimitado",
+          "1 museu gratuito",
+          "Descontos em outros museus"
+        ],
+        "activationNote": "Válido a partir da primeira validação no transporte ou museu. Use estrategicamente no dia mais cheio.",
+        "buyLink": "https://www.romapass.it"
+      },
+      "attractions": [
+        {
+          "name": "Coliseu + Fórum Romano + Monte Palatino",
+          "price": 18,
+          "confidence": "high",
+          "category": "história",
+          "description": "Ingresso combinado para os três monumentos mais icônicos de Roma",
+          "tip": "Reserve online com antecedência, as filas são enormes. Entrada às 9h ou após as 15h é mais tranquila."
+        },
+        {
+          "name": "Museus do Vaticano + Capela Sistina",
+          "price": 20,
+          "confidence": "high",
+          "category": "museu",
+          "description": "Um dos maiores acervos de arte do mundo, com a obra-prima de Michelangelo",
+          "tip": "Reserve com pelo menos 2 semanas de antecedência. Vá de manhã cedo para evitar multidões."
+        },
+        {
+          "name": "Galeria Borghese",
+          "price": 15,
+          "confidence": "high",
+          "category": "museu",
+          "description": "Bernini e Caravaggio em uma das mais belas galerias privadas do mundo",
+          "tip": "Reserva obrigatória. Limite de 360 pessoas por visita de 2h."
+        },
+        {
+          "name": "Pantheon",
+          "price": 5,
+          "confidence": "high",
+          "category": "história",
+          "description": "Templo romano de 125 d.C. em estado perfeito de conservação",
+          "tip": "Entrada gratuita às domingos de manhã para missas."
+        },
+        {
+          "name": "Tour a pé pelo Trastevere",
+          "price": 0,
+          "confidence": "high",
+          "category": "bairro",
+          "description": "Bairro medieval com ruelas, restaurantes e vida noturna autêntica",
+          "tip": "Melhor explorado à noite. Evite restaurantes com cardápio em várias línguas na entrada."
+        }
+      ],
+      "cityTips": {
+        "transport": "Metrô tem apenas 2 linhas mas cobre os pontos principais. Bilhete avulso €1,50 ou diário €7. Caminhada é a melhor opção no centro histórico.",
+        "bestSeason": "Primavera (abr-jun) e outono (set-out). Julho e agosto são sufocantes e lotados.",
+        "safety": "Cidade segura, mas atenção a pickpockets no Coliseu, metrô e Fontana di Trevi. Evite vendedores ambulantes insistentes.",
+        "payment": "Maioria dos lugares aceita cartão. Leve €50 em espécie para mercados, gorjetas e locais menores.",
+        "language": "Italiano. Inglês é falado em pontos turísticos mas pouco no dia a dia.",
+        "food": "Não peça cappuccino após as 11h — é considerado rude. Almoço entre 13h-15h, jantar após 20h."
+      },
+      "sportingEvents": [
+        {
+          "name": "Italian Open (Rome Masters)",
+          "sport": "tênis",
+          "type": "ATP Masters 1000 + WTA 1000",
+          "venue": "Foro Italico",
+          "dates_2026": "5–17 mai 2026",
+          "dates_2027": "Estimado: início–meados mai 2027",
+          "confidence": "confirmed_2026",
+          "ticket_price_approx": "€20–120",
+          "ticket_tip": "Mais acessível que Grand Slams. O Foro Italico à beira do Tibre é lindo — chegue cedo.",
+          "buy_link": "https://www.internazionalibnlditalia.com",
+          "notes": "Torneio pré-Roland Garros. Sinner jogando em casa — atmosfera italiana única"
+        },
+        {
+          "name": "AS Roma / Lazio — Serie A + Derby della Capitale",
+          "sport": "futebol",
+          "type": "Serie A",
+          "venue": "Stadio Olimpico",
+          "dates_2026": "Temporada ago 2025 – mai 2026",
+          "dates_2027": "Temporada ago 2026 – mai 2027",
+          "confidence": "estimated",
+          "ticket_price_approx": "€25–100",
+          "ticket_tip": "Derby della Capitale (Roma × Lazio) é inflamadíssimo — difícil de conseguir. Compre em ticketone.it.",
+          "buy_link": "https://www.ticketone.it",
+          "notes": "Mesmo estádio para os dois times. Derby é um dos clássicos mais intensos do mundo"
+        }
+      ]
+    },
+    {
+      "id": "paris",
+      "name": "Paris",
+      "country": "França",
+      "emoji": "🇫🇷",
+      "currency": "EUR",
+      "touristPass": {
+        "exists": true,
+        "name": "Paris Museum Pass",
+        "price": 55,
+        "duration": "2 dias consecutivos",
+        "includes": [
+          "Louvre",
+          "Musée d'Orsay",
+          "Versalhes",
+          "Centre Pompidou",
+          "+50 museus"
+        ],
+        "activationNote": "Ativado na primeira entrada. Os dias são consecutivos — planeje museus em dias seguidos para aproveitar ao máximo.",
+        "buyLink": "https://www.parismuseumpass.fr"
+      },
+      "attractions": [
+        {
+          "name": "Torre Eiffel (topo)",
+          "price": 32,
+          "confidence": "high",
+          "category": "ícone",
+          "description": "O símbolo de Paris. Vista 360° da cidade do andar mais alto",
+          "tip": "Reserve com semanas de antecedência. Ir ao entardecer para pegar o pôr do sol e as luzes noturnas."
+        },
+        {
+          "name": "Museu do Louvre",
+          "price": 22,
+          "confidence": "high",
+          "category": "museu",
+          "description": "O maior museu de arte do mundo, com a Mona Lisa e a Vênus de Milo",
+          "tip": "Entrada pela pirâmide é a mais conhecida, mas a entrada pelo Carrousel du Louvre tem fila menor. Reserve online."
+        },
+        {
+          "name": "Musée d'Orsay",
+          "price": 16,
+          "confidence": "high",
+          "category": "museu",
+          "description": "Melhor acervo de impressionismo do mundo — Monet, Renoir, Van Gogh",
+          "tip": "Entrada gratuita na primeira sexta-feira do mês após as 18h."
+        },
+        {
+          "name": "Palácio de Versalhes",
+          "price": 21,
+          "confidence": "high",
+          "category": "história",
+          "description": "Residência real com jardins imensíveis e salões dourados",
+          "tip": "Vá na terça ou quarta para evitar o rush do fim de semana. Leve lanche — restaurantes são caros."
+        },
+        {
+          "name": "Cruzeiro no Sena (Bateaux Mouches)",
+          "price": 17,
+          "confidence": "medium",
+          "category": "passeio",
+          "description": "Vista dos principais monumentos a partir do rio",
+          "tip": "Passeio noturno é o mais bonito, com a Torre Eiffel iluminada."
+        }
+      ],
+      "cityTips": {
+        "transport": "Metrô excelente. Compre o Navigo Easy e carregue com bilhetes (€1,90/viagem). Passe semanal Navigo vale a pena a partir de 5 dias.",
+        "bestSeason": "Maio-junho e setembro. Julho-agosto tem muito turista. Dezembro é mágico mas frio.",
+        "safety": "Segura, mas atenção a pickpockets no metrô e na Torre Eiffel. Cuidado com o golpe do anel de ouro.",
+        "payment": "Cartão aceito em quase todo lugar. Alguns boulangeries e mercados só aceitam espécie.",
+        "language": "Francês. Comece sempre com 'Bonjour' — faz diferença na receptividade.",
+        "food": "Boulangerie no café da manhã é obrigatório. Almoço tem menus fixos mais baratos. Jantar após 19h30."
+      },
+      "sportingEvents": [
+        {
+          "name": "Roland Garros (French Open)",
+          "sport": "tênis",
+          "type": "Grand Slam",
+          "venue": "Stade Roland-Garros",
+          "dates_2026": "18 mai – 7 jun 2026",
+          "dates_2027": "Estimado: meados mai – início jun 2027",
+          "confidence": "confirmed_2026",
+          "ticket_price_approx": "€30–200",
+          "ticket_tip": "Quadras externas são mais acessíveis. Philippe-Chatrier esgota rápido — compre em tickets.rolandgarros.com",
+          "buy_link": "https://tickets.rolandgarros.com",
+          "notes": "Um dos melhores torneios ao vivo — argila, atmosfera francesa apaixonada"
+        },
+        {
+          "name": "Paris Saint-Germain — Parc des Princes",
+          "sport": "futebol",
+          "type": "Ligue 1 / Champions League",
+          "venue": "Parc des Princes",
+          "dates_2026": "Temporada ago 2025 – mai 2026 (jogos regulares todo fim de semana)",
+          "dates_2027": "Temporada ago 2026 – mai 2027",
+          "confidence": "estimated",
+          "ticket_price_approx": "€30–150 (Ligue 1); €80–500+ (Champions League)",
+          "ticket_tip": "Compre em psg.fr. Clássicos contra Lyon e OM esgotam rápido.",
+          "buy_link": "https://www.psg.fr/billetterie",
+          "notes": "PSG finalista da Champions 2026 (vs Arsenal, Budapeste, 30/mai)"
+        },
+        {
+          "name": "Rolex Paris Masters (ATP 1000 indoor)",
+          "sport": "tênis",
+          "type": "ATP Masters 1000",
+          "venue": "Accor Arena, Bercy",
+          "dates_2026": "2–8 nov 2026",
+          "dates_2027": "Estimado: início nov 2027",
+          "confidence": "confirmed_2026",
+          "ticket_price_approx": "€30–150",
+          "ticket_tip": "Último Masters 1000 do ano — sempre com os melhores. Boa atmosfera coberta no outono.",
+          "buy_link": "https://www.rolexparismasters.com",
+          "notes": "Ótimo torneio para combinar com viagem de outono a Paris"
+        }
+      ]
+    },
+    {
+      "id": "barcelona",
+      "name": "Barcelona",
+      "country": "Espanha",
+      "emoji": "🇪🇸",
+      "currency": "EUR",
+      "touristPass": {
+        "exists": true,
+        "name": "Barcelona Card",
+        "price": 50,
+        "duration": "3 dias",
+        "includes": [
+          "Transporte público ilimitado",
+          "Descontos em museus e atrações",
+          "Entrada gratuita em alguns museus"
+        ],
+        "activationNote": "Ativado na primeira utilização no transporte. Compre online para desconto.",
+        "buyLink": "https://www.barcelonacard.com"
+      },
+      "attractions": [
+        {
+          "name": "Sagrada Família",
+          "price": 26,
+          "confidence": "high",
+          "category": "arquitetura",
+          "description": "Obra-prima inacabada de Gaudí, em construção desde 1882",
+          "tip": "Reserve com meses de antecedência. Acrescente €9 para subir nas torres. Melhor horário: manhã com sol do lado leste."
+        },
+        {
+          "name": "Park Güell",
+          "price": 13,
+          "confidence": "high",
+          "category": "arquitetura",
+          "description": "Parque colorido de Gaudí com vista panorâmica da cidade",
+          "tip": "Zona monumental precisa de reserva. Chegar às 8h evita filas e calor."
+        },
+        {
+          "name": "Casa Batlló",
+          "price": 35,
+          "confidence": "high",
+          "category": "arquitetura",
+          "description": "A mais impressionante das casas de Gaudí, com fachada de mosaico",
+          "tip": "A visita noturna 'Magic Nights' é espetacular mas custa mais. Vale para ocasiões especiais."
+        },
+        {
+          "name": "Museu Picasso",
+          "price": 14,
+          "confidence": "high",
+          "category": "museu",
+          "description": "Maior acervo da obra de Picasso, especialmente sua fase jovem",
+          "tip": "Gratuito na primeira domingo do mês e toda quinta após as 17h."
+        },
+        {
+          "name": "Bairro Gótico + La Boqueria",
+          "price": 0,
+          "confidence": "high",
+          "category": "bairro",
+          "description": "Centro histórico medieval e o famoso mercado de La Boqueria",
+          "tip": "La Boqueria é cara para comer — use para ver e compre frutas. Coma em restaurantes das ruelas do Gótico."
+        }
+      ],
+      "cityTips": {
+        "transport": "Metro T-Casual (10 viagens) custa €12,15 e cobre aeroporto. Muito caminhável no centro.",
+        "bestSeason": "Maio-junho e setembro-outubro. Julho-agosto é muito quente e lotado.",
+        "safety": "Alta incidência de furtos na La Boqueria, Las Ramblas e metrô. Bolsa na frente sempre.",
+        "payment": "Cartão amplamente aceito. Mercados e bares locais preferem espécie.",
+        "language": "Catalão e espanhol. Catalão é muito valorizado pelos locais.",
+        "food": "Jantar antes das 21h é considerado cedo. Almoço entre 14h-16h. Tapa + cerveja é o combo perfeito."
+      },
+      "sportingEvents": [
+        {
+          "name": "Barcelona Open Banc Sabadell (Conde de Godó)",
+          "sport": "tênis",
+          "type": "ATP 500",
+          "venue": "Real Club de Tenis Barcelona",
+          "dates_2026": "Estimado: meados abr 2026",
+          "dates_2027": "Estimado: meados abr 2027",
+          "confidence": "estimated",
+          "ticket_price_approx": "€20–80",
+          "ticket_tip": "Torneio mais antigo da Espanha em argila — ambiente histórico e elegante.",
+          "buy_link": "https://www.barcelonaopenbancosabadell.com",
+          "notes": "ATP 500 semana antes de Madri — muito acessível e organizado"
+        },
+        {
+          "name": "FC Barcelona — La Liga / Champions",
+          "sport": "futebol",
+          "type": "La Liga / Champions League",
+          "venue": "Estadi Olímpic Lluís Companys (Camp Nou em reforma até ~2027)",
+          "dates_2026": "Temporada ago 2025 – mai 2026",
+          "dates_2027": "Temporada ago 2026 – mai 2027 (Camp Nou pode reabrir)",
+          "confidence": "estimated",
+          "ticket_price_approx": "€40–200 (La Liga); €80–400+ (Champions)",
+          "ticket_tip": "Ingressos em fcbarcelona.com. Camp Nou em reforma — jogando no Estadi Olímpic (56k). El Clásico: praticamente impossível.",
+          "buy_link": "https://www.fcbarcelona.com/en/tickets",
+          "notes": "Camp Nou em reforma até ~2026/27. El Clásico é o jogo mais visto do mundo"
+        }
+      ]
+    },
+    {
+      "id": "lisboa",
+      "name": "Lisboa",
+      "country": "Portugal",
+      "emoji": "🇵🇹",
+      "currency": "EUR",
+      "touristPass": {
+        "exists": true,
+        "name": "Lisboa Card",
+        "price": 43,
+        "duration": "24 horas",
+        "includes": [
+          "Transporte público ilimitado incluindo comboios para Sintra e Cascais",
+          "Entrada gratuita em 39 museus e monumentos"
+        ],
+        "activationNote": "Ativado na primeira utilização. Planeje usar em dia cheio com museus e transporte.",
+        "buyLink": "https://www.lisboacard.org"
+      },
+      "attractions": [
+        {
+          "name": "Mosteiro dos Jerónimos",
+          "price": 10,
+          "confidence": "high",
+          "category": "história",
+          "description": "Obra-prima do Manuelino, Patrimônio da UNESCO em Belém",
+          "tip": "Gratuito nos domingos de manhã até as 14h. Combine com a visita à Torre de Belém."
+        },
+        {
+          "name": "Torre de Belém",
+          "price": 6,
+          "confidence": "high",
+          "category": "história",
+          "description": "Símbolo de Lisboa e das Grandes Navegações, à beira do Tejo",
+          "tip": "Fila pode ser longa. Vá cedo ou compre online."
+        },
+        {
+          "name": "Castelo de São Jorge",
+          "price": 15,
+          "confidence": "high",
+          "category": "história",
+          "description": "Castelo medieval com vista panorâmica de Lisboa e do Rio Tejo",
+          "tip": "Melhor ao final da tarde para o pôr do sol. Subida pelo Alfama é parte da experiência."
+        },
+        {
+          "name": "Bairro de Alfama + Fado ao vivo",
+          "price": 25,
+          "confidence": "medium",
+          "category": "cultura",
+          "description": "Bairro mais antigo de Lisboa com casas de fado tradicionais",
+          "tip": "Preço inclui consumação mínima. Pesquise casas de fado autênticas fora do circuito turístico."
+        },
+        {
+          "name": "Palácio da Pena (Sintra)",
+          "price": 20,
+          "confidence": "high",
+          "category": "história",
+          "description": "Palácio romântico colorido no topo da Serra de Sintra",
+          "tip": "Vá de semana para evitar filas. O comboio de Lisboa sai da estação do Rossio."
+        }
+      ],
+      "cityTips": {
+        "transport": "Elétrico 28 é turístico mas lotado. Metro cobre bem o centro. Comboio para Sintra (~€5 ida e volta) é fácil.",
+        "bestSeason": "Março-maio e setembro-outubro. Verão é quente e cheio. Inverno é ameno mas chuvoso.",
+        "safety": "Cidade muito segura. Atenção básica a pickpockets nos elétricos turísticos.",
+        "payment": "Cartão aceito em quase todo lugar. MB Way é popular localmente.",
+        "language": "Português europeu. Brasileiros são sempre bem recebidos.",
+        "food": "Pastel de nata na Pastéis de Belém é obrigatório. Bacalhau de mil formas. Janta após 20h."
+      },
+      "sportingEvents": [
+        {
+          "name": "Estoril Open (ATP 250)",
+          "sport": "tênis",
+          "type": "ATP 250",
+          "venue": "Clube de Ténis do Estoril",
+          "dates_2026": "Estimado: abr–mai 2026",
+          "dates_2027": "Estimado: abr–mai 2027",
+          "confidence": "estimated",
+          "ticket_price_approx": "€15–50",
+          "ticket_tip": "Torneio à beira mar, ambiente muito descontraído. Ingressos muito acessíveis.",
+          "buy_link": "https://www.estorilopen.net",
+          "notes": "Torneio em argila junto ao Atlântico — combinação perfeita com visita a Sintra"
+        },
+        {
+          "name": "Benfica / Sporting — Primeira Liga + Derby de Lisboa",
+          "sport": "futebol",
+          "type": "Primeira Liga",
+          "venue": "Estádio da Luz (Benfica) / Estádio José Alvalade (Sporting)",
+          "dates_2026": "Temporada ago 2025 – mai 2026",
+          "dates_2027": "Temporada ago 2026 – mai 2027",
+          "confidence": "estimated",
+          "ticket_price_approx": "€20–80",
+          "ticket_tip": "Derby Lisboa (Benfica × Sporting) é dos clássicos mais apaixonados da Europa. Ingressos em slbenfica.pt e sporting.pt.",
+          "buy_link": "https://www.slbenfica.pt/pt-pt/bilhetes",
+          "notes": "Estádio da Luz tem 65k lugares. Benfica regularmente nas fases finais da UCL"
+        }
+      ]
+    },
+    {
+      "id": "amsterdam",
+      "name": "Amsterdã",
+      "country": "Holanda",
+      "emoji": "🇳🇱",
+      "currency": "EUR",
+      "touristPass": {
+        "exists": true,
+        "name": "I amsterdam City Card",
+        "price": 75,
+        "duration": "24 horas",
+        "includes": [
+          "Transporte público ilimitado",
+          "Rijksmuseum",
+          "Van Gogh Museum",
+          "Canal cruise",
+          "+70 atrações"
+        ],
+        "activationNote": "Ativado na primeira utilização. Muito vantajoso se usar 3+ atrações por dia.",
+        "buyLink": "https://www.iamsterdam.com/en/i-am/i-amsterdam-city-card"
+      },
+      "attractions": [
+        {
+          "name": "Rijksmuseum",
+          "price": 22.5,
+          "confidence": "high",
+          "category": "museu",
+          "description": "O maior museu holandês com Rembrandt, Vermeer e arte do século de ouro",
+          "tip": "Reserve online. Chegue às 9h para ver A Ronda Noturna sem multidão."
+        },
+        {
+          "name": "Van Gogh Museum",
+          "price": 22,
+          "confidence": "high",
+          "category": "museu",
+          "description": "Maior coleção de obras de Van Gogh do mundo",
+          "tip": "Ingressos esgotam rápido — reserve com semanas de antecedência."
+        },
+        {
+          "name": "Casa de Ana Frank",
+          "price": 16,
+          "confidence": "high",
+          "category": "história",
+          "description": "O esconderijo onde Ana Frank escreveu seu diário durante a ocupação nazista",
+          "tip": "Muito difícil conseguir ingresso. Reserve com meses de antecedência."
+        },
+        {
+          "name": "Canal Cruise",
+          "price": 18,
+          "confidence": "medium",
+          "category": "passeio",
+          "description": "Passeio de barco pelos canais históricos da cidade",
+          "tip": "Cruise ao entardecer é o mais bonito. Vários operadores — compare preços."
+        },
+        {
+          "name": "Bicicleta pelos canais",
+          "price": 12,
+          "confidence": "medium",
+          "category": "passeio",
+          "description": "A melhor forma de ver Amsterdã como os locais",
+          "tip": "Muito cuidado no trânsito — ciclistas têm prioridade e são rápidos. Aluguel por hora ou dia."
+        }
+      ],
+      "cityTips": {
+        "transport": "Bicicleta é o melhor transporte. GVB card de 24h custa €9 para tram, metro e ônibus.",
+        "bestSeason": "Abril (tulipas) e maio-junho. Inverno é cinza e frio mas menos turista.",
+        "safety": "Muito segura. Atenção apenas a bicicletas — elas têm prioridade absoluta.",
+        "payment": "Holanda é pouco cashless — cartão aceito em quase tudo. Alguns locais não aceitam dinheiro.",
+        "language": "Holandês, mas praticamente todos falam inglês fluente.",
+        "food": "Stroop wafel, haring (arenque) e bitterballen são obrigatórios. Jantar cedo comparado ao sul da Europa."
+      },
+      "sportingEvents": [
+        {
+          "name": "ABN AMRO Open — Rotterdam (ATP 500, a 1h de Amsterdã)",
+          "sport": "tênis",
+          "type": "ATP 500",
+          "venue": "Rotterdam Ahoy",
+          "dates_2026": "Estimado: fev 2026",
+          "dates_2027": "Estimado: fev 2027",
+          "confidence": "estimated",
+          "ticket_price_approx": "€30–100",
+          "ticket_tip": "Rotterdam a 1h de trem de Amsterdã — fácil de combinar. Um dos melhores indoor do circuito.",
+          "buy_link": "https://www.abnamroopen.nl",
+          "notes": "Excelente ATP 500 de início de ano — campo sempre forte"
+        },
+        {
+          "name": "Ajax — Johan Cruyff Arena",
+          "sport": "futebol",
+          "type": "Eredivisie",
+          "venue": "Johan Cruyff Arena",
+          "dates_2026": "Temporada ago 2025 – mai 2026",
+          "dates_2027": "Temporada ago 2026 – mai 2027",
+          "confidence": "estimated",
+          "ticket_price_approx": "€25–80",
+          "ticket_tip": "Ingressos em ajax.nl. De Klassieker (Ajax × Feyenoord) é difícil de conseguir.",
+          "buy_link": "https://www.ajax.nl/tickets",
+          "notes": "Ajax — 4x campeão europeu. Um dos clubes mais históricos do mundo"
+        }
+      ]
+    },
+    {
+      "id": "berlim",
+      "name": "Berlim",
+      "country": "Alemanha",
+      "emoji": "🇩🇪",
+      "currency": "EUR",
+      "touristPass": {
+        "exists": true,
+        "name": "Berlin Welcome Card",
+        "price": 29,
+        "duration": "48 horas",
+        "includes": [
+          "Transporte público ilimitado zonas A+B",
+          "Descontos em 200+ atrações e restaurantes"
+        ],
+        "activationNote": "Válido a partir da primeira validação. Compre no aeroporto ou estações de metrô.",
+        "buyLink": "https://www.berlin-welcomecard.de"
+      },
+      "attractions": [
+        {
+          "name": "Museu do Holocausto (Memorial)",
+          "price": 0,
+          "confidence": "high",
+          "category": "história",
+          "description": "Memorial com 2711 estelas de concreto e centro de informação subterrâneo",
+          "tip": "Gratuito mas reserve horário para o centro de informação. Experiência muito impactante."
+        },
+        {
+          "name": "Ilha dos Museus (Pergamon + Neues)",
+          "price": 19,
+          "confidence": "high",
+          "category": "museu",
+          "description": "Complexo de 5 museus mundialmente famosos na ilha central de Berlim",
+          "tip": "Ingresso combinado para todos os museus da ilha. Pergamon em reforma parcial até 2027."
+        },
+        {
+          "name": "Portão de Brandemburgo",
+          "price": 0,
+          "confidence": "high",
+          "category": "ícone",
+          "description": "O símbolo da reunificação alemã e um dos monumentos mais famosos da Europa",
+          "tip": "Melhor ao amanhecer sem turistas. Área ao redor tem história densa."
+        },
+        {
+          "name": "Muro de Berlim (East Side Gallery)",
+          "price": 0,
+          "confidence": "high",
+          "category": "história",
+          "description": "1,3km do muro original coberto de murais artísticos",
+          "tip": "Caminhe o trecho completo. O mural de Brezhnev e Honecker beijando é o mais famoso."
+        },
+        {
+          "name": "Castelo de Charlottenburg",
+          "price": 17,
+          "confidence": "high",
+          "category": "história",
+          "description": "Maior palácio de Berlim com jardins e apartamentos reais do século XVII",
+          "tip": "Os jardins são gratuitos. Vá no verão para aproveitar o parque."
+        }
+      ],
+      "cityTips": {
+        "transport": "U-Bahn e S-Bahn excelentes. Bilhete AB cobre quase tudo (€3,50/viagem). Passe semanal €43.",
+        "bestSeason": "Maio-setembro. Inverno é muito frio mas tem mercados de Natal incríveis em dezembro.",
+        "safety": "Muito segura. Bairros como Neukölln têm reputação mas são tranquilos para turistas.",
+        "payment": "Alemanha ainda é muito baseada em dinheiro. Sempre tenha euros em espécie.",
+        "language": "Alemão, mas inglês é falado por praticamente todos, especialmente nos bairros jovens.",
+        "food": "Currywurst e döner kebab são os lanches clássicos. Café da manhã generoso é cultura local."
+      },
+      "sportingEvents": [
+        {
+          "name": "Union Berlin — Bundesliga",
+          "sport": "futebol",
+          "type": "Bundesliga",
+          "venue": "An der Alten Försterei",
+          "dates_2026": "Temporada ago 2025 – mai 2026",
+          "dates_2027": "Temporada ago 2026 – mai 2027",
+          "confidence": "estimated",
+          "ticket_price_approx": "€15–50",
+          "ticket_tip": "Estádio mais alternativo e carismático de Berlim — atmosfera única. Hertha (Olympiastadion) como alternativa.",
+          "buy_link": "https://www.union-berlin.de/tickets",
+          "notes": "Bundesliga tem a maior média de público do mundo. Ingressos muito mais baratos que Premier e La Liga"
+        }
+      ]
+    },
+    {
+      "id": "londres",
+      "name": "Londres",
+      "country": "Reino Unido",
+      "emoji": "🇬🇧",
+      "currency": "GBP",
+      "touristPass": {
+        "exists": true,
+        "name": "London Pass",
+        "price": 89,
+        "duration": "1 dia",
+        "includes": [
+          "Tower of London",
+          "Westminster Abbey",
+          "St. Paul's Cathedral",
+          "+80 atrações"
+        ],
+        "activationNote": "Ativado na primeira atração. Verifique se inclui transporte — versão com Travelcard custa mais.",
+        "buyLink": "https://www.londonpass.com"
+      },
+      "attractions": [
+        {
+          "name": "Tower of London",
+          "price": 34,
+          "confidence": "high",
+          "category": "história",
+          "description": "Fortaleza medieval que abriga as joias da coroa britânica",
+          "tip": "Reserve online com antecedência. Os Yeomen Warders (Beefeaters) fazem tours gratuitos inclusos."
+        },
+        {
+          "name": "British Museum",
+          "price": 0,
+          "confidence": "high",
+          "category": "museu",
+          "description": "Um dos maiores museus do mundo com a Pedra de Roseta e múmias egípcias",
+          "tip": "Gratuito mas reserve slot online. Enorme — priorize o que quer ver antes de ir."
+        },
+        {
+          "name": "Tate Modern",
+          "price": 0,
+          "confidence": "high",
+          "category": "museu",
+          "description": "Arte contemporânea num antigo gerador elétrico à beira do Tâmisa",
+          "tip": "Gratuito. Exposições temporárias cobram entrada. Vista do Tâmisa do topo é de graça."
+        },
+        {
+          "name": "Westminster Abbey",
+          "price": 29,
+          "confidence": "high",
+          "category": "história",
+          "description": "Igreja gótica onde são coroados e enterrados os reis britânicos",
+          "tip": "Gratuito para missas — chegue cedo. Não permite fotos no interior."
+        },
+        {
+          "name": "London Eye",
+          "price": 32,
+          "confidence": "medium",
+          "category": "ícone",
+          "description": "Roda-gigante com cabines climatizadas e vista de 40km",
+          "tip": "Reserve com hora marcada. Pôr do sol é o melhor horário."
+        }
+      ],
+      "cityTips": {
+        "transport": "Underground (Tube) é eficiente. Use Oyster Card ou cartão sem contato — muito mais barato que bilhete avulso. Diária limitada em ~£8.",
+        "bestSeason": "Junho-agosto tem o melhor clima. Maio e setembro são ótimos e menos lotados.",
+        "safety": "Muito segura. Atenção básica em estações de metrô movimentadas.",
+        "payment": "Londres é amplamente cashless — cartão e contactless em praticamente tudo.",
+        "language": "Inglês com sotaque britânico. Cidade muito multicultural.",
+        "food": "Full English breakfast é obrigatório. Fish and chips, pubs históricos. Jantar caro — almoce pesado."
+      },
+      "sportingEvents": [
+        {
+          "name": "Wimbledon",
+          "sport": "tênis",
+          "type": "Grand Slam",
+          "venue": "All England Lawn Tennis Club",
+          "dates_2026": "29 jun – 12 jul 2026",
+          "dates_2027": "Estimado: final jun – início jul 2027",
+          "confidence": "confirmed_2026",
+          "ticket_price_approx": "£33 (ground pass) | £150–2500 (Centre Court)",
+          "ticket_tip": "Ballot abre em setembro — inscreva-se em wimbledon.com. Ground Pass acessa quadras externas e Henman Hill. Fila no dia começa às 4–5h.",
+          "buy_link": "https://www.wimbledon.com/en_GB/tickets/index.html",
+          "notes": "O mais famoso torneio do tênis. Morangos com chantilly são obrigatórios"
+        },
+        {
+          "name": "Premier League — Arsenal, Chelsea, Tottenham",
+          "sport": "futebol",
+          "type": "Premier League",
+          "venue": "Emirates (Arsenal) / Stamford Bridge (Chelsea) / Tottenham Hotspur Stadium",
+          "dates_2026": "Temporada ago 2025 – mai 2026",
+          "dates_2027": "Temporada ago 2026 – mai 2027",
+          "confidence": "estimated",
+          "ticket_price_approx": "£50–200+",
+          "ticket_tip": "Compre no site oficial de cada clube. Arsenal (arsenal.com), Chelsea (chelseafc.com), Spurs (tottenhamhotspur.com).",
+          "buy_link": "https://www.arsenal.com/tickets",
+          "notes": "Arsenal finalista da Champions 2026 (vs PSG em Budapeste, 30/mai). Premier tem jogos toda rodada"
+        },
+        {
+          "name": "Laver Cup",
+          "sport": "tênis",
+          "type": "Exibição — Europa vs Mundo",
+          "venue": "The O2 Arena",
+          "dates_2026": "25–27 set 2026",
+          "dates_2027": "Estimado: set 2027 (cidade a confirmar)",
+          "confidence": "confirmed_2026",
+          "ticket_price_approx": "£50–300",
+          "ticket_tip": "Evento criado por Federer — formato animado diferente dos torneios comuns. Atmosfera de show.",
+          "buy_link": "https://www.lavercup.com",
+          "notes": "2026 confirmado em Londres no O2"
+        }
+      ]
+    },
+    {
+      "id": "madri",
+      "name": "Madri",
+      "country": "Espanha",
+      "emoji": "🇪🇸",
+      "currency": "EUR",
+      "touristPass": {
+        "exists": true,
+        "name": "Madrid Card",
+        "price": 47,
+        "duration": "24 horas",
+        "includes": [
+          "Transporte público ilimitado",
+          "Prado",
+          "Reina Sofía",
+          "Thyssen",
+          "+50 atrações"
+        ],
+        "activationNote": "Ativado na primeira utilização. Muito vantajoso se visitar os 3 grandes museus no mesmo dia.",
+        "buyLink": "https://www.madridcard.com"
+      },
+      "attractions": [
+        {
+          "name": "Museu do Prado",
+          "price": 15,
+          "confidence": "high",
+          "category": "museu",
+          "description": "Um dos maiores museus de arte clássica do mundo — Velázquez, Goya, El Greco",
+          "tip": "Gratuito de segunda a sábado das 18h às 20h e domingos das 17h às 19h. Chegue 30min antes."
+        },
+        {
+          "name": "Museu Reina Sofía",
+          "price": 12,
+          "confidence": "high",
+          "category": "museu",
+          "description": "Arte contemporânea com a Guernica de Picasso como peça central",
+          "tip": "Gratuito de segunda, quarta a sábado das 19h às 21h e domingos das 13h30 às 19h."
+        },
+        {
+          "name": "Palácio Real de Madri",
+          "price": 14,
+          "confidence": "high",
+          "category": "história",
+          "description": "O maior palácio real da Europa Ocidental em área, com 3418 cômodos",
+          "tip": "Gratuito nas tardes de quarta e quinta para cidadãos da UE. Troca da guarda às segundas, quartas e sextas às 12h."
+        },
+        {
+          "name": "Bernabéu Stadium Tour",
+          "price": 30,
+          "confidence": "high",
+          "category": "esporte",
+          "description": "Tour pelo estádio do Real Madrid com museu e troféus",
+          "tip": "Compre online. Se coincidir com jogo, o tour é suspenso naquele dia."
+        },
+        {
+          "name": "Parque do Retiro",
+          "price": 0,
+          "confidence": "high",
+          "category": "natureza",
+          "description": "Parque central de Madri com lago, palácios e jardins",
+          "tip": "Alugue um barco no lago (€6/30min). Palácio de Cristal tem exposições gratuitas."
+        }
+      ],
+      "cityTips": {
+        "transport": "Metro excelente e barato. Bilhete avulso €1,50-2. Passe turístico de 3 dias €18,40.",
+        "bestSeason": "Primavera (mar-mai) e outono (set-nov). Verão é extremamente quente (40°C+).",
+        "safety": "Muito segura. Sol Madrid é agitado à noite mas tranquilo para turistas.",
+        "payment": "Cartão aceito em quase tudo. Mercados tradicionais preferem espécie.",
+        "language": "Espanhol castelhano. Inglês falado nos pontos turísticos.",
+        "food": "Churros com chocolate no café da manhã. Jantar após 21h é normal. Tapas grátis em alguns bares do centro."
+      },
+      "sportingEvents": [
+        {
+          "name": "Mutua Madrid Open",
+          "sport": "tênis",
+          "type": "ATP Masters 1000 + WTA 1000",
+          "venue": "Caja Mágica",
+          "dates_2026": "20 abr – 3 mai 2026",
+          "dates_2027": "Estimado: 21 abr – 2 mai 2027",
+          "confidence": "confirmed_2026",
+          "ticket_price_approx": "€20–100",
+          "ticket_tip": "Boa estrutura e ingressos diários disponíveis. Fase final esgota — compre com antecedência.",
+          "buy_link": "https://tickets.mutuamadridopen.com",
+          "notes": "Único Masters onde homens e mulheres jogam no mesmo complexo e semana"
+        },
+        {
+          "name": "Real Madrid — Santiago Bernabéu",
+          "sport": "futebol",
+          "type": "La Liga / Champions League",
+          "venue": "Estádio Santiago Bernabéu",
+          "dates_2026": "Temporada ago 2025 – mai 2026",
+          "dates_2027": "Temporada ago 2026 – mai 2027",
+          "confidence": "estimated",
+          "ticket_price_approx": "€50–300 (La Liga); €100–600+ (Champions)",
+          "ticket_tip": "Ingressos em realmadrid.com — esgotam rápido. Bernabéu recém-reformado é um dos mais belos do mundo.",
+          "buy_link": "https://www.realmadrid.com/en/tickets",
+          "notes": "El Clásico (Real × Barça) é o jogo mais famoso do mundo — ingressos quase impossíveis para turistas"
+        },
+        {
+          "name": "Atlético de Madrid — Final da UCL 2027",
+          "sport": "futebol",
+          "type": "La Liga / UCL Final 2027",
+          "venue": "Riyadh Air Metropolitano",
+          "dates_2026": "Temporada ago 2025 – mai 2026",
+          "dates_2027": "Final UCL: 5 jun 2027",
+          "confidence": "confirmed_2027_final",
+          "ticket_price_approx": "€30–150 (La Liga); Final UCL via sorteio UEFA",
+          "ticket_tip": "La Liga é mais acessível. Final UCL 2027: inscreva-se em uefa.com (sorteio para neutros).",
+          "buy_link": "https://www.atleticodemadrid.com/entradas",
+          "notes": "Atletico recebe a Final da Champions League 2027 em 5/jun — segundo estádio após 2019"
+        }
+      ]
+    },
+    {
+      "id": "praga",
+      "name": "Praga",
+      "country": "República Tcheca",
+      "emoji": "🇨🇿",
+      "currency": "CZK",
+      "touristPass": {
+        "exists": true,
+        "name": "Prague City Tourism Card",
+        "price": 650,
+        "duration": "24 horas",
+        "includes": [
+          "Transporte público ilimitado",
+          "Castelo de Praga",
+          "Museu Nacional",
+          "+50 atrações"
+        ],
+        "activationNote": "Ativado na primeira utilização. Disponível em papel ou digital.",
+        "buyLink": "https://www.praguecityline.com"
+      },
+      "attractions": [
+        {
+          "name": "Castelo de Praga",
+          "price": 250,
+          "confidence": "high",
+          "category": "história",
+          "description": "O maior complexo de castelo medieval do mundo, com catedral e palácios",
+          "tip": "Ingresso cobre vários circuitos — compre o mais completo. Vá cedo, as filas são longas."
+        },
+        {
+          "name": "Ponte Carlos",
+          "price": 0,
+          "confidence": "high",
+          "category": "ícone",
+          "description": "Ponte gótica do século XIV com 30 estátuas de santos",
+          "tip": "Vá às 6h da manhã para ver sem turistas. À noite é igualmente bonita e menos lotada."
+        },
+        {
+          "name": "Cidade Velha e Relógio Astronômico",
+          "price": 0,
+          "confidence": "high",
+          "category": "história",
+          "description": "Praça central com o relógio medieval que toca a cada hora",
+          "tip": "O show do relógio é curto. O entorno é mais impressionante que o show em si."
+        },
+        {
+          "name": "Bairro Judeu (Josefov)",
+          "price": 550,
+          "confidence": "high",
+          "category": "história",
+          "description": "6 sinagogas e o cemitério judeu medieval mais antigo da Europa",
+          "tip": "Ingresso cobre tudo no bairro. Muito impactante — reserve pelo menos 3h."
+        },
+        {
+          "name": "Cruzeiro no Rio Vltava",
+          "price": 350,
+          "confidence": "medium",
+          "category": "passeio",
+          "description": "Vista dos monumentos de Praga a partir do rio",
+          "tip": "Cruzeiro com jantar custa mais mas é uma experiência especial."
+        }
+      ],
+      "cityTips": {
+        "transport": "Metro, tram e ônibus integrados. Bilhete 24h por 120 CZK (~R$25). Centro histórico é caminhável.",
+        "bestSeason": "Maio-junho e setembro. Dezembro tem mercados de Natal belíssimos apesar do frio.",
+        "safety": "Muito segura. Atenção a cambistas na rua — sempre use casas de câmbio ou bancos.",
+        "payment": "Coroa tcheca (CZK). Muitos lugares aceitam euros mas com câmbio desfavorável. Troque na chegada.",
+        "language": "Tcheco. Inglês falado no centro turístico.",
+        "food": "Svíčková (carne com creme) e trdelník (doce em forma de cone). Cerveja local é barata e excelente."
+      },
+      "sportingEvents": [
+        {
+          "name": "Prague Open (WTA 250)",
+          "sport": "tênis",
+          "type": "WTA 250",
+          "venue": "TK Sparta Praha",
+          "dates_2026": "Estimado: jul 2026",
+          "dates_2027": "Estimado: jul 2027",
+          "confidence": "estimated",
+          "ticket_price_approx": "€15–40",
+          "ticket_tip": "Torneio menor com ambiente agradável no verão tcheco.",
+          "buy_link": null,
+          "notes": "Boa opção para ver WTA em cidade histórica"
+        },
+        {
+          "name": "AC Sparta Praha / SK Slavia Praha — Derby de Praga",
+          "sport": "futebol",
+          "type": "Fortuna Liga",
+          "venue": "Epet Arena (Sparta) / Sinobo Stadium (Slavia)",
+          "dates_2026": "Temporada ago 2025 – mai 2026",
+          "dates_2027": "Temporada ago 2026 – mai 2027",
+          "confidence": "estimated",
+          "ticket_price_approx": "€10–30",
+          "ticket_tip": "Derby de Praga é um dos clássicos mais antigos da Europa Central. Ingressos muito baratos.",
+          "buy_link": null,
+          "notes": "Sparta e Slavia participam regularmente da Conference League europeia"
+        }
+      ]
+    },
+    {
+      "id": "viena",
+      "name": "Viena",
+      "country": "Áustria",
+      "emoji": "🇦🇹",
+      "currency": "EUR",
+      "touristPass": {
+        "exists": true,
+        "name": "Vienna City Card",
+        "price": 29,
+        "duration": "24 horas",
+        "includes": [
+          "Transporte público ilimitado",
+          "Descontos em museus e atrações"
+        ],
+        "activationNote": "Ativado na primeira utilização no transporte.",
+        "buyLink": "https://www.wiencitycard.at"
+      },
+      "attractions": [
+        {
+          "name": "Palácio de Schönbrunn",
+          "price": 30,
+          "confidence": "high",
+          "category": "história",
+          "description": "Palácio imperial com 1441 cômodos e jardins imensos",
+          "tip": "Grand Tour inclui os aposentos reais. Os jardins são parcialmente gratuitos."
+        },
+        {
+          "name": "Museu de História da Arte (KHM)",
+          "price": 21,
+          "confidence": "high",
+          "category": "museu",
+          "description": "Um dos maiores museus de arte do mundo com Vermeer, Caravaggio e Rafael",
+          "tip": "Grátis toda primeira terça do mês após as 18h."
+        },
+        {
+          "name": "Ópera de Viena",
+          "price": 15,
+          "confidence": "medium",
+          "category": "cultura",
+          "description": "Uma das maiores e mais famosas casas de ópera do mundo",
+          "tip": "Ingressos de pé (Stehplatz) custam €3-10 e são vendidos 80min antes. Experiência única."
+        },
+        {
+          "name": "Belvedere Palace",
+          "price": 22,
+          "confidence": "high",
+          "category": "museu",
+          "description": "Palácio barroco com o O Beijo de Klimt",
+          "tip": "Upper Belvedere tem O Beijo. Lower Belvedere tem decoração barroca. Reserve online."
+        },
+        {
+          "name": "Prater e Roda Gigante",
+          "price": 13,
+          "confidence": "high",
+          "category": "ícone",
+          "description": "Parque histórico com a roda gigante de 1897, símbolo de Viena",
+          "tip": "Parque é gratuito. A roda gigante tem cabines privativas para jantar a dois — reserva necessária."
+        }
+      ],
+      "cityTips": {
+        "transport": "U-Bahn, tram e ônibus excelentes. Bilhete 24h €8. Centro histórico é caminhável.",
+        "bestSeason": "Primavera (abr-mai) e outono (set-out). Dezembro tem mercados de Natal muito tradicionais.",
+        "safety": "Uma das cidades mais seguras do mundo.",
+        "payment": "Cartão aceito em quase todo lugar. Cafés vienenses tradicionais podem preferir espécie.",
+        "language": "Alemão austríaco. Inglês amplamente falado.",
+        "food": "Wiener Schnitzel, Sachertorte e café vienense. O café da tarde (Kaffeehaus) é uma instituição cultural."
+      },
+      "sportingEvents": []
+    },
+    {
+      "id": "florenca",
+      "name": "Florença",
+      "country": "Itália",
+      "emoji": "🇮🇹",
+      "currency": "EUR",
+      "touristPass": {
+        "exists": false,
+        "name": null,
+        "price": null,
+        "duration": null,
+        "includes": [],
+        "activationNote": null,
+        "buyLink": null
+      },
+      "attractions": [
+        {
+          "name": "Galeria Uffizi",
+          "price": 25,
+          "confidence": "high",
+          "category": "museu",
+          "description": "Um dos maiores museus de arte renascentista com Botticelli, Leonardo e Michelangelo",
+          "tip": "Reserve com semanas de antecedência — ingressos esgotam rápido. Chegue no horário."
+        },
+        {
+          "name": "Galeria da Academia (Davi)",
+          "price": 20,
+          "confidence": "high",
+          "category": "museu",
+          "description": "Abriga o Davi de Michelangelo no original, escultura mais famosa do mundo",
+          "tip": "Reserve online obrigatoriamente. Fila sem reserva pode passar de 2h."
+        },
+        {
+          "name": "Catedral (Duomo) + Cúpula de Brunelleschi",
+          "price": 18,
+          "confidence": "high",
+          "category": "arquitetura",
+          "description": "Subir a cúpula oferece uma das melhores vistas de Florença",
+          "tip": "Chegue muito cedo — acesso limitado e filas enormes. A catedral em si é gratuita."
+        },
+        {
+          "name": "Palazzo Pitti + Jardins Boboli",
+          "price": 16,
+          "confidence": "high",
+          "category": "história",
+          "description": "Antigo palácio dos Médici com jardins renascentistas extensos",
+          "tip": "Tarde de domingo tem menos gente. Os jardins valem mais que os museus internos."
+        },
+        {
+          "name": "Ponte Vecchio e Oltrarno",
+          "price": 0,
+          "confidence": "high",
+          "category": "ícone",
+          "description": "A famosa ponte medieval com lojas de joalheiros, e o bairro mais autêntico de Florença",
+          "tip": "Evite as joalherias da ponte — são para turistas. O bairro Oltrarno tem restaurantes locais excelentes."
+        }
+      ],
+      "cityTips": {
+        "transport": "Centro histórico é completamente caminhável. Ônibus para os arredores. Carro não é recomendado no centro.",
+        "bestSeason": "Abril-junho e setembro-outubro. Verão é muito quente e superlotado.",
+        "safety": "Muito segura. Atenção básica a pickpockets nas áreas turísticas.",
+        "payment": "Cartão aceito na maioria dos lugares. Leve dinheiro para mercados e lanchonetes locais.",
+        "language": "Italiano. Inglês nos pontos turísticos.",
+        "food": "Bistecca alla Fiorentina e lampredotto são os pratos típicos. Gelato aqui é o melhor da Itália."
+      },
+      "sportingEvents": []
+    },
+    {
+      "id": "veneza",
+      "name": "Veneza",
+      "country": "Itália",
+      "emoji": "🇮🇹",
+      "currency": "EUR",
+      "touristPass": {
+        "exists": true,
+        "name": "Venezia Unica City Pass",
+        "price": 36,
+        "duration": "72 horas",
+        "includes": [
+          "Vaporetti (ônibus aquáticos) ilimitados",
+          "Descontos em museus"
+        ],
+        "activationNote": "Ativado na primeira validação no vaporetto. Essencial para se locomover pela cidade.",
+        "buyLink": "https://www.veneziaunica.it"
+      },
+      "attractions": [
+        {
+          "name": "Basílica de São Marcos",
+          "price": 3,
+          "confidence": "high",
+          "category": "arquitetura",
+          "description": "Catedral bizantina dourada na praça mais famosa de Veneza",
+          "tip": "Gratuito entrar na basílica, paga para ver o tesouro e a terraço. Fila grande — vá de manhã cedo."
+        },
+        {
+          "name": "Palazzo Ducale (Palácio Ducal)",
+          "price": 30,
+          "confidence": "high",
+          "category": "história",
+          "description": "Palácio gótico sede do governo veneziano por séculos",
+          "tip": "Inclui a Ponte dos Suspiros. Compre ingresso Musei Piazza San Marco que cobre mais locais."
+        },
+        {
+          "name": "Gôndola pelo Grande Canal",
+          "price": 80,
+          "confidence": "high",
+          "category": "passeio",
+          "description": "Passeio tradicional de gôndola pelos canais de Veneza",
+          "tip": "Preço por gôndola (até 6 pessoas). Negocie trajeto antes. Trajetos noturnos custam mais mas são mais românticos."
+        },
+        {
+          "name": "Ilha de Murano (vidro) + Burano (rendas)",
+          "price": 0,
+          "confidence": "high",
+          "category": "cultura",
+          "description": "Ilhas vizinhas — Murano famosa pelo vidro artesanal, Burano pelas casas coloridas e rendas",
+          "tip": "Vaporetto das ilhas está incluído no city pass. Murano: veja a demonstração de sopro de vidro gratuita."
+        },
+        {
+          "name": "Museu Peggy Guggenheim",
+          "price": 18,
+          "confidence": "high",
+          "category": "museu",
+          "description": "Arte moderna do século XX à beira do Grande Canal",
+          "tip": "Um dos mais belos museus de arte moderna da Europa. Menos lotado que as atrações da Piazza."
+        }
+      ],
+      "cityTips": {
+        "transport": "Sem carros — tudo a pé ou de vaporetto. Táxi aquático é caro (€80+). Caminhar é a melhor experiência.",
+        "bestSeason": "Março (antes do Carnaval) e outubro-novembro. Evite agosto — calor extremo e maré alta.",
+        "safety": "Muito segura. Cuidado com a acqua alta (alagamentos) — verifique previsão e leve botas impermeáveis.",
+        "payment": "Cartão aceito na maioria. Leve dinheiro para traghetti (balsas locais, €2).",
+        "language": "Italiano e dialeto veneziano.",
+        "food": "Cicchetti (tapas venezianas) nos bacaros são baratos e deliciosos. Avoid restaurantes com cardápios em inglês na porta."
+      },
+      "sportingEvents": []
+    },
+    {
+      "id": "milao",
+      "name": "Milão",
+      "country": "Itália",
+      "emoji": "🇮🇹",
+      "currency": "EUR",
+      "touristPass": {
+        "exists": false,
+        "name": null,
+        "price": null,
+        "duration": null,
+        "includes": [],
+        "activationNote": null,
+        "buyLink": null
+      },
+      "attractions": [
+        {
+          "name": "Santa Ceia de Leonardo da Vinci",
+          "price": 15,
+          "confidence": "high",
+          "category": "arte",
+          "description": "A Última Ceia pintada na parede de um refeitório — visita de apenas 15 minutos",
+          "tip": "Reserve com meses de antecedência. Ingressos esgotam rapidíssimo. Impossível entrar sem reserva."
+        },
+        {
+          "name": "Duomo de Milão + Terraço",
+          "price": 14,
+          "confidence": "high",
+          "category": "arquitetura",
+          "description": "Catedral gótica com 3400 estátuas e terraço com vista dos Alpes em dia claro",
+          "tip": "Subida ao terraço de elevador ou escadas. Amanhecer tem menos gente."
+        },
+        {
+          "name": "Pinacoteca di Brera",
+          "price": 15,
+          "confidence": "high",
+          "category": "museu",
+          "description": "Uma das maiores coleções de pintura italiana com Raphael e Caravaggio",
+          "tip": "Grátis na primeira e terceira terça do mês. Localizada no bairro mais charmoso de Milão."
+        },
+        {
+          "name": "Galleria Vittorio Emanuele II",
+          "price": 0,
+          "confidence": "high",
+          "category": "arquitetura",
+          "description": "A galeria comercial mais antiga do mundo — um shopping do século XIX com cúpula de vidro",
+          "tip": "Gratuito entrar. Lojas são de luxo mas passear e sentar nos cafés é a experiência."
+        },
+        {
+          "name": "San Siro Stadium Tour",
+          "price": 22,
+          "confidence": "medium",
+          "category": "esporte",
+          "description": "Estádio compartilhado por Inter e Milan com museu e tour",
+          "tip": "Verifique datas de jogo — tour suspenso nos dias de partida."
+        }
+      ],
+      "cityTips": {
+        "transport": "Metro eficiente com 4 linhas. Bilhete avulso €2,20 ou diário €7,60.",
+        "bestSeason": "Abril-junho e setembro-outubro. Inverno é frio e com neblina.",
+        "safety": "Segura. Atenção nas estações de trem (Central e Garibaldi).",
+        "payment": "Cartão amplamente aceito.",
+        "language": "Italiano. Inglês falado nos negócios e moda.",
+        "food": "Risotto alla Milanese e ossobuco são os pratos típicos. Aperitivo no bairro de Navigli é ritual local."
+      },
+      "sportingEvents": [
+        {
+          "name": "Internazionale / AC Milan — Serie A + Derby della Madonnina",
+          "sport": "futebol",
+          "type": "Serie A / Champions League",
+          "venue": "San Siro (Giuseppe Meazza)",
+          "dates_2026": "Temporada ago 2025 – mai 2026",
+          "dates_2027": "Temporada ago 2026 – mai 2027",
+          "confidence": "estimated",
+          "ticket_price_approx": "€25–120",
+          "ticket_tip": "Derby della Madonnina (Inter × Milan) é um dos maiores clássicos do mundo. Ingressos em inter.it e acmilan.com.",
+          "buy_link": "https://www.inter.it/it/acquista-biglietti",
+          "notes": "San Siro é um dos estádios mais icônicos do futebol mundial. Inter e Milan dividem o mesmo estádio histórico"
+        }
+      ]
+    },
+    {
+      "id": "porto",
+      "name": "Porto",
+      "country": "Portugal",
+      "emoji": "🇵🇹",
+      "currency": "EUR",
+      "touristPass": {
+        "exists": true,
+        "name": "Porto Card",
+        "price": 15,
+        "duration": "24 horas",
+        "includes": [
+          "Transporte público ilimitado",
+          "Descontos em museus e caves de vinho"
+        ],
+        "activationNote": "Ativado na primeira utilização. Versão com museus gratuitos custa mais.",
+        "buyLink": "https://www.portocard.city"
+      },
+      "attractions": [
+        {
+          "name": "Livraria Lello",
+          "price": 5,
+          "confidence": "high",
+          "category": "cultura",
+          "description": "Uma das mais belas livrarias do mundo, inspiração para Harry Potter",
+          "tip": "Ingresso descontado na compra de livro. Vá na abertura (9h) para evitar fila de 1h+."
+        },
+        {
+          "name": "Tour pelas Caves do Vinho do Porto",
+          "price": 20,
+          "confidence": "medium",
+          "category": "cultura",
+          "description": "Visita às adegas de Graham's, Sandeman ou Taylor's com degustação",
+          "tip": "Sandeman tem tour mais completo. Inclui degustação de 2-3 vinhos. Reserve online."
+        },
+        {
+          "name": "Ribeira e Rio Douro",
+          "price": 0,
+          "confidence": "high",
+          "category": "bairro",
+          "description": "Bairro histórico à beira do Douro, Patrimônio da UNESCO",
+          "tip": "Caminhe pela margem até a Ponte D. Luís. Vista de cima da ponte é imperdível."
+        },
+        {
+          "name": "Igreja de São Francisco (interior dourado)",
+          "price": 8,
+          "confidence": "high",
+          "category": "história",
+          "description": "Interior completamente revestido em ouro barroco — impressionante",
+          "tip": "Uma das igrejas mais ricas do mundo em decoração. Não perca as catacumbas."
+        },
+        {
+          "name": "Cruzeiro no Rio Douro",
+          "price": 18,
+          "confidence": "medium",
+          "category": "passeio",
+          "description": "Passeio de barco rabelo pelos 6 pontes do Porto",
+          "tip": "Vários operadores na Ribeira. Passeio de 50 minutos é suficiente."
+        }
+      ],
+      "cityTips": {
+        "transport": "Metro, tram histórico e ônibus. Bilhete Andante cobre tudo. Centro é caminhável mas tem muitas ladeiras.",
+        "bestSeason": "Junho-setembro para sol. Março-maio para menos turistas. Inverno é chuvoso.",
+        "safety": "Muito segura. Uma das cidades mais seguras da Europa.",
+        "payment": "Cartão aceito em quase todo lugar.",
+        "language": "Português europeu. Cidade muito receptiva a brasileiros.",
+        "food": "Francesinha (sanduíche com molho de tomate e cerveja) é prato típico. Tripas à moda do Porto. Vinho do Porto para sobremesa."
+      },
+      "sportingEvents": [
+        {
+          "name": "FC Porto — Primeira Liga / UCL",
+          "sport": "futebol",
+          "type": "Primeira Liga / Champions League",
+          "venue": "Estádio do Dragão",
+          "dates_2026": "Temporada ago 2025 – mai 2026",
+          "dates_2027": "Temporada ago 2026 – mai 2027",
+          "confidence": "estimated",
+          "ticket_price_approx": "€20–70",
+          "ticket_tip": "FC Porto tem grande tradição europeia. Jogos da UCL são mais acessíveis que os grandes.",
+          "buy_link": "https://www.fcporto.pt/bilhetes",
+          "notes": "Porto venceu a Champions em 2004 com Mourinho — clube com história europeia rica"
+        }
+      ]
+    },
+    {
+      "id": "budapeste",
+      "name": "Budapeste",
+      "country": "Hungria",
+      "emoji": "🇭🇺",
+      "currency": "HUF",
+      "touristPass": {
+        "exists": true,
+        "name": "Budapest Card",
+        "price": 7900,
+        "duration": "24 horas",
+        "includes": [
+          "Transporte público ilimitado",
+          "Museu Nacional",
+          "Descontos em termas e atrações"
+        ],
+        "activationNote": "Ativado na primeira utilização.",
+        "buyLink": "https://www.budapestinfo.hu"
+      },
+      "attractions": [
+        {
+          "name": "Banhos Széchenyi",
+          "price": 7600,
+          "confidence": "high",
+          "category": "cultura",
+          "description": "As maiores termas da Europa em um edifício neo-barroco amarelo do século XIX",
+          "tip": "Vá no final da tarde para o ambiente mais relaxado. Leve toalha e chinelo."
+        },
+        {
+          "name": "Castelo de Buda e Bastião dos Pescadores",
+          "price": 0,
+          "confidence": "high",
+          "category": "história",
+          "description": "Complexo histórico com vista espetacular do Danúbio e da Pest",
+          "tip": "O Bastião é gratuito. Museus internos do Castelo cobram entrada separada."
+        },
+        {
+          "name": "Parlamento Húngaro",
+          "price": 8000,
+          "confidence": "high",
+          "category": "arquitetura",
+          "description": "Um dos maiores parlamentos do mundo, com a Coroa de Santo Estêvão",
+          "tip": "Tour interno obrigatório para ver o interior. Reserve online."
+        },
+        {
+          "name": "Grande Sinagoga de Budapeste",
+          "price": 6000,
+          "confidence": "high",
+          "category": "história",
+          "description": "A maior sinagoga da Europa, com museu e memorial do Holocausto",
+          "tip": "Tour guiado incluso no ingresso. Muito impactante historicamente."
+        },
+        {
+          "name": "Cruzeiro noturno no Danúbio",
+          "price": 5500,
+          "confidence": "medium",
+          "category": "passeio",
+          "description": "Vista da ponte das Correntes e do Parlamento iluminados à noite",
+          "tip": "Um dos melhores cruzeiros noturnos da Europa. Reserve com antecedência no verão."
+        }
+      ],
+      "cityTips": {
+        "transport": "Metro, tram e ônibus integrados. Bilhete avulso 350 HUF (~R$5). Passe 24h por 2500 HUF.",
+        "bestSeason": "Maio-junho e setembro. Inverno frio mas com charme. Verão quente e animado.",
+        "safety": "Muito segura. Atenção a restaurantes que cobram gorjeta obrigatória sem avisar.",
+        "payment": "Forinto húngaro (HUF). Troque na chegada — câmbio ruim nos aeroportos.",
+        "language": "Húngaro (muito diferente de qualquer outra língua). Inglês falado no turismo.",
+        "food": "Goulash e paprikash são os pratos nacionais. Kürtőskalács (chimney cake) nas ruas. Vinho Tokaji é excelente."
+      },
+      "sportingEvents": []
+    },
+    {
+      "id": "dubrovnik",
+      "name": "Dubrovnik",
+      "country": "Croácia",
+      "emoji": "🇭🇷",
+      "currency": "EUR",
+      "touristPass": {
+        "exists": false,
+        "name": null,
+        "price": null,
+        "duration": null,
+        "includes": [],
+        "activationNote": null,
+        "buyLink": null
+      },
+      "attractions": [
+        {
+          "name": "Muralhas da Cidade Antiga",
+          "price": 35,
+          "confidence": "high",
+          "category": "história",
+          "description": "Caminhada de 2km pelo topo das muralhas medievais com vista do Adriático",
+          "tip": "Vá cedo pela manhã — o calor e as filas ficam intensos após as 10h."
+        },
+        {
+          "name": "Game of Thrones Walking Tour",
+          "price": 25,
+          "confidence": "medium",
+          "category": "cultura",
+          "description": "Tour pelos locais de filmagem de Game of Thrones em Dubrovnik",
+          "tip": "Vários operadores oferecem o tour. Reserve online para grupos menores."
+        },
+        {
+          "name": "Teleférico do Monte Srd",
+          "price": 28,
+          "confidence": "high",
+          "category": "natureza",
+          "description": "Vista panorâmica de Dubrovnik e das ilhas do Adriático do alto do monte",
+          "tip": "Ao entardecer para o melhor pôr do sol. Fila pode ser longa no verão."
+        },
+        {
+          "name": "Ilha de Lokrum (barco)",
+          "price": 15,
+          "confidence": "medium",
+          "category": "natureza",
+          "description": "Ilha de reserva natural a 10min de barco com parque, praias e pavões selvagens",
+          "tip": "Barcos saem de hora em hora do porto velho. Leve comida — restaurante na ilha é caro."
+        },
+        {
+          "name": "Stradun (rua principal)",
+          "price": 0,
+          "confidence": "high",
+          "category": "bairro",
+          "description": "A rua calcária principal da cidade velha, com igrejas e cafés",
+          "tip": "Mais bonita ao amanhecer ou à noite. Durante o dia é extremamente lotada no verão."
+        }
+      ],
+      "cityTips": {
+        "transport": "Cidade velha é totalmente caminhável. Ônibus para praias e arredores. Táxi de barco para ilhas.",
+        "bestSeason": "Maio-junho e setembro-outubro. Julho-agosto é extremamente lotado e quaro.",
+        "safety": "Muito segura.",
+        "payment": "Euro desde 2023. Cartão aceito em quase todo lugar.",
+        "language": "Croata. Inglês amplamente falado no turismo.",
+        "food": "Frutos do mar frescos são excelentes. Prstaci (mexilhão) e buzara (camarão) típicos."
+      },
+      "sportingEvents": []
+    },
+    {
+      "id": "santorini",
+      "name": "Santorini",
+      "country": "Grécia",
+      "emoji": "🇬🇷",
+      "currency": "EUR",
+      "touristPass": {
+        "exists": false,
+        "name": null,
+        "price": null,
+        "duration": null,
+        "includes": [],
+        "activationNote": null,
+        "buyLink": null
+      },
+      "attractions": [
+        {
+          "name": "Pôr do sol em Oía",
+          "price": 0,
+          "confidence": "high",
+          "category": "natureza",
+          "description": "O pôr do sol mais famoso da Grécia, com as cúpulas azuis como cenário",
+          "tip": "Chegue 2h antes para garantir lugar. A praça fica completamente lotada no verão."
+        },
+        {
+          "name": "Tour de Barco pelas Ilhas Vulcânicas",
+          "price": 35,
+          "confidence": "medium",
+          "category": "natureza",
+          "description": "Visita ao vulcão ativo, fontes de água quente e praias coloridas",
+          "tip": "Tours saem de Fira e Athinios. Meio dia é suficiente. Leve protetor solar e sapato fechado para o vulcão."
+        },
+        {
+          "name": "Sítio Arqueológico de Akrotiri",
+          "price": 14,
+          "confidence": "high",
+          "category": "história",
+          "description": "Cidade minóica preservada sob cinzas vulcânicas — a Pompeia grega",
+          "tip": "Surpreendentemente impressionante. Vá de manhã antes do calor intenso."
+        },
+        {
+          "name": "Caminhada Fira-Oía",
+          "price": 0,
+          "confidence": "high",
+          "category": "natureza",
+          "description": "Trilha de 10km pela beira da caldera com vistas espetaculares",
+          "tip": "Leve água suficiente, muito sol e sem sombra. De manhã cedo é essencial. 3-4h de caminhada."
+        },
+        {
+          "name": "Praia de Perissa (areia negra)",
+          "price": 0,
+          "confidence": "high",
+          "category": "natureza",
+          "description": "Praia de areia vulcânica negra com boa estrutura de bares e restaurantes",
+          "tip": "Areia preta retém muito calor — use sandálias para caminhar. Cadeiras de praia alugadas por ~€10."
+        }
+      ],
+      "cityTips": {
+        "transport": "ATV (quadriciclo) é a forma mais popular de se locomover — aluguel ~€25/dia. Ônibus público existe mas horários irregulares.",
+        "bestSeason": "Maio-junho e setembro-outubro. Julho-agosto é extremamente caro e lotado.",
+        "safety": "Muito segura.",
+        "payment": "Cartão aceito na maioria. Leve algum dinheiro para praias e locais menores.",
+        "language": "Grego. Inglês amplamente falado no turismo.",
+        "food": "Frutos do mar grelhados, salada grega com queijo feta, vinho de Santorini (Assyrtiko). Preços altos em Oía."
+      },
+      "sportingEvents": []
+    },
+    {
+      "id": "dublin",
+      "name": "Dublin",
+      "country": "Irlanda",
+      "emoji": "🇮🇪",
+      "currency": "EUR",
+      "touristPass": {
+        "exists": true,
+        "name": "Dublin Pass",
+        "price": 49,
+        "duration": "1 dia",
+        "includes": [
+          "Castelo de Dublin",
+          "Kilmainham Gaol",
+          "Guinness Storehouse desconto",
+          "+30 atrações"
+        ],
+        "activationNote": "Ativado na primeira atração utilizada.",
+        "buyLink": "https://www.dublinpass.com"
+      },
+      "attractions": [
+        {
+          "name": "Guinness Storehouse",
+          "price": 25,
+          "confidence": "high",
+          "category": "cultura",
+          "description": "Museu interativo da cerveja Guinness com copo grátis no Gravity Bar no topo",
+          "tip": "Reserve online para desconto. A vista de Dublin do Gravity Bar é excelente."
+        },
+        {
+          "name": "Livro de Kells (Trinity College)",
+          "price": 16,
+          "confidence": "high",
+          "category": "história",
+          "description": "Manuscrito iluminado de 800 d.C. e a Long Room, uma das bibliotecas mais belas do mundo",
+          "tip": "Reserve online. A Long Room é mais impressionante que o próprio livro."
+        },
+        {
+          "name": "Castelo de Dublin",
+          "price": 15,
+          "confidence": "high",
+          "category": "história",
+          "description": "Antiga sede do poder britânico na Irlanda, hoje residência oficial do presidente",
+          "tip": "Tour guiado obrigatório para ver o interior. Jardins são gratuitos."
+        },
+        {
+          "name": "Kilmainham Gaol",
+          "price": 8,
+          "confidence": "high",
+          "category": "história",
+          "description": "Prisão vitoriana onde foram executados os líderes da Páscoa de 1916",
+          "tip": "Reserve com antecedência — visita apenas com tour guiado incluído no ingresso."
+        },
+        {
+          "name": "Pub Crawl no Temple Bar",
+          "price": 0,
+          "confidence": "high",
+          "category": "cultura",
+          "description": "O bairro mais animado de Dublin com pubs tradicionais e música ao vivo",
+          "tip": "The Temple Bar (o pub) é turístico e caro. Explore os pubs menores nas ruas adjacentes."
+        }
+      ],
+      "cityTips": {
+        "transport": "Caminhável no centro. LUAS (tram) e ônibus para os arredores. Leap Card para transporte público.",
+        "bestSeason": "Junho-agosto é o mais ensolarado. Março (St. Patrick's Day) é único mas muito lotado.",
+        "safety": "Muito segura. Temple Bar à noite pode ser agitado mas tranquilo para turistas.",
+        "payment": "Cartão aceito em quase tudo. Alguns pubs tradicionais preferem dinheiro.",
+        "language": "Inglês e irlandês (gaélico). Sotaque dublinense pode ser diferente do esperado.",
+        "food": "Irish stew e fish and chips. Café da manhã irlandês (Full Irish) é generoso. Cerveja Guinness é diferente do que no exterior."
+      },
+      "sportingEvents": []
+    },
+    {
+      "id": "edimburgo",
+      "name": "Edimburgo",
+      "country": "Escócia",
+      "emoji": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+      "currency": "GBP",
+      "touristPass": {
+        "exists": false,
+        "name": null,
+        "price": null,
+        "duration": null,
+        "includes": [],
+        "activationNote": null,
+        "buyLink": null
+      },
+      "attractions": [
+        {
+          "name": "Castelo de Edimburgo",
+          "price": 18,
+          "confidence": "high",
+          "category": "história",
+          "description": "Fortaleza medieval no topo de um rochedo vulcânico no centro da cidade",
+          "tip": "Reserve online. O One o'Clock Gun dispara toda tarde às 13h (exceto domingos)."
+        },
+        {
+          "name": "Royal Mile e Old Town",
+          "price": 0,
+          "confidence": "high",
+          "category": "bairro",
+          "description": "A rua histórica que liga o Castelo ao Palácio de Holyroodhouse",
+          "tip": "Explore as closes (vielas) para os lados — escondem joias históricas."
+        },
+        {
+          "name": "Arthur's Seat (trilha)",
+          "price": 0,
+          "confidence": "high",
+          "category": "natureza",
+          "description": "Antigo vulcão no centro da cidade com vista panorâmica de Edimburgo",
+          "tip": "Subida de 1h. Leve agasalho — vento no topo é forte mesmo no verão."
+        },
+        {
+          "name": "Palácio de Holyroodhouse",
+          "price": 18,
+          "confidence": "high",
+          "category": "história",
+          "description": "Residência oficial da Família Real na Escócia",
+          "tip": "Fechado quando a Família Real está em visita oficial. Verifique calendário antes."
+        },
+        {
+          "name": "Tour de whisky escocês",
+          "price": 20,
+          "confidence": "medium",
+          "category": "cultura",
+          "description": "Degustação em uma das destilarias ou bares de whisky da cidade",
+          "tip": "Scotch Whisky Experience perto do castelo é o mais turístico. Bares especializados no New Town têm seleção melhor."
+        }
+      ],
+      "cityTips": {
+        "transport": "Centro histórico completamente caminhável. Ônibus para os arredores. Lothian Buses Day Ticket £4,50.",
+        "bestSeason": "Junho-agosto para o melhor clima e o Edinburgh Festival. Dezembro para mercado de Natal.",
+        "safety": "Uma das cidades mais seguras do Reino Unido.",
+        "payment": "Cartão amplamente aceito.",
+        "language": "Inglês com forte sotaque escocês.",
+        "food": "Haggis é o prato nacional. Fish and chips excelente. Whisky escocês obrigatório."
+      },
+      "sportingEvents": []
+    },
+    {
+      "id": "toquio",
+      "name": "Tóquio",
+      "country": "Japão",
+      "emoji": "🇯🇵",
+      "currency": "JPY",
+      "touristPass": {
+        "exists": true,
+        "name": "Tokyo Metro 24h Pass",
+        "price": 800,
+        "duration": "24 horas",
+        "includes": [
+          "Metro Tokyo ilimitado (9 linhas)"
+        ],
+        "activationNote": "Ativado na primeira passagem pela catraca. Existem versões de 48h e 72h. Compre no aeroporto.",
+        "buyLink": "https://www.tokyometro.jp/en/ticket/travel/"
+      },
+      "attractions": [
+        {
+          "name": "Templo Senso-ji (Asakusa)",
+          "price": 0,
+          "confidence": "high",
+          "category": "templo",
+          "description": "O templo budista mais antigo de Tóquio, com portão Kaminarimon e rua de lojas",
+          "tip": "Vá às 6h da manhã para ver o templo sem turistas. Loja de omamori (amuletos) dentro do templo."
+        },
+        {
+          "name": "Shibuya Crossing + Harajuku",
+          "price": 0,
+          "confidence": "high",
+          "category": "bairro",
+          "description": "O cruzamento mais movimentado do mundo e o bairro da moda jovem japonesa",
+          "tip": "Shibuya Sky (observatório) custa ¥2000 e tem a melhor vista do cruzamento de cima."
+        },
+        {
+          "name": "TeamLab Planets",
+          "price": 3200,
+          "confidence": "high",
+          "category": "arte",
+          "description": "Arte digital imersiva de nível mundial — você entra nas instalações",
+          "tip": "Reserve com semanas de antecedência. Leve roupas que possam molhar — tem instalação com água."
+        },
+        {
+          "name": "Palácio Imperial (jardins externos)",
+          "price": 0,
+          "confidence": "high",
+          "category": "história",
+          "description": "Residência do Imperador com jardins tradicionais japoneses abertos ao público",
+          "tip": "Interior só com reserva muito antecipada. Os jardins externos são gratuitos e muito bonitos."
+        },
+        {
+          "name": "Akihabara Electric Town",
+          "price": 0,
+          "confidence": "high",
+          "category": "cultura",
+          "description": "O bairro da tecnologia, anime e games — experiência cultural única",
+          "tip": "Explore os andares superiores das lojas — as raridades ficam lá em cima."
+        }
+      ],
+      "cityTips": {
+        "transport": "Metro mais eficiente do mundo. IC Card (Suica ou Pasmo) é essencial — funciona no metro, trem e até lojas de conveniência. Compre no aeroporto.",
+        "bestSeason": "Março-abril (cerejeiras) e novembro (folhas coloridas). Verão é muito úmido. Inverno ameno.",
+        "safety": "Uma das cidades mais seguras do mundo. Sem preocupações.",
+        "payment": "Japão ainda usa muito dinheiro. Leve yenes em espécie para restaurantes menores, templos e mercados.",
+        "language": "Japonês. Inglês limitado fora de hotéis e grandes atrações. Google Translate câmera é essencial.",
+        "food": "Ramen, sushi, yakitori e gyoza são obrigatórios. Conveniências (7-Eleven, FamilyMart) têm comida excelente e barata 24h."
+      },
+      "sportingEvents": [
+        {
+          "name": "Rakuten Japan Open Tennis (ATP 500)",
+          "sport": "tênis",
+          "type": "ATP 500",
+          "venue": "Ariake Colosseum",
+          "dates_2026": "Estimado: início out 2026",
+          "dates_2027": "Estimado: início out 2027",
+          "confidence": "estimated",
+          "ticket_price_approx": "¥3.000–15.000",
+          "ticket_tip": "Torneio pós-US Open com muitos top-10. Excelente organização japonesa.",
+          "buy_link": "https://www.rakutenopen.jp",
+          "notes": "Único ATP 500 no Japão — muito popular e organizado com precisão japonesa"
+        },
+        {
+          "name": "J1 League — FC Tokyo / Urawa Red Diamonds",
+          "sport": "futebol",
+          "type": "J1 League",
+          "venue": "Ajinomoto Stadium (FC Tokyo) / Saitama Stadium (Urawa)",
+          "dates_2026": "Temporada fev – nov 2026",
+          "dates_2027": "Temporada fev – nov 2027",
+          "confidence": "estimated",
+          "ticket_price_approx": "¥1.500–5.000",
+          "ticket_tip": "Futebol japonês muito organizado e familiar. Ingressos baratos e fáceis de comprar.",
+          "buy_link": "https://www.jleague.jp/ticket/",
+          "notes": "Torcidas japonesas são famosas pela organização e limpeza — experiência muito diferente do futebol europeu"
+        }
+      ]
+    },
+    {
+      "id": "bangkok",
+      "name": "Bangkok",
+      "country": "Tailândia",
+      "emoji": "🇹🇭",
+      "currency": "THB",
+      "touristPass": {
+        "exists": false,
+        "name": null,
+        "price": null,
+        "duration": null,
+        "includes": [],
+        "activationNote": null,
+        "buyLink": null
+      },
+      "attractions": [
+        {
+          "name": "Grande Palácio + Templo do Buda de Esmeralda",
+          "price": 500,
+          "confidence": "high",
+          "category": "templo",
+          "description": "O complexo de palácio e templo mais sagrado da Tailândia",
+          "tip": "Dress code obrigatório (ombros e joelhos cobertos). Leve roupas ou alugue na entrada. Vá às 8h."
+        },
+        {
+          "name": "Wat Pho (Buda Reclinado)",
+          "price": 200,
+          "confidence": "high",
+          "category": "templo",
+          "description": "Templo com o Buda reclinado de 46m e berço da massagem tailandesa tradicional",
+          "tip": "Massagem de 30min disponível dentro do templo por ฿260 — autêntica e barata."
+        },
+        {
+          "name": "Tour pelos klongs (canais)",
+          "price": 300,
+          "confidence": "medium",
+          "category": "passeio",
+          "description": "Passeio de barco pelos canais históricos que cortam a cidade",
+          "tip": "Negocie o preço antes com o barqueiro. Tour privado de 1h por ฿300-500 é razoável."
+        },
+        {
+          "name": "Chatuchak Weekend Market",
+          "price": 0,
+          "confidence": "high",
+          "category": "mercado",
+          "description": "Um dos maiores mercados ao ar livre do mundo com 15.000 barracas",
+          "tip": "Apenas sábados e domingos. Vá pela manhã antes do calor. Leve dinheiro em espécie."
+        },
+        {
+          "name": "Rooftop Bar no Lebua (State Tower)",
+          "price": 1500,
+          "confidence": "medium",
+          "category": "cultura",
+          "description": "Bar no 63º andar com vista 360° de Bangkok — cenário de Hangover 2",
+          "tip": "Valor mínimo de consumação. Reserve mesa para o pôr do sol. Dress code (sem chinelos)."
+        }
+      ],
+      "cityTips": {
+        "transport": "BTS Skytrain e MRT metro cobrem o centro. Grab (app de táxi) é seguro e barato. Tuk-tuk é turístico — negocie o preço antes.",
+        "bestSeason": "Novembro-fevereiro é a estação seca e fresca. Evite abril-outubro (chuvas e calor extremo).",
+        "safety": "Turista seguro. Atenção a golpes de tuk-tuk que levam a lojas de joias. Cuidado com comida de rua — higiene variável.",
+        "payment": "Baht tailandês. Muitos ATMs. Saques têm taxa de ~฿220 por operação. Dinheiro é preferido nos mercados.",
+        "language": "Tailandês. Inglês falado no turismo e hotéis.",
+        "food": "Pad Thai, som tam, mango sticky rice e tom yum. Comida de rua é excelente e barata. Comer onde os locais comem é sempre melhor."
+      },
+      "sportingEvents": []
+    },
+    {
+      "id": "bali",
+      "name": "Bali",
+      "country": "Indonésia",
+      "emoji": "🇮🇩",
+      "currency": "IDR",
+      "touristPass": {
+        "exists": false,
+        "name": null,
+        "price": null,
+        "duration": null,
+        "includes": [],
+        "activationNote": null,
+        "buyLink": null
+      },
+      "attractions": [
+        {
+          "name": "Templo Tanah Lot (pôr do sol)",
+          "price": 75000,
+          "confidence": "high",
+          "category": "templo",
+          "description": "Templo no mar sobre uma rocha, especialmente bonito ao pôr do sol",
+          "tip": "Chegue 2h antes do pôr do sol para garantir lugar. Área ao redor tem muitos vendedores — seja firme."
+        },
+        {
+          "name": "Terraços de Arroz de Tegallalang",
+          "price": 30000,
+          "confidence": "high",
+          "category": "natureza",
+          "description": "Os terraços de arroz mais fotogênicos de Bali, em Ubud",
+          "tip": "Vá pela manhã para luz melhor e menos turistas. Algumas áreas cobram taxa adicional para entrar."
+        },
+        {
+          "name": "Ubud Monkey Forest",
+          "price": 80000,
+          "confidence": "high",
+          "category": "natureza",
+          "description": "Floresta com 700 macacos macacos livres e 3 templos hindus",
+          "tip": "Não leve comida ou objetos brilhantes — os macacos roubam. Guarda-chuva também é alvo."
+        },
+        {
+          "name": "Templo Uluwatu + Dança Kecak",
+          "price": 100000,
+          "confidence": "medium",
+          "category": "cultura",
+          "description": "Templo no penhasco com apresentação da dança tradicional kecak ao pôr do sol",
+          "tip": "A dança começa às 18h — chegue cedo para bom lugar. Macacos também habitam o local."
+        },
+        {
+          "name": "Aula de culinária balinesa",
+          "price": 350000,
+          "confidence": "medium",
+          "category": "cultura",
+          "description": "Aprenda a cozinhar nasi goreng, satay e outros pratos tradicionais",
+          "tip": "Muitas escolas em Ubud. Inclui visita ao mercado local pela manhã e almoço com o que cozinhou."
+        }
+      ],
+      "cityTips": {
+        "transport": "Sem transporte público eficiente. Alugue moto (com cuidado) ou use Grab. Motorista privado por dia custa ~Rp 500.000 (~R$175) e vale muito.",
+        "bestSeason": "Maio-setembro é a estação seca. Dezembro-março é chuvoso (mas menos turistas e mais verde).",
+        "safety": "Turista seguro. Cuidado com aluguel de moto sem habilitação — multas e acidentes são comuns.",
+        "payment": "Rupiah indonésia. Saques em ATMs nas cidades principais. Negocie preços em mercados.",
+        "language": "Balinês e indonésio. Inglês falado em Seminyak, Ubud e Canggu.",
+        "food": "Nasi goreng, mie goreng, babi guling (porco) e bebek betutu (pato). Warungs locais são muito mais baratos que restaurantes turísticos."
+      },
+      "sportingEvents": []
+    },
+    {
+      "id": "singapura",
+      "name": "Singapura",
+      "country": "Singapura",
+      "emoji": "🇸🇬",
+      "currency": "SGD",
+      "touristPass": {
+        "exists": true,
+        "name": "Singapore Tourist Pass",
+        "price": 22,
+        "duration": "1 dia",
+        "includes": [
+          "MRT e ônibus públicos ilimitados"
+        ],
+        "activationNote": "Ativado na primeira utilização. Depósito de SGD 10 reembolsável na devolução do cartão.",
+        "buyLink": "https://www.thesingaporetouristpass.com.sg"
+      },
+      "attractions": [
+        {
+          "name": "Gardens by the Bay (Supertrees)",
+          "price": 28,
+          "confidence": "high",
+          "category": "natureza",
+          "description": "Jardins futuristas com Supertrees iluminados e estufas de temperatura controlada",
+          "tip": "Espetáculo de luzes gratuito às 19h45 e 20h45. As estufas (Flower Dome e Cloud Forest) valem o ingresso."
+        },
+        {
+          "name": "Marina Bay Sands SkyPark",
+          "price": 23,
+          "confidence": "high",
+          "category": "ícone",
+          "description": "Terraço do hotel mais famoso de Singapura com piscina infinita e vista 360°",
+          "tip": "Terraço de observação é separado da piscina (hóspedes do hotel apenas). Vista espetacular ao entardecer."
+        },
+        {
+          "name": "Sentosa Island (Universal Studios)",
+          "price": 83,
+          "confidence": "medium",
+          "category": "entretenimento",
+          "description": "Parque temático e ilha resort com praias, cassino e Universal Studios",
+          "tip": "Universal Studios vale para quem ama parques. As praias de Sentosa são artificiais mas agradáveis."
+        },
+        {
+          "name": "Chinatown + Little India + Arab Quarter",
+          "price": 0,
+          "confidence": "high",
+          "category": "bairro",
+          "description": "Três bairros étnicos completamente diferentes a poucos minutos um do outro",
+          "tip": "Hawker centers (food courts) nesses bairros têm a melhor comida e mais barata de Singapura."
+        },
+        {
+          "name": "Night Safari (Zoo Noturno)",
+          "price": 55,
+          "confidence": "high",
+          "category": "natureza",
+          "description": "O primeiro zoológico noturno do mundo com animais ativos à noite",
+          "tip": "Reserve online. Show de animais incluído. O tram cobre a maior parte — caminhada é complementar."
+        }
+      ],
+      "cityTips": {
+        "transport": "MRT é excelente, barato e pontualíssimo. EZ-Link card para transporte. Cidade muito caminhável e com calçadas cobertas.",
+        "bestSeason": "Singapura não tem estação seca definida. Fevereiro-abril tem menos chuvas. Sempre quente e úmido.",
+        "safety": "Uma das cidades mais seguras do mundo. Multas pesadas para tudo — não jogue lixo na rua.",
+        "payment": "Cashless amplamente aceito. NETS e PayNow são sistemas locais. Cartão internacional funciona em tudo.",
+        "language": "Inglês, mandarim, malaio e tâmil. Inglês é a língua principal dos negócios.",
+        "food": "Hawker centers são a melhor experiência gastronômica. Hainanese chicken rice, laksa e char kway teow são os clássicos."
+      },
+      "sportingEvents": [
+        {
+          "name": "Singapore Tennis Open (WTA 250)",
+          "sport": "tênis",
+          "type": "WTA 250",
+          "venue": "OCBC Arena",
+          "dates_2026": "Estimado: fev 2026",
+          "dates_2027": "Estimado: fev 2027",
+          "confidence": "estimated",
+          "ticket_price_approx": "S$ 30–100",
+          "ticket_tip": "Torneio de início de ano — boa forma de combinar tênis com turismo.",
+          "buy_link": null,
+          "notes": "Singapura teve o WTA Finals por anos — tradição forte de tênis feminino"
+        },
+        {
+          "name": "F1 Singapore Grand Prix",
+          "sport": "automobilismo",
+          "type": "Fórmula 1",
+          "venue": "Marina Bay Street Circuit",
+          "dates_2026": "Estimado: set 2026",
+          "dates_2027": "Estimado: set 2027",
+          "confidence": "estimated",
+          "ticket_price_approx": "S$ 200–2.000+",
+          "ticket_tip": "Uma das corridas mais espetaculares do calendário — circuito noturno com Marina Bay como cenário.",
+          "buy_link": "https://www.singaporegp.sg",
+          "notes": "GP de Singapura noturno é visualmente único — a cidade toda iluminada como pano de fundo"
+        }
+      ]
+    },
+    {
+      "id": "seul",
+      "name": "Seul",
+      "country": "Coreia do Sul",
+      "emoji": "🇰🇷",
+      "currency": "KRW",
+      "touristPass": {
+        "exists": true,
+        "name": "Discover Seoul Pass",
+        "price": 39900,
+        "duration": "24 horas",
+        "includes": [
+          "Metro ilimitado",
+          "Gyeongbokgung Palace",
+          "Lotte World Tower Sky Observatory",
+          "+100 atrações"
+        ],
+        "activationNote": "Ativado na primeira atração. Disponível em aeroportos e centros de turismo.",
+        "buyLink": "https://www.discoverseoulpass.com"
+      },
+      "attractions": [
+        {
+          "name": "Palácio Gyeongbokgung",
+          "price": 3000,
+          "confidence": "high",
+          "category": "história",
+          "description": "O principal palácio da dinastia Joseon com troca da guarda em traje tradicional",
+          "tip": "Troca da guarda às 10h e 14h. Alugue hanbok (roupa tradicional) para entrar de graça."
+        },
+        {
+          "name": "Bairro de Bukchon Hanok Village",
+          "price": 0,
+          "confidence": "high",
+          "category": "bairro",
+          "description": "Bairro com 900 casas tradicionais hanok preservadas no centro de Seul",
+          "tip": "Vá cedo pela manhã. Moradores locais pedem silêncio — é bairro residencial."
+        },
+        {
+          "name": "Lotte World Tower Observatory",
+          "price": 47000,
+          "confidence": "high",
+          "category": "ícone",
+          "description": "Vista do 5º edifício mais alto do mundo — vista de Seul a 555m de altura",
+          "tip": "Compre online com desconto. Ao entardecer para ver a transição dia-noite sobre Seul."
+        },
+        {
+          "name": "DMZ Tour (Zona Desmilitarizada)",
+          "price": 55,
+          "confidence": "medium",
+          "category": "história",
+          "description": "Tour à fronteira entre Coreia do Sul e Coreia do Norte",
+          "tip": "Reserve com tour operator credenciado. Passaporte obrigatório. Experiência histórica única."
+        },
+        {
+          "name": "Myeongdong e Hongdae (compras e streetfood)",
+          "price": 0,
+          "confidence": "high",
+          "category": "bairro",
+          "description": "Os dois bairros mais animados para compras, K-beauty e comida de rua",
+          "tip": "Myeongdong tem as melhores marcas de K-beauty com preços de fábrica. Hongdae é mais jovem e alternativo."
+        }
+      ],
+      "cityTips": {
+        "transport": "Metro extremamente eficiente e barato. T-Money card para metro e ônibus. Kakao Taxi (app) é mais barato que táxi comum.",
+        "bestSeason": "Primavera (março-maio, cerejeiras) e outono (setembro-novembro, folhas coloridas). Inverno é muito frio.",
+        "safety": "Muito segura. Uma das cidades mais seguras da Ásia.",
+        "payment": "Cartão amplamente aceito. T-Money card funciona em alguns estabelecimentos além do transporte.",
+        "language": "Coreano. Inglês limitado fora do turismo. Papéis e menus raramente em inglês nas ruas.",
+        "food": "Bibimbap, tteokbokki, Korean BBQ e fried chicken são obrigatórios. Chimaek (frango + cerveja) é ritual cultural."
+      },
+      "sportingEvents": [
+        {
+          "name": "Korea Open (WTA 500)",
+          "sport": "tênis",
+          "type": "WTA 500",
+          "venue": "Olympic Park Tennis Center",
+          "dates_2026": "Estimado: set 2026",
+          "dates_2027": "Estimado: set 2027",
+          "confidence": "estimated",
+          "ticket_price_approx": "₩30.000–100.000",
+          "ticket_tip": "Evento pós-US Open. Boa oportunidade de ver top-30 em ambiente menor e acessível.",
+          "buy_link": null,
+          "notes": "Torneio crescendo em prestígio com a popularidade do tênis na Ásia"
+        },
+        {
+          "name": "K League 1 — FC Seoul",
+          "sport": "futebol",
+          "type": "K League 1",
+          "venue": "Seoul World Cup Stadium",
+          "dates_2026": "Temporada mar – nov 2026",
+          "dates_2027": "Temporada mar – nov 2027",
+          "confidence": "estimated",
+          "ticket_price_approx": "₩10.000–40.000",
+          "ticket_tip": "Futebol coreano com torcidas animadas. FC Seoul joga no estádio da Copa 2002.",
+          "buy_link": "https://www.kleague.com",
+          "notes": "Estádio da Copa do Mundo 2002 — onde a Coreia fez história chegando às semifinais"
+        }
+      ]
+    },
+    {
+      "id": "kyoto",
+      "name": "Kyoto",
+      "country": "Japão",
+      "emoji": "🇯🇵",
+      "currency": "JPY",
+      "touristPass": {
+        "exists": true,
+        "name": "Kyoto City Bus 1-Day Pass",
+        "price": 700,
+        "duration": "24 horas",
+        "includes": [
+          "Ônibus da cidade ilimitado — acessa a maioria dos templos"
+        ],
+        "activationNote": "Ativado na primeira utilização. Compre no terminal de ônibus da estação de Kyoto.",
+        "buyLink": null
+      },
+      "attractions": [
+        {
+          "name": "Fushimi Inari (portões torii)",
+          "price": 0,
+          "confidence": "high",
+          "category": "templo",
+          "description": "Trilha com milhares de portões torii laranja subindo a montanha",
+          "tip": "Vá ao amanhecer para ver sem multidões. Trilha completa leva 2-3h. Os níveis mais altos têm muito menos gente."
+        },
+        {
+          "name": "Templo Kinkaku-ji (Pavilhão Dourado)",
+          "price": 500,
+          "confidence": "high",
+          "category": "templo",
+          "description": "O mais famoso templo do Japão com cobertura de folhas de ouro refletindo no lago",
+          "tip": "Sempre lotado. Vá na abertura (9h) ou com chuva — a cena refletida na água é ainda mais bonita."
+        },
+        {
+          "name": "Arashiyama (floresta de bambu)",
+          "price": 0,
+          "confidence": "high",
+          "category": "natureza",
+          "description": "Floresta densa de bambu e o bairro mais tranquilo e tradicional de Kyoto",
+          "tip": "Vá antes das 7h. De bicicleta é a melhor forma de explorar. Evite fim de semana."
+        },
+        {
+          "name": "Geisha District (Gion)",
+          "price": 0,
+          "confidence": "high",
+          "category": "cultura",
+          "description": "Bairro histórico onde ainda vivem e trabalham as geishas de Kyoto",
+          "tip": "Passeio às 17h-18h aumenta chance de ver geishas indo ao trabalho. Fotografar sem permissão é mal visto."
+        },
+        {
+          "name": "Nishiki Market",
+          "price": 0,
+          "confidence": "high",
+          "category": "mercado",
+          "description": "O 'cozinha de Kyoto' — mercado coberto de 400 anos com centenas de barracas",
+          "tip": "Fechado na maioria dos lugares às 18h. Ideal para experimentar food típica local."
+        }
+      ],
+      "cityTips": {
+        "transport": "Ônibus é o principal transporte. IC Card (Suica) funciona. Bicicleta é excelente para explorar templos espalhados.",
+        "bestSeason": "Março-abril (cerejeiras) e novembro (momiji, folhas vermelhas). São as épocas mais bonitas mas mais lotadas.",
+        "safety": "Extremamente segura.",
+        "payment": "Ainda muito baseado em dinheiro. Leve yenes para templos, restaurantes locais e mercados.",
+        "language": "Japonês. Menos inglês que Tóquio — Google Translate câmera é ainda mais essencial.",
+        "food": "Kaiseki (menu degustação japonês), tofu yudofu, matcha em tudo. Nishiki Market para experimentar. Mais tradicional que Tóquio."
+      },
+      "sportingEvents": []
+    },
+    {
+      "id": "dubai",
+      "name": "Dubai",
+      "country": "Emirados Árabes",
+      "emoji": "🇦🇪",
+      "currency": "AED",
+      "touristPass": {
+        "exists": false,
+        "name": null,
+        "price": null,
+        "duration": null,
+        "includes": [],
+        "activationNote": null,
+        "buyLink": null
+      },
+      "attractions": [
+        {
+          "name": "Burj Khalifa (At the Top)",
+          "price": 149,
+          "confidence": "medium",
+          "category": "ícone",
+          "description": "Subir ao edifício mais alto do mundo — 124º ou 148º andares",
+          "tip": "Preço varia muito — reserve online com antecedência. Ao entardecer é mais bonito mas mais caro."
+        },
+        {
+          "name": "Dubai Mall + Dubai Fountain",
+          "price": 0,
+          "confidence": "high",
+          "category": "entretenimento",
+          "description": "Um dos maiores shoppings do mundo com aquário e show de fontes",
+          "tip": "Show de fontes gratuito às 18h, 18h30, 19h... até 22h30 nos fins de semana. Vista do Burj Khalifa inclusa."
+        },
+        {
+          "name": "Desert Safari com jantar beduíno",
+          "price": 200,
+          "confidence": "medium",
+          "category": "natureza",
+          "description": "Passeio de 4x4 nas dunas com jantar em acampamento no deserto",
+          "tip": "Preços variam muito entre operadoras. Inclui sandboarding e passeio de camelo normalmente."
+        },
+        {
+          "name": "Dubai Frame",
+          "price": 57,
+          "confidence": "high",
+          "category": "ícone",
+          "description": "Estrutura em forma de moldura com vista do Dubai antigo e moderno ao mesmo tempo",
+          "tip": "Muito menos lotado que o Burj Khalifa. Vista única da dicotomia Dubai velho/novo."
+        },
+        {
+          "name": "Gold Souk e Spice Souk (Deira)",
+          "price": 0,
+          "confidence": "high",
+          "category": "mercado",
+          "description": "Mercados tradicionais de ouro e especiarias — Dubai antes dos arranha-céus",
+          "tip": "Negocie os preços — é esperado. Abertos à tarde/noite. Travessia de abra (barco) pelo Creek por 1 AED."
+        }
+      ],
+      "cityTips": {
+        "transport": "Metro cobre os principais pontos turísticos. Uber e Careem são baratos. Táxi tem preço tabelado.",
+        "bestSeason": "Novembro-março com temperaturas agradáveis (20-30°C). Verão é insuportável (45°C+).",
+        "safety": "Muito segura. Leis rígidas — sem drogas, comportamento em público respeitoso, roupas adequadas fora de resorts.",
+        "payment": "Cartão aceito em tudo. ATMs abundantes. Souk prefere dinheiro para negociação.",
+        "language": "Árabe, mas inglês é língua dos negócios e turismo. Muito internacional.",
+        "food": "Al harees, shawarma e hummus são locais. Restaurantes de tudo o mundo. Álcool só em hotéis e bares licenciados."
+      },
+      "sportingEvents": [
+        {
+          "name": "Dubai Duty Free Tennis Championships",
+          "sport": "tênis",
+          "type": "ATP 500 + WTA 1000",
+          "venue": "Dubai Duty Free Tennis Stadium",
+          "dates_2026": "Estimado: fev–mar 2026",
+          "dates_2027": "Estimado: fev–mar 2027",
+          "confidence": "estimated",
+          "ticket_price_approx": "AED 100–400",
+          "ticket_tip": "Campo sempre top-10. Excelente organização. Fácil de conseguir ingressos com antecedência.",
+          "buy_link": "https://www.dubaidutyfreetennischampionships.com",
+          "notes": "Um dos torneios mais premiados fora dos Grand Slams — nível de organização altíssimo"
+        }
+      ]
+    },
+    {
+      "id": "istambul",
+      "name": "Istambul",
+      "country": "Turquia",
+      "emoji": "🇹🇷",
+      "currency": "TRY",
+      "touristPass": {
+        "exists": true,
+        "name": "Museum Pass Istanbul",
+        "price": 750,
+        "duration": "5 dias",
+        "includes": [
+          "Topkapi Palace",
+          "Hagia Sophia Museum areas",
+          "Kariye Mosque",
+          "+15 museus"
+        ],
+        "activationNote": "Ativado na primeira atração. Evita filas em museus — vale muito no verão.",
+        "buyLink": "https://www.muze.gov.tr"
+      },
+      "attractions": [
+        {
+          "name": "Hagia Sophia",
+          "price": 0,
+          "confidence": "high",
+          "category": "história",
+          "description": "Basílica de 537 d.C. convertida em mesquita — um dos edifícios mais importantes da história",
+          "tip": "Gratuita desde 2020 (re-convertida em mesquita). Fila grande. Mulheres devem cobrir a cabeça."
+        },
+        {
+          "name": "Palácio Topkapi",
+          "price": 700,
+          "confidence": "medium",
+          "category": "história",
+          "description": "Residência dos sultões otomanos por 400 anos com o Harem imperial",
+          "tip": "Harem tem ingresso separado (+300 TRY). Compre o Museum Pass para evitar filas."
+        },
+        {
+          "name": "Grande Bazar (Kapalıçarşı)",
+          "price": 0,
+          "confidence": "high",
+          "category": "mercado",
+          "description": "Um dos maiores mercados cobertos do mundo com 4.000 lojas",
+          "tip": "Negocie sempre — preços iniciais são 3-4x o valor real. Ótimo para tapetes, especiarias e couro."
+        },
+        {
+          "name": "Cruzeiro no Bósforo",
+          "price": 200,
+          "confidence": "medium",
+          "category": "passeio",
+          "description": "Passeio de barco pelo estreito que divide a Europa e a Ásia",
+          "tip": "Balsa pública (Şehir Hatları) é muito mais barata que tours privados e igualmente bonita."
+        },
+        {
+          "name": "Mesquita Azul (Sultanahmet)",
+          "price": 0,
+          "confidence": "high",
+          "category": "história",
+          "description": "A única mesquita do mundo com 6 minaretes, com interior de 20.000 azulejos turcos",
+          "tip": "Gratuita. Fechada durante horários de oração. Dress code rigoroso. Vista externa à noite é deslumbrante."
+        }
+      ],
+      "cityTips": {
+        "transport": "Metro, tram e balsa integrados com Istanbulkart. Tram T1 conecta os principais pontos históricos. Balsa para o lado asiático é experiência única.",
+        "bestSeason": "Abril-junho e setembro-outubro. Verão é muito quente e lotado. Inverno ameno.",
+        "safety": "Turista seguro nas áreas turísticas. Atenção a golpe do engraxate e convite para 'chá' com conta alta.",
+        "payment": "Lira turca (TRY). Câmbio muito favorável para reais. Troque na chegada. Cartão aceito no turismo.",
+        "language": "Turco. Inglês nos pontos turísticos. Turcos são muito hospitaleiros.",
+        "food": "Kebab doner, baklava, börek e çay (chá turco). Mercado de especiarias para ras el hanout e chás. Mezze variado."
+      },
+      "sportingEvents": [
+        {
+          "name": "Istanbul Open (ATP 250)",
+          "sport": "tênis",
+          "type": "ATP 250",
+          "venue": "Koza World of Sports Arena",
+          "dates_2026": "Estimado: abr–mai 2026",
+          "dates_2027": "Estimado: abr–mai 2027",
+          "confidence": "estimated",
+          "ticket_price_approx": "200–600 TRY",
+          "ticket_tip": "Torneio em argila antes de Roland Garros. Bom momento para visitar Istambul.",
+          "buy_link": null,
+          "notes": "Torneio crescendo com o interesse turco no tênis"
+        },
+        {
+          "name": "Galatasaray / Fenerbahce — Süper Lig + Derby Istanbul",
+          "sport": "futebol",
+          "type": "Süper Lig",
+          "venue": "Rams Park (Galatasaray) / Şükrü Saracoğlu (Fenerbahce)",
+          "dates_2026": "Temporada ago 2025 – mai 2026",
+          "dates_2027": "Temporada ago 2026 – mai 2027",
+          "confidence": "estimated",
+          "ticket_price_approx": "€15–60",
+          "ticket_tip": "Derby Istanbul (Gala × Fener) é um dos mais quentes do mundo. Galatasaray tem o estádio mais impressionante.",
+          "buy_link": "https://www.galatasaray.org",
+          "notes": "Torcidas de Gala e Fener são lendárias — entre as mais barulhentas e apaixonadas do mundo"
+        }
+      ]
+    },
+    {
+      "id": "nova-york",
+      "name": "Nova York",
+      "country": "EUA",
+      "emoji": "🇺🇸",
+      "currency": "USD",
+      "touristPass": {
+        "exists": true,
+        "name": "New York CityPASS",
+        "price": 142,
+        "duration": "9 dias para usar os 5 ingressos",
+        "includes": [
+          "Empire State Building",
+          "American Museum of Natural History",
+          "Metropolitan Museum (Met)",
+          "Intrepid Museum",
+          "Opção: Top of the Rock ou Guggenheim"
+        ],
+        "activationNote": "Ativado na primeira atração. Válido por 9 dias consecutivos a partir do primeiro uso.",
+        "buyLink": "https://www.citypass.com/new-york"
+      },
+      "attractions": [
+        {
+          "name": "Empire State Building",
+          "price": 44,
+          "confidence": "high",
+          "category": "ícone",
+          "description": "O mais famoso arranha-céu do mundo com vista de 360° de Manhattan",
+          "tip": "Top of the Rock (Rockefeller) tem vista melhor do Empire State. Vá à noite para ver as luzes."
+        },
+        {
+          "name": "Metropolitan Museum of Art (Met)",
+          "price": 30,
+          "confidence": "high",
+          "category": "museu",
+          "description": "Um dos maiores museus do mundo — Egito, Europa, Ásia e América sob o mesmo teto",
+          "tip": "Impossível ver tudo em um dia. Escolha 3-4 alas. Ingressos válidos para 3 dias consecutivos."
+        },
+        {
+          "name": "Central Park + Brooklyn Bridge",
+          "price": 0,
+          "confidence": "high",
+          "category": "natureza",
+          "description": "O parque mais famoso do mundo e a icônica ponte — ambos gratuitos",
+          "tip": "Alugue bike em Central Park. Atravesse a Brooklyn Bridge a pé (1h) — vista de Manhattan é espetacular."
+        },
+        {
+          "name": "Estátua da Liberdade + Ellis Island",
+          "price": 24,
+          "confidence": "high",
+          "category": "ícone",
+          "description": "Símbolo da América com ferry e museu da imigração",
+          "tip": "Reserve com meses de antecedência para acesso à coroa. Ferry sai de Battery Park."
+        },
+        {
+          "name": "Broadway Show",
+          "price": 120,
+          "confidence": "medium",
+          "category": "cultura",
+          "description": "Os melhores musicais do mundo — Hamilton, Lion King, Chicago e outros",
+          "tip": "TKTS booth em Times Square vende ingressos com 50% de desconto no mesmo dia. Vá cedo pela manhã."
+        }
+      ],
+      "cityTips": {
+        "transport": "Subway funciona 24h e cobre toda Manhattan e os boroughs. OMNY (cartão sem contato) ou MetroCard. $2,90 por viagem.",
+        "bestSeason": "Primavera (abril-junho) e outono (setembro-novembro). Verão é quente e lotado. Natal é mágico mas frio.",
+        "safety": "Turista seguro nas áreas turísticas. Cuidado com pickpockets no metrô. Evite o metrô tardio em estações isoladas.",
+        "payment": "Cartão aceito em quase tudo. Gorjeta de 18-20% é obrigatória em restaurantes.",
+        "language": "Inglês. Cidade extremamente multicultural.",
+        "food": "Bagel com cream cheese no café, pizza nova-iorquina, hot dog na rua e cheesecake são obrigatórios."
+      },
+      "sportingEvents": [
+        {
+          "name": "US Open",
+          "sport": "tênis",
+          "type": "Grand Slam",
+          "venue": "USTA Billie Jean King National Tennis Center, Flushing",
+          "dates_2026": "30 ago – 13 set 2026",
+          "dates_2027": "Estimado: final ago – meados set 2027",
+          "confidence": "confirmed_2026",
+          "ticket_price_approx": "US$ 50–200 (grounds pass); US$ 100–500+ (Arthur Ashe)",
+          "ticket_tip": "Grounds Pass é ótimo custo-benefício — acessa todas as quadras externas. Noite em Ashe é a experiência mais especial.",
+          "buy_link": "https://www.usopen.org/tickets",
+          "notes": "O Grand Slam mais animado e festivo. Comida de 30 países no complexo. Período do Labor Day"
+        },
+        {
+          "name": "New York Knicks — Madison Square Garden",
+          "sport": "basquete",
+          "type": "NBA",
+          "venue": "Madison Square Garden",
+          "dates_2026": "Temporada out 2025 – abr 2026",
+          "dates_2027": "Temporada out 2026 – abr 2027",
+          "confidence": "estimated",
+          "ticket_price_approx": "US$ 80–500+",
+          "ticket_tip": "MSG é o estádio mais famoso do mundo. A experiência da arena vale independente do time.",
+          "buy_link": "https://www.nba.com/knicks/tickets",
+          "notes": "The World's Most Famous Arena — experiência única"
+        },
+        {
+          "name": "New York Yankees — Yankee Stadium",
+          "sport": "beisebol",
+          "type": "MLB",
+          "venue": "Yankee Stadium, Bronx",
+          "dates_2026": "Temporada abr – set 2026",
+          "dates_2027": "Temporada abr – set 2027",
+          "confidence": "estimated",
+          "ticket_price_approx": "US$ 20–200",
+          "ticket_tip": "Jogo de beisebol é ótima experiência cultural mesmo sem entender o esporte. Ingressos baratos disponíveis.",
+          "buy_link": "https://www.mlb.com/yankees/tickets",
+          "notes": "Hot dog + cerveja + beisebol = experiência americana autêntica"
+        }
+      ]
+    },
+    {
+      "id": "miami",
+      "name": "Miami",
+      "country": "EUA",
+      "emoji": "🇺🇸",
+      "currency": "USD",
+      "touristPass": {
+        "exists": false,
+        "name": null,
+        "price": null,
+        "duration": null,
+        "includes": [],
+        "activationNote": null,
+        "buyLink": null
+      },
+      "attractions": [
+        {
+          "name": "South Beach + Art Deco Historic District",
+          "price": 0,
+          "confidence": "high",
+          "category": "bairro",
+          "description": "A praia mais famosa de Miami e o bairro Art Deco dos anos 30 mais preservado do mundo",
+          "tip": "Caminhada pelo Ocean Drive à noite é a experiência mais icônica. Praia mais tranquila ao norte de 10th Street."
+        },
+        {
+          "name": "Wynwood Walls",
+          "price": 10,
+          "confidence": "high",
+          "category": "arte",
+          "description": "Galeria de arte urbana a céu aberto com murais de artistas mundialmente famosos",
+          "tip": "Melhor à noite com os bares e restaurantes ao redor. Fins de semana têm mais movimento e artistas presentes."
+        },
+        {
+          "name": "Biscayne Bay Boat Tour",
+          "price": 35,
+          "confidence": "medium",
+          "category": "passeio",
+          "description": "Passeio de barco pelas mansões das celebridades e pela Baía de Biscayne",
+          "tip": "Tours saem do Bayside Marketplace. Compare operadoras — preços variam bastante."
+        },
+        {
+          "name": "Little Havana + Calle Ocho",
+          "price": 0,
+          "confidence": "high",
+          "category": "bairro",
+          "description": "O coração da comunidade cubana em Miami com dominó, charutos e salsa",
+          "tip": "Viernes Culturales (última sexta do mês) é o evento mais animado com música ao vivo."
+        },
+        {
+          "name": "Everglades National Park",
+          "price": 35,
+          "confidence": "high",
+          "category": "natureza",
+          "description": "O maior parque de vida selvagem subtropical dos EUA, a 1h de Miami",
+          "tip": "Airboat tour (~$30 adicional) é obrigatório para ver jacarés. Vá de manhã para ver mais animais."
+        }
+      ],
+      "cityTips": {
+        "transport": "Carro é essencial em Miami — transporte público é muito limitado. Uber é amplamente usado. Estacionamento pode ser caro em South Beach.",
+        "bestSeason": "Dezembro-abril é a alta temporada com clima perfeito. Verão é muito úmido e com furacões (junho-novembro).",
+        "safety": "Turista seguro em South Beach e Brickell. Atenção em alguns bairros periféricos à noite.",
+        "payment": "Cartão aceito em quase tudo. Gorjeta de 18-20% é esperada.",
+        "language": "Inglês e espanhol — Miami é oficialmente bilíngue.",
+        "food": "Cubano (sanduíche), ceviche peruano, stone crab claws e café cubano (cortadito). Food trucks em Wynwood."
+      },
+      "sportingEvents": [
+        {
+          "name": "Miami Open",
+          "sport": "tênis",
+          "type": "ATP Masters 1000 + WTA 1000",
+          "venue": "Hard Rock Stadium, Miami Gardens",
+          "dates_2026": "Estimado: mar 2026",
+          "dates_2027": "Estimado: mar 2027",
+          "confidence": "estimated",
+          "ticket_price_approx": "US$ 40–200",
+          "ticket_tip": "Um dos melhores Masters do ano — clima ótimo, estrutura excelente e atmosfera de festival.",
+          "buy_link": "https://www.miamiopen.com/tickets/",
+          "notes": "Único Masters 1000 com praia nas proximidades — combina muito bem com viagem ao sul da Flórida"
+        },
+        {
+          "name": "Miami Heat — Kaseya Center",
+          "sport": "basquete",
+          "type": "NBA",
+          "venue": "Kaseya Center",
+          "dates_2026": "Temporada out 2025 – abr 2026",
+          "dates_2027": "Temporada out 2026 – abr 2027",
+          "confidence": "estimated",
+          "ticket_price_approx": "US$ 60–300+",
+          "ticket_tip": "Heat tem fanbase apaixonada. Jogos em casa têm ótima atmosfera.",
+          "buy_link": "https://www.nba.com/heat/tickets",
+          "notes": "Time da era clássica de LeBron — ainda competitivo com grande base de torcida"
+        }
+      ]
+    },
+    {
+      "id": "buenos-aires",
+      "name": "Buenos Aires",
+      "country": "Argentina",
+      "emoji": "🇦🇷",
+      "currency": "ARS",
+      "touristPass": {
+        "exists": false,
+        "name": null,
+        "price": null,
+        "duration": null,
+        "includes": [],
+        "activationNote": null,
+        "buyLink": null
+      },
+      "attractions": [
+        {
+          "name": "La Boca + Caminito",
+          "price": 0,
+          "confidence": "high",
+          "category": "bairro",
+          "description": "Bairro colorido, berço do tango com casas pintadas e arte nas ruas",
+          "tip": "Vá de dia e fique na rua principal — o entorno pode ser inseguro à noite. Tango ao vivo nas ruas."
+        },
+        {
+          "name": "Show de Tango",
+          "price": 80,
+          "confidence": "medium",
+          "category": "cultura",
+          "description": "Espetáculo profissional do tango argentino com jantar incluído",
+          "tip": "Milonga (baile popular) é mais autêntico e muito mais barato (~$15). El Querandi e Piazzolla Tango são os mais famosos."
+        },
+        {
+          "name": "Cemitério de Recoleta",
+          "price": 0,
+          "confidence": "high",
+          "category": "história",
+          "description": "O cemitério mais famoso da América com o túmulo de Evita Perón",
+          "tip": "Gratuito. Tour guiado gratuito às terças e quintas (~11h). Impressionante arquitetura dos mausoléus."
+        },
+        {
+          "name": "Teatro Colón",
+          "price": 3500,
+          "confidence": "medium",
+          "category": "cultura",
+          "description": "Um dos maiores e mais belos teatros de ópera do mundo",
+          "tip": "Tour pelo teatro é mais barato que espetáculo. Acústica considerada perfeita — os shows valem muito."
+        },
+        {
+          "name": "Puerto Madero e MALBA",
+          "price": 5000,
+          "confidence": "medium",
+          "category": "arte",
+          "description": "Bairro renovado junto ao rio e o maior museu de arte latino-americana",
+          "tip": "Puerto Madero é ótimo para jantar. MALBA tem a melhor coleção de Frida Kahlo fora do México."
+        }
+      ],
+      "cityTips": {
+        "transport": "Subte (metro) cobre bem o centro. SUBE card para transporte. Uber funciona mas às vezes tem conflito com taxistas.",
+        "bestSeason": "Primavera (outubro-novembro) e outono (março-maio). Verão (jan-fev) é muito quente.",
+        "safety": "Atenção redobrada. Golpe do falso policial é comum. Não use celular na rua. Use câmbio oficial ou dólar blue via casas de câmbio confiáveis.",
+        "payment": "Peso argentino com alta inflação. Dólar americano tem cotação muito melhor no câmbio paralelo (blue). Sempre leve dólares.",
+        "language": "Espanhol rioplatense com sotaque e vocabulário muito diferentes do espanhol padrão.",
+        "food": "Asado, empanadas, dulce de leche e alfajores são obrigatórios. Malbec é o vinho nacional. Jantam muito tarde (22h+)."
+      },
+      "sportingEvents": [
+        {
+          "name": "Argentina Open (ATP 250)",
+          "sport": "tênis",
+          "type": "ATP 250",
+          "venue": "Buenos Aires Lawn Tennis Club",
+          "dates_2026": "Estimado: fev 2026",
+          "dates_2027": "Estimado: fev 2027",
+          "confidence": "estimated",
+          "ticket_price_approx": "AR$ 5.000–20.000",
+          "ticket_tip": "Primeiro ATP em argila do ano. Atmosfera argentina calorosa. Ingressos fáceis de conseguir.",
+          "buy_link": null,
+          "notes": "Único ATP 250 da América do Sul em argila"
+        },
+        {
+          "name": "Boca Juniors / River Plate — Superclásico",
+          "sport": "futebol",
+          "type": "Liga Profesional Argentina",
+          "venue": "La Bombonera (Boca) / El Monumental (River)",
+          "dates_2026": "Temporada ao longo do ano (Apertura e Clausura)",
+          "dates_2027": "Idem",
+          "confidence": "estimated",
+          "ticket_price_approx": "US$ 50–150 via agência para turistas",
+          "ticket_tip": "Como turista, use agência especializada — é mais seguro. La Bombonera é uma das experiências mais intensas do futebol.",
+          "buy_link": null,
+          "notes": "Superclásico (Boca × River) é considerado o clássico mais apaixonado do mundo"
+        }
+      ]
+    },
+    {
+      "id": "cidade-do-mexico",
+      "name": "Cidade do México",
+      "country": "México",
+      "emoji": "🇲🇽",
+      "currency": "MXN",
+      "touristPass": {
+        "exists": false,
+        "name": null,
+        "price": null,
+        "duration": null,
+        "includes": [],
+        "activationNote": null,
+        "buyLink": null
+      },
+      "attractions": [
+        {
+          "name": "Museu Nacional de Antropologia",
+          "price": 95,
+          "confidence": "high",
+          "category": "museu",
+          "description": "O maior museu de México com o Calendário Asteca e acervos maias e astecas",
+          "tip": "Planeje 4h mínimo. Gratuito aos domingos. Um dos melhores museus das Américas."
+        },
+        {
+          "name": "Teotihuacán (Pirâmides)",
+          "price": 100,
+          "confidence": "high",
+          "category": "história",
+          "description": "As maiores pirâmides pré-colombianas — Pirâmide do Sol e da Lua",
+          "tip": "Vá cedo — abre às 9h e fica muito quente. Leve água e protetor solar. Tour de bicicleta é ótima opção."
+        },
+        {
+          "name": "Museu Frida Kahlo (Casa Azul)",
+          "price": 270,
+          "confidence": "high",
+          "category": "museu",
+          "description": "A casa onde Frida nasceu, viveu e morreu — museu mais visitado do México",
+          "tip": "Reserve online com antecedência — ingressos esgotam. Bairro de Coyoacán ao redor é encantador."
+        },
+        {
+          "name": "Zócalo e Centro Histórico",
+          "price": 0,
+          "confidence": "high",
+          "category": "história",
+          "description": "A maior praça da América Latina com a Catedral Metropolitana e o Palácio Nacional",
+          "tip": "Murais de Diego Rivera no Palácio Nacional são de entrada gratuita. Não perca."
+        },
+        {
+          "name": "Xochimilco (trajineras)",
+          "price": 600,
+          "confidence": "medium",
+          "category": "cultura",
+          "description": "Canais pré-hispânicos com barcos coloridos, música e comida local",
+          "tip": "Alugue trajinera por hora (preço por barco, não por pessoa — vá em grupo). Sábados são os mais animados."
+        }
+      ],
+      "cityTips": {
+        "transport": "Metro muito barato (~$5 MXN). Uber é seguro e barato. Metrobús para Coyoacán e bairros afastados.",
+        "bestSeason": "Março-maio e setembro-novembro. Junho-agosto é a estação de chuvas (rápidas mas intensas).",
+        "safety": "Use uber em vez de táxi da rua. Evite celular em público. Atenção nos metrôs lotados. Bairros como Roma, Condesa e Polanco são seguros.",
+        "payment": "Peso mexicano. Cartão aceito em estabelecimentos formais. Mercados e comida de rua em dinheiro.",
+        "language": "Espanhol mexicano. Inglês limitado fora de hotéis e bairros nobres.",
+        "food": "Tacos de carnitas, mole negro, chiles en nogada e mezcal. Mercados de Coyoacán para comida local autêntica."
+      },
+      "sportingEvents": [
+        {
+          "name": "Copa do Mundo FIFA 2026 — jogos no Azteca",
+          "sport": "futebol",
+          "type": "Copa do Mundo FIFA",
+          "venue": "Estadio Azteca",
+          "dates_2026": "jun–jul 2026",
+          "dates_2027": "N/A",
+          "confidence": "confirmed_2026",
+          "ticket_price_approx": "US$ 100–500+ (via sorteio FIFA)",
+          "ticket_tip": "Ingressos via fifa.com — sorteio para fase de grupos já encerrou. Mercado secundário ainda disponível.",
+          "buy_link": "https://www.fifa.com/tickets",
+          "notes": "México co-sede com EUA e Canadá. Azteca recebe jogos históricos pela 3ª Copa do Mundo"
+        },
+        {
+          "name": "Club América / Cruz Azul — Liga MX",
+          "sport": "futebol",
+          "type": "Liga MX",
+          "venue": "Estadio Azteca (América) / Estadio Ciudad de los Deportes (Cruz Azul)",
+          "dates_2026": "Apertura jul–dez 2026 / Clausura jan–mai 2027",
+          "dates_2027": "Idem",
+          "confidence": "estimated",
+          "ticket_price_approx": "MX$ 200–1.000",
+          "ticket_tip": "Azteca com 87k é o maior estádio das Américas. Compre em clubamerica.com.mx.",
+          "buy_link": "https://www.clubamerica.com.mx",
+          "notes": "Estadio Azteca recebeu 2 finais de Copa (1970 e 1986) — o mais histórico das Américas"
+        }
+      ]
+    },
+    {
+      "id": "las-vegas",
+      "name": "Las Vegas",
+      "country": "EUA",
+      "emoji": "🇺🇸",
+      "currency": "USD",
+      "touristPass": {
+        "exists": false,
+        "name": null,
+        "price": null,
+        "duration": null,
+        "includes": [],
+        "activationNote": null,
+        "buyLink": null
+      },
+      "attractions": [
+        {
+          "name": "The Strip (caminhada noturna)",
+          "price": 0,
+          "confidence": "high",
+          "category": "ícone",
+          "description": "A avenida mais famosa do mundo com cassinos, hotéis e shows de luzes",
+          "tip": "Caminhada à noite é gratuita e espetacular. Interiores dos cassinos são livres — não precisa jogar."
+        },
+        {
+          "name": "Grand Canyon (day trip)",
+          "price": 35,
+          "confidence": "high",
+          "category": "natureza",
+          "description": "Uma das maiores maravilhas naturais do mundo, a 4h de Las Vegas de carro",
+          "tip": "Muitos tours saem de Las Vegas. O South Rim é o mais acessível. Skywalk custa à parte (~$30)."
+        },
+        {
+          "name": "Shows e Residências (Cirque du Soleil)",
+          "price": 120,
+          "confidence": "medium",
+          "category": "entretenimento",
+          "description": "Os melhores shows do mundo com artistas residentes em Las Vegas",
+          "tip": "Cirque du Soleil tem 3 shows permanentes. Reserve com antecedência para melhores preços."
+        },
+        {
+          "name": "High Roller (roda gigante)",
+          "price": 25,
+          "confidence": "high",
+          "category": "ícone",
+          "description": "A maior roda gigante do mundo com vista do Strip",
+          "tip": "À noite com open bar (~$45) é a experiência mais popular. 30 minutos de volta completa."
+        },
+        {
+          "name": "Fremont Street Experience",
+          "price": 0,
+          "confidence": "high",
+          "category": "entretenimento",
+          "description": "Tela de LED de 460m cobrindo a rua com shows de luz e zip line",
+          "tip": "Shows de LED às 21h, 22h e 23h. Zip line custa $30-70. O Las Vegas mais antigo e menos turístico."
+        }
+      ],
+      "cityTips": {
+        "transport": "Strip é caminhável mas imenso — mais longo do que parece. Uber é barato. Deuce bus conecta o Strip por $6/2h.",
+        "bestSeason": "Março-maio e setembro-novembro. Verão passa de 45°C. Inverno pode ser frio à noite.",
+        "safety": "Turista seguro no Strip. Não aceite cartões de strip club na rua. Evite áreas fora do Strip à noite.",
+        "payment": "Cartão em cassinos e hotéis. Gorjeta de 15-20% esperada em restaurantes e para dealers.",
+        "language": "Inglês. Cidade muito multicultural.",
+        "food": "Buffets de cassinos são a tradição. Restaurantes de chefs famosos (Gordon Ramsay, Joël Robuchon) disponíveis."
+      },
+      "sportingEvents": [
+        {
+          "name": "Las Vegas Grand Prix — Fórmula 1",
+          "sport": "automobilismo",
+          "type": "Fórmula 1",
+          "venue": "Circuito de rua — Las Vegas Strip / Boulevard",
+          "dates_2026": "Estimado: nov 2026",
+          "dates_2027": "Estimado: nov 2027",
+          "confidence": "estimated",
+          "ticket_price_approx": "US$ 500–5.000+ (grandstand)",
+          "ticket_tip": "Uma das corridas mais caras e espetaculares da F1. A largada noturna no Strip é cinematográfica.",
+          "buy_link": "https://www.f1lasvegasgp.com",
+          "notes": "F1 retornou a Las Vegas em 2023 após 40 anos — corrida noturna com casinos como pano de fundo"
+        },
+        {
+          "name": "UFC — T-Mobile Arena",
+          "sport": "MMA",
+          "type": "UFC",
+          "venue": "T-Mobile Arena",
+          "dates_2026": "Eventos ao longo do ano",
+          "dates_2027": "Eventos ao longo do ano",
+          "confidence": "estimated",
+          "ticket_price_approx": "US$ 100–1.000+",
+          "ticket_tip": "Vegas é a capital mundial do UFC. Eventos Pay-Per-View têm ingressos caríssimos. Eventos menores mais acessíveis.",
+          "buy_link": "https://www.ufc.com/events",
+          "notes": "Ver UFC em Vegas ao vivo é de outra dimensão — peso do evento e celebridades na arena"
+        }
+      ]
+    },
+    {
+      "id": "los-angeles",
+      "name": "Los Angeles",
+      "country": "EUA",
+      "emoji": "🇺🇸",
+      "currency": "USD",
+      "touristPass": {
+        "exists": true,
+        "name": "Go Los Angeles Card",
+        "price": 79,
+        "duration": "1 dia",
+        "includes": [
+          "Universal Studios",
+          "Warner Bros Studio Tour",
+          "Museus",
+          "+40 atrações"
+        ],
+        "activationNote": "Ativado na primeira atração.",
+        "buyLink": "https://www.gocity.com/los-angeles"
+      },
+      "attractions": [
+        {
+          "name": "Universal Studios Hollywood",
+          "price": 119,
+          "confidence": "medium",
+          "category": "entretenimento",
+          "description": "Parque temático com estúdio de cinema em funcionamento e atrações de filmes famosos",
+          "tip": "Universal Express Pass evita filas — vale em dias cheios. Harry Potter World é o ponto alto."
+        },
+        {
+          "name": "Hollywood Walk of Fame + Observatório Griffith",
+          "price": 0,
+          "confidence": "high",
+          "category": "ícone",
+          "description": "As estrelas no calçamento e o observatório com vista de LA e da placa Hollywood",
+          "tip": "Observatório de Griffith tem estacionamento limitado — vá de Uber. Vista noturna da cidade é espetacular."
+        },
+        {
+          "name": "Getty Center",
+          "price": 0,
+          "confidence": "high",
+          "category": "museu",
+          "description": "Museu gratuito (só paga estacionamento) com arte europeia e vista de LA",
+          "tip": "Estacionamento $20 ou vá de Uber. Os jardins são tão bonitos quanto o acervo."
+        },
+        {
+          "name": "Venice Beach + Santa Monica Pier",
+          "price": 0,
+          "confidence": "high",
+          "category": "praia",
+          "description": "Praia de artistas, skatistas e musculação ao ar livre, com o píer histórico",
+          "tip": "Alugue bicicleta para percorrer toda a orla de Venice a Santa Monica. Skate Park de Venice é gratuito."
+        },
+        {
+          "name": "Warner Bros. Studio Tour",
+          "price": 70,
+          "confidence": "high",
+          "category": "cultura",
+          "description": "Tour pelos sets reais de Friends, Harry Potter e Batman na Warner Bros.",
+          "tip": "Reserve online. Tour de 3h com guia. Mais autentico que Universal para quem gosta de cinema."
+        }
+      ],
+      "cityTips": {
+        "transport": "Carro é quase obrigatório — LA é enorme e o transporte público é limitado. Uber/Lyft é muito usado. Trânsito péssimo nas horas de pico.",
+        "bestSeason": "Março-maio e setembro-novembro. Verão tem brumas costeiras ('June Gloom'). Inverno é ameno.",
+        "safety": "Varia muito por bairro. Hollywood Blvd pode ser movimentado. Evite Skid Row. Santa Monica e Beverly Hills são seguros.",
+        "payment": "Cartão em quase tudo. Gorjeta 18-20%.",
+        "language": "Inglês e espanhol muito presente.",
+        "food": "Tacos de truck, In-N-Out Burger, sushi (forte influência japonesa) e açaí bowl. Culinária muito diversificada."
+      },
+      "sportingEvents": [
+        {
+          "name": "BNP Paribas Open — Indian Wells (ATP Masters 1000, a 3h de LA)",
+          "sport": "tênis",
+          "type": "ATP Masters 1000 + WTA 1000",
+          "venue": "Indian Wells Tennis Garden",
+          "dates_2026": "Estimado: mar 2026",
+          "dates_2027": "Estimado: mar 2027",
+          "confidence": "estimated",
+          "ticket_price_approx": "US$ 30–300",
+          "ticket_tip": "Indian Wells a 3h de carro de LA. Considerado o '5º Grand Slam' pelo ambiente e qualidade.",
+          "buy_link": "https://www.bnpparibasonline.com",
+          "notes": "Melhor custo-benefício dos Masters — estrutura incrível no deserto da Califórnia"
+        },
+        {
+          "name": "LA Lakers — Crypto.com Arena",
+          "sport": "basquete",
+          "type": "NBA",
+          "venue": "Crypto.com Arena",
+          "dates_2026": "Temporada out 2025 – abr 2026",
+          "dates_2027": "Temporada out 2026 – abr 2027",
+          "confidence": "estimated",
+          "ticket_price_approx": "US$ 100–500+",
+          "ticket_tip": "Lakers têm uma das maiores torcidas do mundo. Cheio de celebridades na beira da quadra.",
+          "buy_link": "https://www.nba.com/lakers/tickets",
+          "notes": "Experiência cultural americana — ver Lakers em LA é único"
+        }
+      ]
+    },
+    {
+      "id": "cancun",
+      "name": "Cancún",
+      "country": "México",
+      "emoji": "🇲🇽",
+      "currency": "MXN",
+      "touristPass": {
+        "exists": false,
+        "name": null,
+        "price": null,
+        "duration": null,
+        "includes": [],
+        "activationNote": null,
+        "buyLink": null
+      },
+      "attractions": [
+        {
+          "name": "Chichén Itzá",
+          "price": 647,
+          "confidence": "high",
+          "category": "história",
+          "description": "Uma das 7 Maravilhas do Mundo moderno — pirâmide maia a 3h de Cancún",
+          "tip": "Vá cedo (abre 8h). Proibido subir na pirâmide. Em março/setembro, jogo de luz no equinócio é espetacular."
+        },
+        {
+          "name": "Cenotes (Dos Ojos, Ik Kil)",
+          "price": 400,
+          "confidence": "medium",
+          "category": "natureza",
+          "description": "Lagos subterrâneos cristalinos sagrados para os maias — experiência única no mundo",
+          "tip": "Dos Ojos é o mais bonito para mergulho. Ik Kil fica perto de Chichén Itzá — combine os dois."
+        },
+        {
+          "name": "Isla Mujeres (day trip)",
+          "price": 300,
+          "confidence": "medium",
+          "category": "praia",
+          "description": "Ilha a 20min de barco com praias turquesa paradisíacas e vila colorida",
+          "tip": "Ferry sai do Puerto Juárez. Alugue golf cart na ilha (~$40) para explorar tudo. Vá de dia."
+        },
+        {
+          "name": "Snorkeling no Recife Mesoamericano",
+          "price": 500,
+          "confidence": "medium",
+          "category": "natureza",
+          "description": "O segundo maior recife de coral do mundo, com tartarugas e peixes coloridos",
+          "tip": "Tours saem da zona hoteleira. Verão tem visibilidade máxima. Proibido usar protetor solar com químicos."
+        },
+        {
+          "name": "Tulum (ruínas + praia)",
+          "price": 100,
+          "confidence": "high",
+          "category": "história",
+          "description": "Ruínas maias na falésia com praia turquesa abaixo — a mais fotogênica do México",
+          "tip": "Vá de manhã cedo para evitar calor e multidão. De Cancún são ~2h de carro ou ônibus ADO."
+        }
+      ],
+      "cityTips": {
+        "transport": "Ônibus R1 percorre toda a zona hoteleira por $12 MXN. ADO de terminal para Chichén Itzá e Tulum.",
+        "bestSeason": "Dezembro-abril é a estação seca. Setembro-outubro é época de furacões.",
+        "safety": "Zona hoteleira é muito segura. Evite o Centro após escurecer.",
+        "payment": "Dólar aceito na zona hoteleira. Peso para atrações e transporte local.",
+        "language": "Espanhol. Inglês amplamente falado na zona hoteleira.",
+        "food": "Cochinita pibil, ceviches e mariscos frescos. All-inclusive nos hotéis pode ser conveniente mas perde o autêntico."
+      },
+      "sportingEvents": []
+    },
+    {
+      "id": "sydney",
+      "name": "Sydney",
+      "country": "Austrália",
+      "emoji": "🇦🇺",
+      "currency": "AUD",
+      "touristPass": {
+        "exists": false,
+        "name": null,
+        "price": null,
+        "duration": null,
+        "includes": [],
+        "activationNote": null,
+        "buyLink": null
+      },
+      "attractions": [
+        {
+          "name": "Opera House (tour interno)",
+          "price": 45,
+          "confidence": "medium",
+          "category": "arquitetura",
+          "description": "O edifício mais famoso da Austrália com tour pelos interiores e palcos",
+          "tip": "Assistir a um espetáculo é a experiência mais completa — verifique a programação com antecedência."
+        },
+        {
+          "name": "Harbour Bridge Climb",
+          "price": 288,
+          "confidence": "high",
+          "category": "ícone",
+          "description": "Subir até o topo da icônica ponte do porto de Sydney",
+          "tip": "Experiência cara mas inesquecível. Ao amanhecer tem o melhor clima. Reserve online."
+        },
+        {
+          "name": "Bondi Beach + Coastal Walk",
+          "price": 0,
+          "confidence": "high",
+          "category": "praia",
+          "description": "A praia mais famosa da Austrália e trilha costeira até Coogee (6km)",
+          "tip": "Trilha de Bondi a Coogee tem vistas espetaculares e é uma das melhores caminhadas urbanas do mundo."
+        },
+        {
+          "name": "Taronga Zoo",
+          "price": 47,
+          "confidence": "high",
+          "category": "natureza",
+          "description": "Zoo com animais australianos (canguru, coala, wombat) e vista do porto",
+          "tip": "Ferry do Circular Quay já é parte da experiência. Sessão de foto com coala é separada."
+        },
+        {
+          "name": "Blue Mountains (day trip)",
+          "price": 0,
+          "confidence": "high",
+          "category": "natureza",
+          "description": "Vale de eucaliptos com neblina azulada e as Three Sisters a 2h de Sydney",
+          "tip": "Trem de Sydney Central até Katoomba. Skyway e Scenic Railway no topo custam ~$60."
+        }
+      ],
+      "cityTips": {
+        "transport": "Opal Card para trem, ônibus, balsa e light rail. Ferry para Manly e Taronga Zoo é parte da experiência turística.",
+        "bestSeason": "Setembro-novembro (primavera australiana) e março-maio. Dezembro-fevereiro é verão e muito quente.",
+        "safety": "Uma das cidades mais seguras do mundo.",
+        "payment": "Cashless amplamente aceito. Gorjeta não é obrigatória mas bem-vinda.",
+        "language": "Inglês australiano com sotaque característico.",
+        "food": "Meat pie, fish and chips, Tim Tam e flat white (café australiano). Brunches de café são cultura forte."
+      },
+      "sportingEvents": [
+        {
+          "name": "Australian Open (em Melbourne, a 1h de avião)",
+          "sport": "tênis",
+          "type": "Grand Slam",
+          "venue": "Melbourne Park, Melbourne",
+          "dates_2026": "18 jan – 1 fev 2026 (já ocorreu)",
+          "dates_2027": "11–31 jan 2027 (main draw: 17–31 jan)",
+          "confidence": "confirmed_2027",
+          "ticket_price_approx": "A$ 30–200+ (Rod Laver Arena até A$ 500+)",
+          "ticket_tip": "Melbourne fica a 1h de avião de Sydney — vale combinar. Ingressos em ausopen.com.",
+          "buy_link": "https://ausopen.com/tickets",
+          "notes": "Maior evento esportivo da Oceania em janeiro — 1,3 milhão de visitantes em 2026. Festival de 3 semanas"
+        },
+        {
+          "name": "NRL — Sydney Roosters / South Sydney Rabbitohs",
+          "sport": "rugby league",
+          "type": "NRL",
+          "venue": "Allianz Stadium / Accor Stadium",
+          "dates_2026": "Temporada mar – set 2026",
+          "dates_2027": "Temporada mar – set 2027",
+          "confidence": "estimated",
+          "ticket_price_approx": "A$ 30–100",
+          "ticket_tip": "Rugby league australiano é esporte popular e com atmosfera intensa. Ingressos acessíveis em nrl.com.",
+          "buy_link": "https://www.nrl.com/tickets/",
+          "notes": "Experiência cultural australiana autêntica — diferente do rugby union europeu"
+        }
+      ]
+    },
+    {
+      "id": "marrakesh",
+      "name": "Marrakesh",
+      "country": "Marrocos",
+      "emoji": "🇲🇦",
+      "currency": "MAD",
+      "touristPass": {
+        "exists": false,
+        "name": null,
+        "price": null,
+        "duration": null,
+        "includes": [],
+        "activationNote": null,
+        "buyLink": null
+      },
+      "attractions": [
+        {
+          "name": "Djemaa el-Fna (praça principal)",
+          "price": 0,
+          "confidence": "high",
+          "category": "cultura",
+          "description": "A praça mais animada do mundo — encantadores de serpentes, curandeiros e comida de rua",
+          "tip": "À noite transforma-se em imenso mercado de comida de rua. Fotografia dos artistas tem custo — negocie antes."
+        },
+        {
+          "name": "Souks (mercados tradicionais)",
+          "price": 0,
+          "confidence": "high",
+          "category": "mercado",
+          "description": "Labirinto de ruelas com artesanato, especiarias, couro e tapetes coloridos",
+          "tip": "Negocie sempre — preços iniciais são 3-5x o real. Guia local evita que você se perca e melhora o preço."
+        },
+        {
+          "name": "Jardins de Majorelle + Museu Yves Saint Laurent",
+          "price": 150,
+          "confidence": "high",
+          "category": "arte",
+          "description": "Jardins azuis criados por Jacques Majorelle e restaurados por YSL — um dos mais belos do mundo",
+          "tip": "Reserve online — ingressos esgotam. Vá de manhã para evitar calor e filas."
+        },
+        {
+          "name": "Bahia Palace",
+          "price": 70,
+          "confidence": "high",
+          "category": "história",
+          "description": "Palácio do século XIX com pátios internos e decoração marroquina detalhada",
+          "tip": "Vá de manhã cedo. Tour guiado ajuda a entender a história."
+        },
+        {
+          "name": "Hammam tradicional",
+          "price": 200,
+          "confidence": "medium",
+          "category": "cultura",
+          "description": "Banho turco marroquino com esfoliação e massagem — experiência cultural autêntica",
+          "tip": "Escolha um hammam local em vez dos turísticos da medina — mais barato e mais autêntico."
+        }
+      ],
+      "cityTips": {
+        "transport": "Medina (cidade velha) é completamente caminhável — sem carros. Taxi para Nova Cidade. Negocie preço do táxi antes de entrar.",
+        "bestSeason": "Março-maio e setembro-novembro. Verão passa de 40°C. Inverno é ameno.",
+        "safety": "Turista seguro na medina durante o dia. Guias não solicitados vão querer comissão de lojas — seja firme em dizer não.",
+        "payment": "Dirham marroquino (MAD). Dinheiro em espécie na medina. Câmbio no aeroporto é justo.",
+        "language": "Árabe marroquino (darija) e francês. Inglês nos hotéis e atrações turísticas.",
+        "food": "Tagine de frango ou cordeiro, couscous, bastilla e chá de menta com muito açúcar. Harira (sopa) é excelente."
+      },
+      "sportingEvents": []
+    },
+    {
+      "id": "lima",
+      "name": "Lima",
+      "country": "Peru",
+      "emoji": "🇵🇪",
+      "currency": "PEN",
+      "touristPass": {
+        "exists": false,
+        "name": null,
+        "price": null,
+        "duration": null,
+        "includes": [],
+        "activationNote": null,
+        "buyLink": null
+      },
+      "attractions": [
+        {
+          "name": "Centro Histórico e Plaza Mayor",
+          "price": 0,
+          "confidence": "high",
+          "category": "história",
+          "description": "Centro colonial Patrimônio da UNESCO com catedral barroca e Palácio do Governo",
+          "tip": "Troca da guarda no Palácio do Governo ao meio-dia. Catedral tem entrada gratuita no domingo."
+        },
+        {
+          "name": "Larco Museum",
+          "price": 30,
+          "confidence": "high",
+          "category": "museu",
+          "description": "O melhor museu de arte pré-colombiana do mundo, com peças das culturas Inca, Moche e Nazca",
+          "tip": "Não perca a galeria erótica (sala especial). Jardins floridos são gratuitos."
+        },
+        {
+          "name": "Miraflores (bairro e Parque Kennedy)",
+          "price": 0,
+          "confidence": "high",
+          "category": "bairro",
+          "description": "O bairro mais moderno de Lima com restaurantes, lojas e vista do Pacífico",
+          "tip": "Parque do Amor e Larcomar (shopping na falésia) são pontos imperdíveis do bairro."
+        },
+        {
+          "name": "Excursão gastronômica",
+          "price": 80,
+          "confidence": "medium",
+          "category": "cultura",
+          "description": "Lima tem a cozinha mais premiada da América Latina — central Astrid & Gastón, Maido",
+          "tip": "Reserve Central com meses de antecedência (Top 5 do mundo). Restaurantes de ceviche em Miraflores são mais acessíveis."
+        },
+        {
+          "name": "Barranco (bairro boêmio)",
+          "price": 0,
+          "confidence": "high",
+          "category": "bairro",
+          "description": "Bairro de artistas com galerias, murais, cafés e bares à beira do Pacífico",
+          "tip": "Melhor à tarde para galerias e ao anoitecer para bares. Museu Mario Testino (MATE) fica aqui."
+        }
+      ],
+      "cityTips": {
+        "transport": "Táxi pelo app Cabify ou Beat (mais seguros que taxi na rua). Metropolitano para o centro.",
+        "bestSeason": "Dezembro-abril com sol. Maio-novembro é o 'garúa' — neblina constante mas sem frio.",
+        "safety": "Miraflores e Barranco são seguros. Atenção no Centro Histórico à noite.",
+        "payment": "Sol peruano (PEN). Cartão em restaurantes. Dinheiro para táxi e mercados.",
+        "language": "Espanhol peruano. Inglês em hotéis e restaurantes finos.",
+        "food": "Ceviche, lomo saltado, causa e pisco sour são obrigatórios. Lima é considerada capital gastronômica da América Latina."
+      },
+      "sportingEvents": [
+        {
+          "name": "Peru Open (ATP Challenger / WTA)",
+          "sport": "tênis",
+          "type": "ATP Challenger",
+          "venue": "Las Terrazas Club",
+          "dates_2026": "Estimado: fev–mar 2026",
+          "dates_2027": "Estimado: fev–mar 2027",
+          "confidence": "estimated",
+          "ticket_price_approx": "S/. 20–80",
+          "ticket_tip": "Torneio menor mas com jogadores emergentes interessantes.",
+          "buy_link": null,
+          "notes": "Circuito Challenger — ótimo para ver futuros top-50 em ambiente próximo"
+        },
+        {
+          "name": "Alianza Lima / Universitario — Copa Libertadores / Liga 1",
+          "sport": "futebol",
+          "type": "Liga 1 Peruana / Copa Libertadores",
+          "venue": "Estadio Alejandro Villanueva (Alianza) / Estadio Monumental (Universitario)",
+          "dates_2026": "Temporada fev – nov 2026",
+          "dates_2027": "Temporada fev – nov 2027",
+          "confidence": "estimated",
+          "ticket_price_approx": "S/. 20–80",
+          "ticket_tip": "Clásico do Perú (Alianza × Universitario) tem ambiente muito intenso. Ingresso barato.",
+          "buy_link": null,
+          "notes": "O Clásico peruano é um dos derbis mais apaixonados da América do Sul"
+        }
+      ]
+    },
+    {
+      "id": "cartagena",
+      "name": "Cartagena",
+      "country": "Colômbia",
+      "emoji": "🇨🇴",
+      "currency": "COP",
+      "touristPass": {
+        "exists": false,
+        "name": null,
+        "price": null,
+        "duration": null,
+        "includes": [],
+        "activationNote": null,
+        "buyLink": null
+      },
+      "attractions": [
+        {
+          "name": "Cidade Amuralhada (Ciudad Amurallada)",
+          "price": 0,
+          "confidence": "high",
+          "category": "história",
+          "description": "Centro histórico colonial Patrimônio da UNESCO dentro de muralhas do século XVI",
+          "tip": "Caminhar pelas muralhas ao pôr do sol é gratuito e espetacular. À noite o bairro fica muito animado."
+        },
+        {
+          "name": "Castillo San Felipe de Barajas",
+          "price": 25000,
+          "confidence": "high",
+          "category": "história",
+          "description": "A maior e mais imponente obra de engenharia militar colonial da América do Sul",
+          "tip": "Tour à noite tem show de luzes. De dia, vá de manhã cedo antes do calor."
+        },
+        {
+          "name": "Ilhas do Rosário (snorkeling)",
+          "price": 80000,
+          "confidence": "medium",
+          "category": "natureza",
+          "description": "Arquipélago de 27 ilhas com corais e águas cristalinas a 1h de barco",
+          "tip": "Tour saindo às 8h da manhã. Inclui almoço e snorkeling. Várias operadoras — compare."
+        },
+        {
+          "name": "Getsemaní (bairro)",
+          "price": 0,
+          "confidence": "high",
+          "category": "bairro",
+          "description": "Bairro boêmio com murais coloridos, vida noturna e cultura local autêntica",
+          "tip": "Gentrificado mas ainda autêntico. Melhor para jantar e beber do que a cidade amuralhada."
+        },
+        {
+          "name": "Visita às aldeias indígenas (day trip)",
+          "price": 150000,
+          "confidence": "medium",
+          "category": "cultura",
+          "description": "Visita à comunidade Wayuu ou Zenú com artesanato tradicional",
+          "tip": "Organize com operadora local credenciada. Experiência cultural muito genuína."
+        }
+      ],
+      "cityTips": {
+        "transport": "Moto-táxi é o mais barato e prático para distâncias curtas. Táxi tem preço negociado — combine antes.",
+        "bestSeason": "Dezembro-março é a estação mais seca. Abril-novembro tem chuvas mas temperaturas sempre altas.",
+        "safety": "Cidade amuralhada e Bocagrande são seguros. Evite áreas periféricas à noite. Não exiba objetos de valor.",
+        "payment": "Peso colombiano (COP). Câmbio muito favorável para reais. Cartão aceito em hotéis e restaurantes.",
+        "language": "Espanhol colombiano. Inglês limitado fora do turismo.",
+        "food": "Arepas, patacones, ceviche de camarão e limonada de coco. Comida caribenha muito diferente do restante da Colômbia."
+      },
+      "sportingEvents": []
+    },
+    {
+      "id": "santiago",
+      "name": "Santiago",
+      "country": "Chile",
+      "emoji": "🇨🇱",
+      "currency": "CLP",
+      "touristPass": {
+        "exists": false,
+        "name": null,
+        "price": null,
+        "duration": null,
+        "includes": [],
+        "activationNote": null,
+        "buyLink": null
+      },
+      "attractions": [
+        {
+          "name": "Cerro San Cristóbal (teleférico)",
+          "price": 6000,
+          "confidence": "medium",
+          "category": "natureza",
+          "description": "Morro com vista panorâmica de Santiago e dos Andes com neve no inverno",
+          "tip": "Teleférico ou trilha a pé. Vista dos Andes ao amanhecer é imperdível em dias claros."
+        },
+        {
+          "name": "Bairro Bellavista + La Chascona (casa Neruda)",
+          "price": 8000,
+          "confidence": "high",
+          "category": "cultura",
+          "description": "Bairro boêmio com a casa-museu do poeta Pablo Neruda",
+          "tip": "Tour da casa é guiado e muito bom. Bellavista tem os melhores restaurantes de Santiago."
+        },
+        {
+          "name": "Mercado Central",
+          "price": 0,
+          "confidence": "high",
+          "category": "mercado",
+          "description": "Mercado histórico de frutos do mar com restaurantes dentro do mercado",
+          "tip": "Almoço de frutos do mar frescos — caldillo de congrio (ensopado) é o prato tradicional."
+        },
+        {
+          "name": "Valparaíso (day trip)",
+          "price": 0,
+          "confidence": "high",
+          "category": "bairro",
+          "description": "Porto colorido com murais, funiculares e bairros boêmios a 1h30 de Santiago",
+          "tip": "Trem ou ônibus Turbus da Alameda. Cerro Alegre é o mais charmoso. Voltando, pegue o Airbus para Santiago."
+        },
+        {
+          "name": "Viña del Mar e praia (Pacífico)",
+          "price": 0,
+          "confidence": "high",
+          "category": "praia",
+          "description": "Cidade-jardim com casino e praias do Pacífico próxima a Valparaíso",
+          "tip": "Combine Valparaíso e Viña del Mar no mesmo day trip — são cidades vizinhas."
+        }
+      ],
+      "cityTips": {
+        "transport": "Metro excelente com 7 linhas. Bip! card para transporte. Santiago é muito caminhável em Providencia e Las Condes.",
+        "bestSeason": "Primavera (setembro-novembro) e outono (março-maio). Verão é quente e seco. Inverno frio com neve nos Andes.",
+        "safety": "Muito segura para padrões da América Latina. Atenção básica em Plaza de Armas e estações de metrô.",
+        "payment": "Peso chileno (CLP). Cartão amplamente aceito. ATMs em bancos são mais confiáveis.",
+        "language": "Espanhol chileno — considerado difícil de entender pelos latino-americanos.",
+        "food": "Empanadas de pino, cazuela, pastel de choclo e pisco sour chileno (diferente do peruano). Frutos do mar fresquíssimos."
+      },
+      "sportingEvents": [
+        {
+          "name": "Chile Open (ATP 250)",
+          "sport": "tênis",
+          "type": "ATP 250",
+          "venue": "Club de Tenis Club Deportivo Universidad de Chile",
+          "dates_2026": "Estimado: fev 2026",
+          "dates_2027": "Estimado: fev 2027",
+          "confidence": "estimated",
+          "ticket_price_approx": "CLP 10.000–30.000",
+          "ticket_tip": "ATP 250 em argila no início da temporada sul-americana. Atmosfera simpática.",
+          "buy_link": null,
+          "notes": "Torneio tradicional em argila — bom campo no início de temporada"
+        },
+        {
+          "name": "Colo-Colo / Universidad de Chile — Superclásico",
+          "sport": "futebol",
+          "type": "Primera División / Copa Libertadores",
+          "venue": "Estadio Monumental (Colo-Colo)",
+          "dates_2026": "Temporada fev – dez 2026",
+          "dates_2027": "Temporada fev – dez 2027",
+          "confidence": "estimated",
+          "ticket_price_approx": "CLP 8.000–25.000",
+          "ticket_tip": "Superclásico chileno (Colo-Colo × U. de Chile) é o mais disputado do país. Monumental tem 47k.",
+          "buy_link": null,
+          "notes": "Colo-Colo é o clube mais popular do Chile e frequenta Libertadores"
+        }
+      ]
+    }
+  ]
+}
