@@ -4537,6 +4537,105 @@
           ]
         }
       ]
+    },
+    {
+      "id": "san-pedro-atacama",
+      "name": "San Pedro de Atacama",
+      "country": "Chile",
+      "emoji": "🇨🇱",
+      "currency": "CLP",
+      "touristPass": {
+        "exists": false,
+        "name": null,
+        "price": null,
+        "duration": null,
+        "includes": [],
+        "activationNote": null,
+        "buyLink": null
+      },
+      "attractions": [
+        {
+          "name": "Valle de la Luna",
+          "price": 5000,
+          "confidence": "high",
+          "category": "natureza",
+          "description": "Paisagem lunar com dunas, sal e formações rochosas — especialmente impressionante ao pôr do sol",
+          "tip": "Vá no fim da tarde para o pôr do sol — é um dos melhores do mundo. Reserve com agência local (~CLP 15.000 com transporte)."
+        },
+        {
+          "name": "Geyser del Tatio",
+          "price": 15000,
+          "confidence": "high",
+          "category": "natureza",
+          "description": "Campo de gêiseres a 4.300m de altitude — o maior do hemisfério sul. Ativo ao amanhecer",
+          "tip": "Saída às 4h da manhã de San Pedro. Leve agasalho pesado — faz -10°C no amanhecer. Tours incluem café da manhã no local."
+        },
+        {
+          "name": "Laguna Cejar (flutuação)",
+          "price": 20000,
+          "confidence": "high",
+          "category": "natureza",
+          "description": "Lagoa hipersalina onde você flutua naturalmente, como o Mar Morto. Água turquesa no deserto",
+          "tip": "Inclui Laguna Tebinquinche e Ojos del Salar no mesmo passeio. Leve roupas velhas — o sal mancha. Não entre com metal."
+        },
+        {
+          "name": "Laguna Miscanti e Miñiques",
+          "price": 18000,
+          "confidence": "high",
+          "category": "natureza",
+          "description": "Lagunas de altitude a 4.200m com flamingos e vulcões nevados ao fundo — cenário surreal",
+          "tip": "Altitude elevada — tome diamox se sofrer de altitude. Passeio dura o dia inteiro. Leve protetor solar FPS 100+."
+        },
+        {
+          "name": "Valle del Arcoíris",
+          "price": 12000,
+          "confidence": "medium",
+          "category": "natureza",
+          "description": "Vale com rochas multicoloridas em vermelho, laranja, roxo e verde por minerais vulcânicos",
+          "tip": "Menos visitado que Valle de la Luna — mais tranquilo e igualmente impressionante. Melhor pela manhã com luz."
+        },
+        {
+          "name": "Salar de Atacama (flamingos)",
+          "price": 0,
+          "confidence": "high",
+          "category": "natureza",
+          "description": "O maior salar do Chile com colônias de flamingos-andinos. Paisagem branca infinita",
+          "tip": "Parte do salar é acessível de graça de carro. Melhor observação de flamingos de março a novembro."
+        },
+        {
+          "name": "Tour astronômico noturno",
+          "price": 25000,
+          "confidence": "high",
+          "category": "cultura",
+          "description": "San Pedro tem o céu mais limpo do mundo — observação de estrelas com telescópio e guia especializado",
+          "tip": "Reserve com antecedência — esgota rápido. SPACE e Atacama Stargazing são os melhores operadores. Vá longe da lua cheia."
+        },
+        {
+          "name": "Termas de Puritama",
+          "price": 22000,
+          "confidence": "high",
+          "category": "natureza",
+          "description": "Piscinas termais naturais a 60km de San Pedro em desfiladeiro rochoso — água a 33°C",
+          "tip": "Vá de manhã cedo para evitar lotação. Leve comida — não tem restaurante. Estrada de terra mas acessível."
+        },
+        {
+          "name": "Pueblo de Tulor (ruínas atacamenhas)",
+          "price": 4000,
+          "confidence": "medium",
+          "category": "história",
+          "description": "Ruínas de aldeia atacamenha de 3.000 anos — uma das mais antigas da região andina",
+          "tip": "Pouco visitado e muito interessante para história pré-colombiana. Combine com Valle de la Luna no mesmo dia."
+        }
+      ],
+      "cityTips": {
+        "transport": "San Pedro é pequena e caminhável no centro. Para atrações fora da cidade, alugue bicicleta (CLP 8.000/dia) para Salar e Valle de la Luna, ou contrate tours com agências locais. Não tem transporte público para os atrativos.",
+        "bestSeason": "Março-maio e setembro-novembro são os melhores meses — clima seco e temperaturas amenas. Dezembro-fevereiro tem 'invierno boliviano' com chuvas e possíveis fechamentos de estradas. Julho-agosto é frio mas com céu limpíssimo para astronomia.",
+        "safety": "Cidade muito segura. Atenção à altitude — San Pedro fica a 2.400m e os passeios chegam a 4.300m. Aclimate-se 1 dia antes de fazer passeios de altitude. Hidrate-se muito.",
+        "payment": "Peso chileno (CLP). Poucos ATMs e às vezes sem dinheiro — saque em Calama antes de chegar. Cartão aceito na maioria dos hotéis e restaurantes do centro, mas muitas agências só aceitam dinheiro.",
+        "language": "Espanhol chileno. Inglês falado nos hotéis e agências de turismo.",
+        "food": "Comida local simples — quinoa, charqui (carne seca) e empanadas são típicos. Restaurantes no centro são razoáveis. Leve barrinhas de cereal para passeios longos no deserto."
+      },
+      "sportingEvents": []
     }
   ]
 }
